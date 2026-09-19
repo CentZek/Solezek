@@ -30,11 +30,19 @@ export function AuthPanel() {
 
   if (!supabaseConfigured) return null;
 
+  const normalizedPhone = () => {
+    let p = phone.trim().replace(/[\s\-()]/g, '');
+    if (!p.startsWith('+')) {
+      p = '+964' + p.replace(/^0+/, '');
+    }
+    return p;
+  };
+
   const sendCode = async () => {
     if (!supabase) return;
     setError('');
     setBusy(true);
-    const { error } = await supabase.auth.signInWithOtp({ phone: phone.trim() });
+    const { error } = await supabase.auth.signInWithOtp({ phone: normalizedPhone() });
     setBusy(false);
     if (error) setError(error.message);
     else setStage('code');
@@ -44,7 +52,7 @@ export function AuthPanel() {
     if (!supabase) return;
     setError('');
     setBusy(true);
-    const { error } = await supabase.auth.verifyOtp({ phone: phone.trim(), token: code.trim(), type: 'sms' });
+    const { error } = await supabase.auth.verifyOtp({ phone: normalizedPhone(), token: code.trim(), type: 'sms' });
     setBusy(false);
     if (error) setError(error.message);
   };
@@ -118,7 +126,7 @@ export function AuthPanel() {
         </>
       ) : (
         <>
-          <p className="text-sm font-bold text-ink/70">{t.codeSentTo(phone)}</p>
+          <p className="text-sm font-bold text-ink/70">{t.codeSentTo(normalizedPhone())}</p>
           <input
             dir="ltr"
             type="text"

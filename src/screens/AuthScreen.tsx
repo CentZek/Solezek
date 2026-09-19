@@ -56,17 +56,34 @@ export function AuthScreen() {
     }
   };
 
-  const normalizedPhone = () => phone.trim().replace(/\s+/g, '');
+  // Iraqi numbers can be typed as 750XXXXXXX or 0750XXXXXXX — add +964 automatically.
+  const normalizedPhone = () => {
+    let p = phone.trim().replace(/[\s\-()]/g, '');
+    if (!p.startsWith('+')) {
+      p = '+964' + p.replace(/^0+/, '');
+    }
+    return p;
+  };
+
+  // Supabase hides "phone already registered" behind a fake success (empty
+  // identities array) to prevent account enumeration — detect it and guide
+  // the user to sign in or reset their password instead.
+  const looksAlreadyRegistered = (data: { user?: { identities?: unknown[] } | null }) =>
+    Array.isArray(data.user?.identities) && data.user.identities.length === 0;
 
   // --- Sign up: create account with password, then confirm via WhatsApp OTP ---
   const signUp = () =>
     run(async () => {
-      const { error } = await supabase!.auth.signUp({
+      const { data, error } = await supabase!.auth.signUp({
         phone: normalizedPhone(),
         password,
         options: { data: { name: name.trim() } },
       });
       if (error) return error.message;
+      if (looksAlreadyRegistered(data)) {
+        setStage({ view: 'main', tab: 'signin' });
+        return t.accountExists;
+      }
       setStage({ view: 'verify', context: 'signup' });
       startResendCountdown();
       return null;
@@ -180,6 +197,11 @@ export function AuthScreen() {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
+          {normalizedPhone().length > 10 && (
+            <p dir="ltr" className="-mt-1 text-xs font-bold text-ink/50">
+              {t.willSendTo(normalizedPhone())}
+            </p>
+          )}
           <input
             dir="ltr"
             type="password"

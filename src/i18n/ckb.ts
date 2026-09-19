@@ -200,6 +200,8 @@ export const t = {
   resendIn: (s: number) => `کۆدێ فرێبکە ژنوو (${s})`,
   codeNotReceived: 'کۆد وەرنەگرت؟',
   nameTaken: 'ئاریشەک هەیە، هەول بدە ژنوو',
+  accountExists: 'ئەڤ ژمارەیێ بەری نوکە هەسابەکی هەیە. چوونا ژوور بکە — ئەگەر پەیڤا نهێنی ژ بیر کریە، «پەیڤا نهێنی ژ بیر کریە؟» بکاربینە.',
+  willSendTo: (p: string) => `کۆد دێ فرێکرن بۆ: ${p}`,
 } as const;
 
 export type Translations = typeof t;
