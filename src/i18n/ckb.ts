@@ -166,21 +166,10 @@ export const t = {
   // Misc
   loading: 'چەڤەرێ بە...',
 
-  // Auth
-  auth: {
-    createAccount: 'هەسابەکی نوی دروستبکە',
-    haveAccount: 'هەسابەم هەیە، چوونا ژوور',
-    signUp: 'تۆمارکرن',
-    logIn: 'چوونا ژوور',
-    usernameLabel: 'ناڤێ بەکارهێنەر',
-    usernamePlaceholder: 'ناڤەکی هەلبژێرە',
-    phoneLabel: 'ژمارا تەلەفۆنی (واتساپ)',
-    passwordLabel: 'وشا نهێنی',
-    passwordPlaceholder: 'ب کەمی ٨ تیپ',
-    verifyPhone: 'ژمارا تەلەفۆنی پشتراستبکە',
-    noAccount: 'هەسابەم نینە، تۆمارکرن',
-    passwordTooShort: 'وشا نهێنی دبێ ب کەمی ٨ تیپ بیت',
-  },
+  // Auth (phone OTP)
+  signInTitle: 'چوونا ژوور ب ژمارا تەلەفۆنی',
+  signInBody: 'ژمارا تەلەفۆنا خو بینیڤیسە؛ کۆدەک بۆ تە دهێتە فرێکرن. پێشکەفتنا تە دێ هێتە پاراستن.',
+  sendCode: 'کۆدێ فرێبکە',
   phonePlaceholder: '+964 750 000 0000',
   codeSentTo: (phone: string) => `کۆد بۆ ${phone} هاتە فرێکرن`,
   verifyCode: 'پشکنین',
@@ -190,6 +179,27 @@ export const t = {
   signOut: 'دەرکەڤن',
   deleteAccount: 'هەسابێ ژ ناڤبە',
   deleteAccountConfirm: 'ئەڤە هەساب و هەمی پێشکەفتنا تە ژ ناڤ دبات. نەشێتە زڤراندن!',
+
+  // Auth screen (sign up / sign in / forgot password)
+  authWelcome: 'ب خێر هاتوی!',
+  authSubtitle: 'بۆ دەستپێکرنێ، هەسابەکی دروست بکە یان چوونا ژوور بکە',
+  tabSignIn: 'چوونا ژوور',
+  tabSignUp: 'هەسابا نوی',
+  usernameLabel: 'ناڤێ بکارهێنەری',
+  usernamePlaceholder: 'ناڤێ خو هەلبژێرە',
+  passwordLabel: 'پەیڤا نهێنی',
+  passwordPlaceholder: 'ل سەر کێم ٦ پیت',
+  newPasswordLabel: 'پەیڤا نهێنی یا نوی',
+  signUpButton: 'هەسابێ دروست بکە',
+  signInButton: 'چوونا ژوور',
+  forgotPassword: 'پەیڤا نهێنی ژ بیر کریە؟',
+  forgotBody: 'ژمارا تەلەفۆنا خو بینیڤیسە — کۆدەک بۆ تە دفرێین دا کو پەیڤا نهێنی یا نوی دانی.',
+  resetPasswordButton: 'پەیڤا نهێنی یا نوی دانە',
+  passwordResetDone: 'پەیڤا نهێنی یا نوی هاتە دانان! ✅',
+  resendCode: 'کۆدێ فرێبکە ژنوو',
+  resendIn: (s: number) => `کۆدێ فرێبکە ژنوو (${s})`,
+  codeNotReceived: 'کۆد وەرنەگرت؟',
+  nameTaken: 'ئاریشەک هەیە، هەول بدە ژنوو',
 } as const;
 
 export type Translations = typeof t;

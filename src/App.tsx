@@ -1,9 +1,10 @@
+import { useEffect, useState } from 'react';
 import { HashRouter, NavLink, Navigate, Route, Routes } from 'react-router-dom';
 import { t } from './i18n/ckb';
+import { getSupabase, supabaseConfigured } from './lib/supabase';
 import { useProgress } from './state/progress';
-import { useAuth } from './hooks/useAuth';
-import { AuthGate } from './screens/AuthGate';
-import { KnowledgeLevelPicker } from './screens/KnowledgeLevelPicker';
+import { Onboarding } from './screens/Onboarding';
+import { AuthScreen } from './screens/AuthScreen';
 import { Home } from './screens/Home';
 import { CourseMap } from './screens/CourseMap';
 import { Lesson } from './screens/Lesson';
@@ -44,31 +45,40 @@ function BottomNav() {
   );
 }
 
-function SplashScreen() {
-  return (
-    <div className="flex min-h-screen items-center justify-center">
-      <div className="text-center">
-        <div className="text-6xl">📚</div>
-        <p className="mt-4 text-lg font-bold text-ink/50">{t.loading}</p>
-      </div>
-    </div>
-  );
-}
-
 export default function App() {
-  const { session, loading } = useAuth();
   const onboarded = useProgress((s) => s.onboarded);
+  // undefined = still checking, null = signed out, string = user id
+  const [sessionUser, setSessionUser] = useState<string | null | undefined>(supabaseConfigured ? undefined : null);
 
-  if (loading) {
-    return <SplashScreen />;
+  useEffect(() => {
+    if (!supabaseConfigured) return;
+    let sub: { unsubscribe: () => void } | null = null;
+    void getSupabase().then((sb) => {
+      if (!sb) {
+        setSessionUser(null);
+        return;
+      }
+      sb.auth.getSession().then(({ data }) => setSessionUser(data.session?.user.id ?? null));
+      const { data } = sb.auth.onAuthStateChange((_e, session) => setSessionUser(session?.user.id ?? null));
+      sub = data.subscription;
+    });
+    return () => sub?.unsubscribe();
+  }, []);
+
+  // While checking for an existing session, render nothing (avoid a flash).
+  if (sessionUser === undefined) {
+    return <div className="flex min-h-screen items-center justify-center text-4xl">👋</div>;
+  }
+
+  // Supabase is configured: an account is required before using the app.
+  if (supabaseConfigured && !sessionUser) {
+    return <AuthScreen />;
   }
 
   return (
     <HashRouter>
-      {!session ? (
-        <AuthGate />
-      ) : !onboarded ? (
-        <KnowledgeLevelPicker />
+      {!onboarded ? (
+        <Onboarding />
       ) : (
         <>
           <Routes>
