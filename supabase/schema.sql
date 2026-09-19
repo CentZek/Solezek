@@ -219,7 +219,53 @@ drop policy if exists images_public_read on storage.objects;
 create policy images_public_read on storage.objects for select using (bucket_id = 'images');
 
 -- ---------------------------------------------------------------------------
--- 10. ACCOUNT DELETION SUPPORT (App Store requirement 5.1.1(v))
+-- 10. INVITE-ONLY REGISTRATION
+--     Sign-ups require a valid invite code, enforced server-side by the
+--     invite-gate "before user created" auth hook (supabase/functions/).
+--     validate_invite_code: instant client-side feedback (safe — reveals
+--     only yes/no). consume_invite_code: service-role only (no grant).
+-- ---------------------------------------------------------------------------
+create table if not exists public.invite_codes (
+  code text primary key,
+  max_uses int not null default 1,
+  used_count int not null default 0,
+  used_by uuid,
+  used_at timestamptz,
+  created_at timestamptz not null default now()
+);
+
+alter table public.invite_codes enable row level security;
+-- No client policies: codes are only checked via the functions below.
+
+create or replace function public.validate_invite_code(p_code text)
+returns boolean
+language sql security definer set search_path = public
+as $$
+  select exists (
+    select 1 from public.invite_codes
+    where code = upper(trim(p_code)) and used_count < max_uses
+  );
+$$;
+
+grant execute on function public.validate_invite_code(text) to anon, authenticated;
+
+create or replace function public.consume_invite_code(p_code text, p_user_id uuid)
+returns boolean
+language plpgsql security definer set search_path = public
+as $$
+begin
+  update public.invite_codes
+  set used_count = used_count + 1, used_by = p_user_id, used_at = now()
+  where code = upper(trim(p_code)) and used_count < max_uses;
+  return found;
+end;
+$$;
+
+-- Seed codes are generated separately (see invite-codes.csv, gitignored):
+--   insert into public.invite_codes (code) values ('XXXX-XXXX'), ...;
+
+-- ---------------------------------------------------------------------------
+-- 11. ACCOUNT DELETION SUPPORT (App Store requirement 5.1.1(v))
 --     Users can delete their own data; deleting the auth user itself happens
 --     through the delete-account edge function (see supabase/functions/).
 --     The cascades above wipe all user rows automatically.

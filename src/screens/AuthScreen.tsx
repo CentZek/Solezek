@@ -25,6 +25,7 @@ export function AuthScreen() {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('');
+  const [inviteCode, setInviteCode] = useState('');
   const [code, setCode] = useState('');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
@@ -77,15 +78,27 @@ export function AuthScreen() {
   const looksAlreadyRegistered = (data: { user?: { identities?: unknown[] } | null }) =>
     Array.isArray(data.user?.identities) && data.user.identities.length === 0;
 
-  // --- Sign up: create account with password, then confirm via WhatsApp OTP ---
+  // --- Sign up: invite code + password, then confirm via WhatsApp OTP ---
   const signUp = () =>
     run(async () => {
+      const code = inviteCode.trim().toUpperCase();
+      // Instant client-side check for good UX; the auth hook enforces it
+      // server-side regardless, so direct API calls are also blocked.
+      const { data: valid, error: rpcError } = await supabase!.rpc('validate_invite_code', { p_code: code });
+      if (rpcError) return rpcError.message;
+      if (!valid) return t.inviteInvalid;
+
       const { data, error } = await supabase!.auth.signUp({
         phone: normalizedPhone(),
         password,
-        options: { data: { name: name.trim() } },
+        options: { data: { name: name.trim(), invite_code: code } },
       });
-      if (error) return error.message;
+      if (error) {
+        // The before-user-created hook rejects missing/used codes with a
+        // wrapped "hook: 403" error — show a friendly message.
+        if (/hook/i.test(error.message)) return t.inviteInvalid;
+        return error.message;
+      }
       if (looksAlreadyRegistered(data)) {
         setStage({ view: 'main', tab: 'signin' });
         return t.accountExists;
@@ -203,6 +216,19 @@ export function AuthScreen() {
           {stage.tab === 'signup' && (
             <input className={inputCls} placeholder={t.usernamePlaceholder} value={name} onChange={(e) => setName(e.target.value)} maxLength={24} />
           )}
+          {stage.tab === 'signup' && (
+            <input
+              dir="ltr"
+              type="text"
+              inputMode="text"
+              autoCapitalize="characters"
+              className={`${inputCls} font-display tracking-[0.2em]`}
+              placeholder={t.inviteCodePlaceholder}
+              value={inviteCode}
+              onChange={(e) => setInviteCode(e.target.value.toUpperCase())}
+              maxLength={9}
+            />
+          )}
           <input
             dir="ltr"
             type="tel"
@@ -230,7 +256,7 @@ export function AuthScreen() {
             <button
               className="btn-primary"
               onClick={signUp}
-              disabled={busy || !supabase || name.trim().length < 2 || normalizedPhone().length < 8 || password.length < 6}
+              disabled={busy || !supabase || name.trim().length < 2 || normalizedPhone().length < 8 || password.length < 6 || inviteCode.trim().length < 4}
             >
               {busy ? t.loading : t.signUpButton}
             </button>

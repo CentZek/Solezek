@@ -202,6 +202,9 @@ export const t = {
   nameTaken: 'ئاریشەک هەیە، هەول بدە ژنوو',
   accountExists: 'ئەڤ ژمارەیێ بەری نوکە هەسابەکی هەیە. چوونا ژوور بکە — ئەگەر پەیڤا نهێنی ژ بیر کریە، «پەیڤا نهێنی ژ بیر کریە؟» بکاربینە.',
   willSendTo: (p: string) => `کۆد دێ فرێکرن بۆ: ${p}`,
+  inviteCodeLabel: 'کۆدا بەخشینێ',
+  inviteCodePlaceholder: 'XXXX-XXXX',
+  inviteInvalid: 'کۆدا بەخشینێ یا خەتایە یان بەری نوکە هاتییە بکارئینان.',
 } as const;
 
 export type Translations = typeof t;

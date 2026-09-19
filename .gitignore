@@ -4,3 +4,4 @@ dist
 .env.local
 .env.*.local
 .kimi-code/local.toml
+invite-codes.csv
