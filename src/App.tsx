@@ -4,7 +4,7 @@ import { t } from './i18n/ckb';
 import { getSupabase, supabaseConfigured } from './lib/supabase';
 import { useProgress } from './state/progress';
 import { Onboarding } from './screens/Onboarding';
-import { AuthScreen } from './screens/AuthScreen';
+import { AuthScreen, AUTH_UPDATED_EVENT } from './screens/AuthScreen';
 import { Home } from './screens/Home';
 import { CourseMap } from './screens/CourseMap';
 import { Lesson } from './screens/Lesson';
@@ -49,6 +49,17 @@ export default function App() {
   const onboarded = useProgress((s) => s.onboarded);
   // undefined = still checking, null = signed out, string = user id
   const [sessionUser, setSessionUser] = useState<string | null | undefined>(supabaseConfigured ? undefined : null);
+  // While a password reset is pending, keep the auth gate up even though the
+  // recovery OTP already created a session.
+  const [mustSetPassword, setMustSetPassword] = useState(
+    () => sessionStorage.getItem('bahdini-must-set-pw') === '1',
+  );
+
+  useEffect(() => {
+    const onAuthUpdated = () => setMustSetPassword(sessionStorage.getItem('bahdini-must-set-pw') === '1');
+    window.addEventListener(AUTH_UPDATED_EVENT, onAuthUpdated);
+    return () => window.removeEventListener(AUTH_UPDATED_EVENT, onAuthUpdated);
+  }, []);
 
   useEffect(() => {
     if (!supabaseConfigured) return;
@@ -71,7 +82,7 @@ export default function App() {
   }
 
   // Supabase is configured: an account is required before using the app.
-  if (supabaseConfigured && !sessionUser) {
+  if (supabaseConfigured && (!sessionUser || mustSetPassword)) {
     return <AuthScreen />;
   }
 

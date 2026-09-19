@@ -10,12 +10,18 @@ type Stage =
   | { view: 'new-password' };
 
 const RESEND_SECONDS = 45;
+// Recovery OTP verification signs the user in immediately, which would unmount
+// this screen before they set a new password — the flag keeps the gate up.
+const MUST_SET_PW_KEY = 'bahdini-must-set-pw';
+export const AUTH_UPDATED_EVENT = 'bahdini-auth-updated';
 
 // Full-screen auth gate: sign up (username + phone + password + WhatsApp OTP),
 // sign in (phone + password), and forgot-password (OTP → new password).
 export function AuthScreen() {
   const [supabase, setSupabase] = useState<SupabaseClient | null>(null);
-  const [stage, setStage] = useState<Stage>({ view: 'main', tab: 'signup' });
+  const [stage, setStage] = useState<Stage>(() =>
+    sessionStorage.getItem(MUST_SET_PW_KEY) === '1' ? { view: 'new-password' } : { view: 'main', tab: 'signup' },
+  );
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('');
@@ -103,17 +109,22 @@ export function AuthScreen() {
   const verify = () =>
     run(async () => {
       const ctx = stage.view === 'verify' ? stage.context : 'signup';
+      if (ctx === 'recovery') sessionStorage.setItem(MUST_SET_PW_KEY, '1');
       const { error } = await supabase!.auth.verifyOtp({
         phone: normalizedPhone(),
         token: code.trim(),
         type: ctx === 'signup' ? 'signup' : 'sms',
       });
-      if (error) return error.message;
+      if (error) {
+        sessionStorage.removeItem(MUST_SET_PW_KEY);
+        return error.message;
+      }
       if (ctx === 'signup') {
         await supabase!.auth.updateUser({ data: { name: name.trim() } });
       } else {
         setPassword('');
         setStage({ view: 'new-password' });
+        window.dispatchEvent(new Event(AUTH_UPDATED_EVENT));
       }
       return null;
     });
@@ -152,6 +163,8 @@ export function AuthScreen() {
     run(async () => {
       const { error } = await supabase!.auth.updateUser({ password });
       if (error) return error.message;
+      sessionStorage.removeItem(MUST_SET_PW_KEY);
+      window.dispatchEvent(new Event(AUTH_UPDATED_EVENT));
       setInfo(t.passwordResetDone);
       return null;
     });
