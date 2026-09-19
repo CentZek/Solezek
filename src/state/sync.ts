@@ -63,6 +63,7 @@ export async function pushToCloud(): Promise<void> {
     await supabase.from('profiles').upsert({
       id: uid,
       name: s.name,
+      username: s.username,
       daily_goal_min: s.dailyGoalMin,
       sound_on: s.soundOn,
       reduced_motion: s.reducedMotion,
@@ -139,6 +140,7 @@ export async function pullAndMerge(): Promise<void> {
 
     if (profile.data) {
       patch.name = profile.data.name || local.name;
+      patch.username = (profile.data.username as string) || local.username;
       patch.dailyGoalMin = profile.data.daily_goal_min ?? local.dailyGoalMin;
       patch.soundOn = profile.data.sound_on ?? local.soundOn;
       patch.reducedMotion = profile.data.reduced_motion ?? local.reducedMotion;

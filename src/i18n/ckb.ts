@@ -166,15 +166,26 @@ export const t = {
   // Misc
   loading: 'چەڤەرێ بە...',
 
-  // Auth (phone OTP)
-  signInTitle: 'چوونا ژوور ب ژمارا تەلەفۆنی',
-  signInBody: 'ژمارا تەلەفۆنا خو بینیڤیسە؛ کۆدەک بۆ تە دهێتە فرێکرن. پێشکەفتنا تە دێ هێتە پاراستن.',
+  // Auth
+  auth: {
+    createAccount: 'هەسابەکی نوی دروستبکە',
+    haveAccount: 'هەسابەم هەیە، چوونا ژوور',
+    signUp: 'تۆمارکرن',
+    logIn: 'چوونا ژوور',
+    usernameLabel: 'ناڤێ بەکارهێنەر',
+    usernamePlaceholder: 'ناڤەکی هەلبژێرە',
+    phoneLabel: 'ژمارا تەلەفۆنی (واتساپ)',
+    passwordLabel: 'وشا نهێنی',
+    passwordPlaceholder: 'ب کەمی ٨ تیپ',
+    verifyPhone: 'ژمارا تەلەفۆنی پشتراستبکە',
+    noAccount: 'هەسابەم نینە، تۆمارکرن',
+    passwordTooShort: 'وشا نهێنی دبێ ب کەمی ٨ تیپ بیت',
+  },
   phonePlaceholder: '+964 750 000 0000',
-  sendCode: 'کۆدێ فرێبکە',
   codeSentTo: (phone: string) => `کۆد بۆ ${phone} هاتە فرێکرن`,
   verifyCode: 'پشکنین',
   changeNumber: 'ژمارێ بگوهۆڕە',
-  signedIn: 'گرێدایە ✅',
+  signedIn: 'گرێدایە',
   syncNote: 'پێشکەفتنا تە نوکە ب هەسابا تە ڤە گرێدایە و ل هەر ئامێرەکی دبیتە پاراستن.',
   signOut: 'دەرکەڤن',
   deleteAccount: 'هەسابێ ژ ناڤبە',

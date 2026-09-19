@@ -1,7 +1,9 @@
 import { HashRouter, NavLink, Navigate, Route, Routes } from 'react-router-dom';
 import { t } from './i18n/ckb';
 import { useProgress } from './state/progress';
-import { Onboarding } from './screens/Onboarding';
+import { useAuth } from './hooks/useAuth';
+import { AuthGate } from './screens/AuthGate';
+import { KnowledgeLevelPicker } from './screens/KnowledgeLevelPicker';
 import { Home } from './screens/Home';
 import { CourseMap } from './screens/CourseMap';
 import { Lesson } from './screens/Lesson';
@@ -42,13 +44,31 @@ function BottomNav() {
   );
 }
 
+function SplashScreen() {
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="text-center">
+        <div className="text-6xl">📚</div>
+        <p className="mt-4 text-lg font-bold text-ink/50">{t.loading}</p>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
+  const { session, loading } = useAuth();
   const onboarded = useProgress((s) => s.onboarded);
+
+  if (loading) {
+    return <SplashScreen />;
+  }
 
   return (
     <HashRouter>
-      {!onboarded ? (
-        <Onboarding />
+      {!session ? (
+        <AuthGate />
+      ) : !onboarded ? (
+        <KnowledgeLevelPicker />
       ) : (
         <>
           <Routes>

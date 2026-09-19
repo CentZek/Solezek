@@ -43,6 +43,8 @@ export const achievements: AchievementDef[] = [
 interface ProgressState {
   // profile
   name: string;
+  username: string;
+  knowledgeLevel: string;
   onboarded: boolean;
   // currencies
   xp: number;
@@ -66,7 +68,7 @@ interface ProgressState {
   lastDailyChallenge: string; // YYYY-MM-DD, '' = not done today
   // actions
   setName: (name: string) => void;
-  completeOnboarding: (name: string) => void;
+  completeOnboarding: (username: string, knowledgeLevel: string) => void;
   recordAnswer: (vocabIds: string[], correct: boolean, levelId: number) => void;
   addXp: (n: number) => void;
   addCoins: (n: number) => void;
@@ -92,6 +94,8 @@ function yesterday(): string {
 
 const initialData = {
   name: '',
+  username: '',
+  knowledgeLevel: '',
   onboarded: false,
   xp: 0,
   coins: 0,
@@ -138,9 +142,17 @@ export const useProgress = create<ProgressState>()(
 
       setName: (name) => set({ name }),
 
-      completeOnboarding: (name) => {
+      completeOnboarding: (username, knowledgeLevel) => {
         const t = today();
-        set({ name: name.trim() || 'خۆشەویست', onboarded: true, streak: 1, lastActiveDate: t, todayDate: t });
+        set({
+          name: username.trim() || 'خۆشەویست',
+          username: username.trim(),
+          knowledgeLevel,
+          onboarded: true,
+          streak: 1,
+          lastActiveDate: t,
+          todayDate: t,
+        });
       },
 
       recordAnswer: (vocabIds, correct, levelId) => {
