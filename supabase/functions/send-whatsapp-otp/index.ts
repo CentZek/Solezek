@@ -61,31 +61,39 @@ Deno.serve(async (req) => {
   // Bird platform WhatsApp API with the pre-approved OTP template.
   // Body parameter = the code; button parameter = the code again (Meta
   // substitutes it into the template's copy-code button URL).
-  const birdRes = await fetch('https://eu1.platform.bird.com/v1/whatsapp/messages', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${BIRD_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      to: user.phone,
-      from: BIRD_WHATSAPP_SENDER,
-      template: {
-        slug: BIRD_TEMPLATE_SLUG,
-        language: BIRD_TEMPLATE_LANGUAGE,
-        components: [
-          {
-            type: 'body',
-            parameters: [{ type: 'text', text: sms.otp }],
-          },
-          {
-            type: 'button',
-            parameters: [{ type: 'text', text: sms.otp }],
-          },
-        ],
+  // Retry once on transient failures (429 rate limit / 5xx).
+  const sendViaBird = () =>
+    fetch('https://eu1.platform.bird.com/v1/whatsapp/messages', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${BIRD_API_KEY}`,
+        'Content-Type': 'application/json',
       },
-    }),
-  });
+      body: JSON.stringify({
+        to: user.phone,
+        from: BIRD_WHATSAPP_SENDER,
+        template: {
+          slug: BIRD_TEMPLATE_SLUG,
+          language: BIRD_TEMPLATE_LANGUAGE,
+          components: [
+            {
+              type: 'body',
+              parameters: [{ type: 'text', text: sms.otp }],
+            },
+            {
+              type: 'button',
+              parameters: [{ type: 'text', text: sms.otp }],
+            },
+          ],
+        },
+      }),
+    });
+
+  let birdRes = await sendViaBird();
+  if (!birdRes.ok && (birdRes.status === 429 || birdRes.status >= 500)) {
+    await new Promise((r) => setTimeout(r, 1500));
+    birdRes = await sendViaBird();
+  }
 
   if (!birdRes.ok) {
     const detail = await birdRes.text();

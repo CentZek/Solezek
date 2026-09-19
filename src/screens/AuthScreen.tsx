@@ -110,10 +110,12 @@ export function AuthScreen() {
     run(async () => {
       const ctx = stage.view === 'verify' ? stage.context : 'signup';
       if (ctx === 'recovery') sessionStorage.setItem(MUST_SET_PW_KEY, '1');
+      // Phone verification uses type 'sms' for BOTH sign-up confirmation and
+      // login/recovery ('signup' is only for email addresses).
       const { error } = await supabase!.auth.verifyOtp({
         phone: normalizedPhone(),
         token: code.trim(),
-        type: ctx === 'signup' ? 'signup' : 'sms',
+        type: 'sms',
       });
       if (error) {
         sessionStorage.removeItem(MUST_SET_PW_KEY);
