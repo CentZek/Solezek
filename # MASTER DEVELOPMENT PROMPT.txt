@@ -1,0 +1,3100 @@
+# MASTER DEVELOPMENT PROMPT
+
+## Build an Interactive English Learning Platform for Kurdish Bahdini Speakers
+
+Build a modern, highly interactive web application that teaches **English to native Kurdish Bahdini speakers**, starting from absolute beginner level.
+
+The application should eventually be suitable for conversion into a **native Android and iOS application**, so the architecture, UI components, game mechanics, content model and data structure must be designed with mobile-first principles from the beginning.
+
+The product should feel like a combination of:
+
+* Duolingo — playful, addictive, game-based learning
+* Busuu — structured progression, CEFR-aligned learning and checkpoint testing
+* British Council LearnEnglish — practical vocabulary, pronunciation, grammar and real-world English
+* A children's educational game — visual, friendly, rewarding and easy to understand
+
+Do NOT simply copy any existing application's design, branding, characters or copyrighted content.
+
+Instead, take inspiration from the learning mechanics and create an original **Bahdini → English learning experience**.
+
+---
+
+# 1. CORE PRODUCT CONCEPT
+
+The learner is a Kurdish Bahdini speaker who wants to learn English.
+
+The application should teach:
+
+**Bahdini → English**
+
+rather than:
+
+**English → English**
+
+especially during the beginner stages.
+
+Every new English word should initially be supported by:
+
+1. English word
+2. Bahdini meaning
+3. Picture/visual
+4. Audio pronunciation
+5. Example sentence
+6. Optional phonetic pronunciation
+7. Interactive practice
+
+Example:
+
+### English
+
+**APPLE**
+
+### Bahdini
+
+**سیڤ**
+
+### Audio
+
+🔊 Apple
+
+### Example
+
+**I eat an apple.**
+
+### Bahdini explanation
+
+A short, natural Bahdini explanation.
+
+The learner should progressively move from:
+
+**Bahdini + English**
+
+to:
+
+**Mostly English**
+
+to:
+
+**English only**
+
+as their level improves.
+
+---
+
+# 2. TARGET USER
+
+Primary audience:
+
+* Kurdish Bahdini speakers
+* Absolute English beginners
+* Children, teenagers and adults
+* Users who may have little or no formal English education
+
+The application must therefore be:
+
+* extremely simple
+* visual
+* intuitive
+* encouraging
+* non-intimidating
+* highly repetitive
+* game-like
+* usable by people with limited English knowledge
+
+Avoid complicated English explanations in early levels.
+
+---
+
+# 3. LANGUAGE
+
+The interface should support:
+
+### Primary learning language
+
+**Kurdish Bahdini**
+
+### Target language
+
+**English**
+
+The application should be designed so that all educational content can later be stored in a database with:
+
+* English
+* Bahdini
+* pronunciation
+* audio
+* example sentence
+* example translation
+* image
+* category
+* difficulty
+* grammar concept
+
+Do not hard-code educational content directly into UI components.
+
+Create a scalable content structure.
+
+---
+
+# 4. IMPORTANT: BAHHDINI QUALITY
+
+Do NOT automatically translate English sentences word-for-word into Kurdish.
+
+Bahdini translations should sound natural to a Bahdini speaker.
+
+Create a content architecture where Bahdini translations can be reviewed and corrected by a native Bahdini speaker later.
+
+Every vocabulary item should support:
+
+```text
+english_word
+bahdini_translation
+english_pronunciation
+audio_url
+image_url
+example_sentence
+bahdini_example
+category
+difficulty
+part_of_speech
+```
+
+Every lesson should support:
+
+```text
+lesson_title
+lesson_description
+bahdini_introduction
+learning_objective
+vocabulary_items
+grammar_points
+exercises
+exam
+difficulty
+level
+```
+
+---
+
+# 5. COURSE STRUCTURE
+
+Create a complete **Basic English Course** containing at least:
+
+# 20 LEVELS
+
+Each level must follow the same fundamental learning cycle:
+
+## STEP 1 — INTRODUCTION
+
+Introduce the vocabulary and/or grammar concept.
+
+## STEP 2 — EXERCISE ROUND 1
+
+Practice the new material using several game types.
+
+## STEP 3 — EXERCISE ROUND 2
+
+More difficult practice with different game mechanics.
+
+## STEP 4 — LEVEL EXAM
+
+Test whether the learner actually understands the material.
+
+## STEP 5 — REWARD
+
+If passed:
+
+* XP
+* coins
+* badge
+* level completion
+* progress animation
+* unlock next level
+
+If failed:
+
+Do not punish the learner.
+
+Instead:
+
+* show mistakes
+* explain them in Bahdini
+* recommend specific review exercises
+* allow another attempt
+
+---
+
+# 6. LEVEL PROGRESSION
+
+Use a visual progression map.
+
+Example:
+
+🏠 Start
+
+↓
+
+🌱 Level 1
+
+↓
+
+🌱 Level 2
+
+↓
+
+🌱 Level 3
+
+↓
+
+🌿 Level 4
+
+...
+
+↓
+
+🌳 Level 20
+
+The learner should clearly understand:
+
+* where they are
+* what they completed
+* what is locked
+* what is next
+* their total progress
+
+Use stars or another visual completion system.
+
+Example:
+
+⭐ 1/3
+⭐⭐ 2/3
+⭐⭐⭐ Completed
+
+---
+
+# 7. THE FIRST 20 LEVELS
+
+Design the curriculum carefully.
+
+The first 20 levels should progressively establish an A1/basic English foundation.
+
+Do not simply make each level a random vocabulary topic.
+
+Vocabulary and grammar should build upon previous knowledge.
+
+---
+
+## LEVEL 1 — HELLO!
+
+### Goal
+
+Understand and use basic greetings.
+
+### Vocabulary
+
+Hello
+Hi
+Good morning
+Good afternoon
+Good evening
+Goodbye
+Bye
+Yes
+No
+Please
+Thank you
+Sorry
+
+### Grammar / phrases
+
+Hello.
+
+Hi.
+
+Good morning.
+
+Thank you.
+
+You're welcome.
+
+Goodbye.
+
+### Introduction
+
+Show large visual cards.
+
+Example:
+
+👋
+
+HELLO
+
+Bahdini translation
+
+🔊 pronunciation
+
+Allow the learner to hear the word multiple times.
+
+### Game 1 — Match
+
+Match:
+
+HELLO
+
+with the correct Bahdini meaning/picture.
+
+### Game 2 — Listen & Choose
+
+Play:
+
+🔊 "Hello"
+
+Give 3 choices.
+
+### Mini Exam
+
+5–10 questions.
+
+---
+
+# LEVEL 2 — MY NAME IS...
+
+### Goal
+
+Introduce yourself.
+
+Vocabulary:
+
+I
+You
+My
+Your
+Name
+Friend
+Boy
+Girl
+Man
+Woman
+
+Phrases:
+
+My name is Ali.
+
+I am Ali.
+
+What is your name?
+
+Nice to meet you.
+
+### Grammar
+
+I am
+
+You are
+
+My
+
+Your
+
+### Games
+
+* Build the sentence
+* Match words
+* Listening selection
+* Character conversation
+
+### Exam
+
+Simple introduction conversation.
+
+---
+
+# LEVEL 3 — NUMBERS
+
+### Goal
+
+Understand numbers 1–20.
+
+Teach:
+
+1–20
+
+Practice:
+
+How many?
+
+One apple.
+
+Two cars.
+
+Three books.
+
+### Games
+
+* Count objects
+* Number matching
+* Number listening
+* Speed counting
+* Missing number
+
+### Exam
+
+Mixed number recognition.
+
+---
+
+# LEVEL 4 — COLORS
+
+Teach:
+
+Red
+Blue
+Green
+Yellow
+Black
+White
+Orange
+Pink
+Brown
+Purple
+
+Sentences:
+
+It is red.
+
+The car is blue.
+
+What color is it?
+
+### Games
+
+* Color tap
+* Find the color
+* Listen and choose
+* Memory matching
+
+---
+
+# LEVEL 5 — FAMILY
+
+Vocabulary:
+
+Mother
+Father
+Brother
+Sister
+Son
+Daughter
+Family
+Child
+Baby
+Grandmother
+Grandfather
+
+Sentences:
+
+This is my mother.
+
+He is my brother.
+
+She is my sister.
+
+### Grammar
+
+He
+
+She
+
+My
+
+This is...
+
+---
+
+# LEVEL 6 — PEOPLE & BASIC DESCRIPTIONS
+
+Vocabulary:
+
+Big
+Small
+Tall
+Short
+Young
+Old
+Happy
+Sad
+Good
+Bad
+Fast
+Slow
+
+Sentences:
+
+He is tall.
+
+She is happy.
+
+The car is fast.
+
+### Games
+
+Picture description.
+
+---
+
+# LEVEL 7 — HOME
+
+Vocabulary:
+
+House
+Room
+Kitchen
+Bedroom
+Bathroom
+Door
+Window
+Table
+Chair
+Bed
+Kitchen
+TV
+
+Sentences:
+
+This is my house.
+
+This is a chair.
+
+The door is open.
+
+### Grammar
+
+This is...
+
+That is...
+
+A / An
+
+---
+
+# LEVEL 8 — EVERYDAY OBJECTS
+
+Teach common objects:
+
+Phone
+Computer
+Book
+Pen
+Bag
+Key
+Cup
+Bottle
+Water
+Chair
+Table
+Car
+
+Grammar:
+
+This is a phone.
+
+It is a book.
+
+Is this a pen?
+
+Yes, it is.
+
+No, it isn't.
+
+---
+
+# LEVEL 9 — FOOD & DRINK
+
+Vocabulary:
+
+Water
+Milk
+Tea
+Coffee
+Bread
+Rice
+Chicken
+Meat
+Fish
+Apple
+Banana
+Orange
+Egg
+Cheese
+
+Phrases:
+
+I like coffee.
+
+I like apples.
+
+I don't like fish.
+
+### Games
+
+Restaurant mini-game.
+
+The learner must order food.
+
+---
+
+# LEVEL 10 — NUMBERS + MONEY + SHOPPING
+
+Teach:
+
+Price
+Money
+Cheap
+Expensive
+Buy
+Want
+Have
+
+Numbers up to 100.
+
+Phrases:
+
+How much is it?
+
+It is five dollars.
+
+I want this.
+
+I want two.
+
+### Game
+
+Virtual shop.
+
+Learner receives coins and must purchase items.
+
+---
+
+# LEVEL 11 — DAYS & TIME
+
+Teach:
+
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+
+Morning
+Afternoon
+Evening
+Night
+
+Today
+Tomorrow
+Yesterday
+
+Basic clock/time.
+
+Phrases:
+
+What day is it?
+
+Today is Monday.
+
+What time is it?
+
+It is three o'clock.
+
+---
+
+# LEVEL 12 — DAILY ROUTINE
+
+Teach:
+
+Wake up
+Get up
+Eat
+Drink
+Go
+Come
+Work
+Study
+Sleep
+Go home
+Have breakfast
+Have lunch
+Have dinner
+
+Sentences:
+
+I wake up.
+
+I go to work.
+
+I eat breakfast.
+
+I go home.
+
+I sleep.
+
+This follows the useful A1 daily-routine approach used by established English-learning resources.
+
+---
+
+# LEVEL 13 — PLACES
+
+Vocabulary:
+
+Home
+School
+Work
+Airport
+Shop
+Restaurant
+Hospital
+Bank
+Hotel
+Mosque
+Park
+Street
+
+Grammar:
+
+I am at...
+
+I go to...
+
+Where is...?
+
+### Game
+
+Interactive town map.
+
+Learner must navigate to locations.
+
+---
+
+# LEVEL 14 — TRANSPORT
+
+Vocabulary:
+
+Car
+Bus
+Taxi
+Train
+Plane
+Airport
+Road
+Street
+Ticket
+Driver
+
+Phrases:
+
+Where is the airport?
+
+I need a taxi.
+
+I have a ticket.
+
+### Game
+
+Airport/travel scenario.
+
+---
+
+# LEVEL 15 — CLOTHES
+
+Vocabulary:
+
+Shirt
+Pants
+Shoes
+Socks
+Jacket
+Hat
+Dress
+Bag
+Watch
+
+Colors + clothing.
+
+Examples:
+
+A red shirt.
+
+Black shoes.
+
+My shirt is blue.
+
+### Grammar
+
+Possessives:
+
+my
+
+your
+
+his
+
+her
+
+---
+
+# LEVEL 16 — WEATHER
+
+Vocabulary:
+
+Hot
+Cold
+Warm
+Cool
+Sunny
+Rainy
+Cloudy
+Windy
+Snow
+Rain
+
+Phrases:
+
+It is hot.
+
+It is cold.
+
+It's raining.
+
+What is the weather like?
+
+### Game
+
+Weather forecast game.
+
+---
+
+# LEVEL 17 — COMMON ACTIONS
+
+Teach:
+
+Run
+Walk
+Eat
+Drink
+Sleep
+Read
+Write
+Speak
+Listen
+Open
+Close
+Sit
+Stand
+Go
+Come
+Look
+
+### Grammar
+
+I am walking.
+
+He is running.
+
+She is eating.
+
+Introduce the basic concept of:
+
+I am...
+
+He is...
+
+She is...
+
+---
+
+# LEVEL 18 — BASIC QUESTIONS
+
+Teach:
+
+What?
+
+Where?
+
+Who?
+
+When?
+
+Why?
+
+How?
+
+Examples:
+
+What is this?
+
+Where are you?
+
+Who is he?
+
+When is lunch?
+
+How are you?
+
+### Game
+
+Conversation detective.
+
+The learner must select the correct question.
+
+---
+
+# LEVEL 19 — BASIC CONVERSATIONS
+
+Combine previous knowledge.
+
+Situations:
+
+Meeting someone
+
+At a shop
+
+At a restaurant
+
+At work
+
+Asking directions
+
+Taking a taxi
+
+At the airport
+
+### Example
+
+A:
+
+Hello!
+
+What is your name?
+
+B:
+
+My name is Ahmed.
+
+A:
+
+Nice to meet you.
+
+B:
+
+Nice to meet you too.
+
+The learner completes missing parts.
+
+---
+
+# LEVEL 20 — BASIC ENGLISH CHALLENGE
+
+This is a comprehensive final beginner checkpoint.
+
+Mix:
+
+* greetings
+* introductions
+* numbers
+* colors
+* family
+* home
+* objects
+* food
+* shopping
+* time
+* daily routine
+* places
+* transportation
+* clothes
+* weather
+* actions
+* questions
+* conversations
+
+The learner should complete a realistic series of mini-scenarios.
+
+Example:
+
+### Scenario
+
+You are at a shop.
+
+The shopkeeper says:
+
+"Hello. Can I help you?"
+
+Learner chooses:
+
+A. My name is Ali.
+
+B. Yes, I want a bottle of water.
+
+C. It is Monday.
+
+Correct answer: B.
+
+Use many different situations.
+
+---
+
+# 8. EVERY LEVEL MUST HAVE A CONSISTENT STRUCTURE
+
+Each level should contain approximately:
+
+### Part 1 — Learn
+
+8–15 new words/phrases.
+
+### Part 2 — Practice Round 1
+
+Approximately 8–12 questions.
+
+### Part 3 — Practice Round 2
+
+Approximately 8–12 questions.
+
+### Part 4 — Exam
+
+Approximately 10–20 questions.
+
+However, do not make every exercise identical.
+
+The learner should feel like they are playing a game rather than completing a worksheet.
+
+---
+
+# 9. GAME TYPES
+
+Build a reusable game engine supporting multiple exercise types.
+
+At minimum implement:
+
+## 1. WORD MATCH
+
+Match English with Bahdini.
+
+---
+
+## 2. PICTURE MATCH
+
+Match English words to images.
+
+Example:
+
+🍎
+
+APPLE
+
+---
+
+## 3. LISTEN & CHOOSE
+
+Play English audio.
+
+User chooses the correct answer.
+
+---
+
+## 4. SPEAK
+
+Show:
+
+"APPLE"
+
+User taps microphone and says:
+
+"Apple"
+
+The application evaluates pronunciation where technically possible.
+
+For the first version, create the interface so speech recognition can be added cleanly.
+
+---
+
+## 5. SENTENCE BUILDER
+
+Words appear scrambled:
+
+I / coffee / like
+
+User rearranges:
+
+I like coffee.
+
+---
+
+## 6. MISSING WORD
+
+I ___ coffee.
+
+Options:
+
+like
+
+blue
+
+Monday
+
+---
+
+## 7. MEMORY GAME
+
+Cards are flipped.
+
+Match:
+
+English word ↔ picture
+
+or
+
+English ↔ Bahdini.
+
+---
+
+## 8. LISTENING GAME
+
+Audio plays.
+
+User identifies:
+
+Who?
+
+What?
+
+Where?
+
+---
+
+## 9. SPEED ROUND
+
+Answer as many simple questions as possible within a short timer.
+
+Do not use speed rounds too heavily for beginners.
+
+Learning accuracy is more important than speed.
+
+---
+
+## 10. SORTING GAME
+
+Example:
+
+Drag words into:
+
+FOOD
+
+PEOPLE
+
+PLACES
+
+OBJECTS
+
+---
+
+## 11. CONVERSATION GAME
+
+Create simple animated characters.
+
+Example:
+
+👨‍🦱
+
+Hello!
+
+What is your name?
+
+User chooses the correct response.
+
+---
+
+## 12. SHOP GAME
+
+User has virtual money.
+
+They must buy items.
+
+This reinforces:
+
+numbers
+
+prices
+
+food
+
+shopping
+
+basic conversation.
+
+---
+
+## 13. TRAVEL GAME
+
+Airport / taxi / hotel scenarios.
+
+Useful real-world English.
+
+---
+
+# 10. GAME FEEDBACK
+
+Every answer should provide immediate feedback.
+
+Correct:
+
+✅ Great!
+
+🎉 Excellent!
+
+⭐ +10 XP
+
+Incorrect:
+
+❌ Not quite.
+
+Show the correct answer.
+
+Then provide a short Bahdini explanation.
+
+Never shame the learner.
+
+Do not make mistakes feel like failure.
+
+Use:
+
+"Let's try again."
+
+rather than:
+
+"Wrong!"
+
+---
+
+# 11. REPETITION SYSTEM
+
+Implement spaced repetition.
+
+Words the learner struggles with should automatically return later.
+
+For example:
+
+User gets:
+
+APPLE ✅
+
+APPLE ❌
+
+APPLE ❌
+
+The system should increase the frequency of APPLE.
+
+Create a vocabulary mastery score:
+
+0 = New
+
+1 = Seen
+
+2 = Recognized
+
+3 = Practicing
+
+4 = Strong
+
+5 = Mastered
+
+The learner should periodically receive:
+
+### "Review Time"
+
+with previously learned words.
+
+---
+
+# 12. XP SYSTEM
+
+Give XP for:
+
+Completing lessons
+
+Correct answers
+
+Completing exams
+
+Daily practice
+
+Reviewing old vocabulary
+
+Perfect rounds
+
+Speaking practice
+
+Example:
+
+Correct answer: +10 XP
+
+Perfect round: +25 XP
+
+Complete lesson: +50 XP
+
+Pass exam: +100 XP
+
+Do not allow excessive grinding to replace learning.
+
+---
+
+# 13. STREAK SYSTEM
+
+Add a daily learning streak.
+
+Example:
+
+🔥 3 days
+
+🔥 7 days
+
+🔥 14 days
+
+🔥 30 days
+
+Show encouraging messages.
+
+Do not make losing a streak feel punishing.
+
+---
+
+# 14. HEART / LIVES SYSTEM
+
+You may take inspiration from game mechanics such as hearts/lives, but do not make the application frustrating.
+
+For example:
+
+❤️ ❤️ ❤️ ❤️ ❤️
+
+A wrong answer may remove one heart.
+
+But beginners should have generous recovery mechanisms.
+
+Alternatively, use "energy" only for optional challenge games rather than core learning.
+
+The core educational path should always remain accessible.
+
+---
+
+# 15. REWARDS
+
+Create:
+
+* XP
+* Coins
+* Stars
+* Badges
+* Streaks
+* Level completion
+* Achievement cards
+
+Examples:
+
+🏆 First Lesson
+
+🎯 10 Correct Answers
+
+🔥 7 Day Streak
+
+📚 100 Words Learned
+
+🗣️ First Speaking Exercise
+
+🌟 Perfect Level
+
+---
+
+# 16. DAILY GOAL
+
+Allow users to select:
+
+5 minutes
+
+10 minutes
+
+15 minutes
+
+20 minutes
+
+per day.
+
+Display:
+
+Today's goal
+
+██████░░░░
+
+6 / 10 minutes
+
+---
+
+# 17. HOME SCREEN
+
+Create a highly polished dashboard.
+
+Show:
+
+### Welcome
+
+"Slav, Ahmed! 👋"
+
+or the equivalent natural Bahdini greeting.
+
+### Current Level
+
+Level 7
+
+HOME
+
+██████░░░░
+
+### Continue
+
+[ CONTINUE LESSON ]
+
+### Daily Goal
+
+🔥 7 day streak
+
+### XP
+
+1,240 XP
+
+### Review
+
+12 words ready for review
+
+### Course Map
+
+visual progression.
+
+---
+
+# 18. LEARNING MAP
+
+Make progression visual and playful.
+
+Instead of a boring list:
+
+Level 1
+Level 2
+Level 3
+
+create something like:
+
+🏠 Start
+
+🌱 Greetings
+
+👋 Introductions
+
+🔢 Numbers
+
+🎨 Colors
+
+👨‍👩‍👧 Family
+
+🏠 Home
+
+🍎 Food
+
+🛒 Shopping
+
+⏰ Time
+
+etc.
+
+Each completed level becomes visually active.
+
+Locked levels appear slightly muted.
+
+---
+
+# 19. LEVEL INTRODUCTION SCREEN
+
+Before every level:
+
+# LEVEL 8
+
+## Everyday Objects
+
+### You will learn:
+
+📱 Phone
+
+📖 Book
+
+✏️ Pen
+
+🎒 Bag
+
+🔑 Key
+
+☕ Cup
+
+### By the end you can:
+
+"Name common objects and make simple sentences."
+
+Button:
+
+### START LEARNING →
+
+---
+
+# 20. VOCABULARY CARD
+
+Design beautiful vocabulary cards.
+
+Example:
+
+┌─────────────────────┐
+
+```
+    🍎
+
+   APPLE
+
+  /ˈæpəl/
+```
+
+🔊 Listen
+
+سیڤ
+
+"I eat an apple."
+
+🔊 Listen to sentence
+
+└─────────────────────┘
+
+Buttons:
+
+🔊 Hear
+
+👀 Example
+
+➡️ Next
+
+---
+
+# 21. AUDIO
+
+Audio is extremely important.
+
+Every English word should ideally have:
+
+* slow pronunciation
+* normal pronunciation
+* example sentence pronunciation
+
+The learner should be able to replay audio.
+
+Use browser/device speech synthesis for the initial prototype if appropriate, but architect the application so professionally recorded audio can later replace it.
+
+Store audio references in the database.
+
+---
+
+# 22. PRONUNCIATION
+
+English pronunciation should be introduced early.
+
+For difficult words:
+
+English:
+
+THREE
+
+Show pronunciation help.
+
+Allow:
+
+🔊 Listen
+
+🎤 Speak
+
+The system should eventually compare the learner's pronunciation using speech recognition.
+
+Do not require perfect pronunciation.
+
+Focus on understandable pronunciation.
+
+---
+
+# 23. GRAMMAR
+
+Grammar should be taught indirectly at first.
+
+Do NOT give beginners large grammar lectures.
+
+Instead:
+
+Teach patterns.
+
+Example:
+
+I am Ali.
+
+I am happy.
+
+I am tired.
+
+Then explain:
+
+"I" + "am"
+
+Later introduce:
+
+You are.
+
+He is.
+
+She is.
+
+This allows learners to recognize the structure naturally.
+
+As levels progress, provide small Bahdini explanations.
+
+---
+
+# 24. EXAM SYSTEM
+
+Every level must have an exam.
+
+The exam should test the actual learning objectives.
+
+It should mix:
+
+Vocabulary
+
+Listening
+
+Translation
+
+Sentence building
+
+Picture recognition
+
+Grammar
+
+Conversation
+
+Do not make the exam simply repeat the same questions from the exercises.
+
+Generate questions from the level's learning objectives.
+
+Example:
+
+Level 7 teaches:
+
+house
+
+room
+
+door
+
+window
+
+chair
+
+table
+
+This exam should contain new combinations:
+
+"This is a ___."
+
+picture of chair
+
+Correct:
+
+chair
+
+---
+
+# 25. PASSING REQUIREMENT
+
+Suggested:
+
+70% = pass
+
+85% = excellent
+
+100% = perfect
+
+Display:
+
+### Level Complete 🎉
+
+Score:
+
+92%
+
+⭐⭐⭐
+
+Words mastered:
+
+12 / 14
+
+Then:
+
+### NEXT LEVEL →
+
+If below 70%:
+
+### Let's practice a little more
+
+Show weak areas.
+
+Example:
+
+You should review:
+
+🔴 "window"
+
+🔴 "bathroom"
+
+[ PRACTICE AGAIN ]
+
+---
+
+# 26. REVIEW SYSTEM
+
+Create a dedicated:
+
+# REVIEW
+
+screen.
+
+Categories:
+
+🆕 New
+
+🟡 Learning
+
+🟢 Strong
+
+🔵 Mastered
+
+The application should automatically generate review sessions.
+
+Example:
+
+### Today's Review
+
+You have 8 words to practice.
+
+APPLE
+
+CHAIR
+
+MOTHER
+
+BLUE
+
+TAXI
+
+etc.
+
+---
+
+# 27. DIFFICULTY ADAPTATION
+
+The application should track:
+
+* accuracy
+* speed
+* attempts
+* vocabulary mastery
+* exercise type performance
+* listening performance
+* pronunciation performance
+* exam results
+
+If the learner struggles:
+
+Reduce difficulty.
+
+If they perform very well:
+
+Increase difficulty slightly.
+
+Example:
+
+Stage 1:
+
+APPLE → سیڤ
+
+Stage 2:
+
+APPLE → picture
+
+Stage 3:
+
+"I eat an ___."
+
+Stage 4:
+
+"I eat an apple every day."
+
+Stage 5:
+
+Conversation.
+
+---
+
+# 28. DO NOT OVERUSE TRANSLATION
+
+Translation is a scaffold, not the final objective.
+
+Early:
+
+English → Bahdini
+
+Middle:
+
+English + image → meaning
+
+Later:
+
+English → English meaning
+
+Eventually:
+
+English conversation without translation.
+
+---
+
+# 29. REAL-LIFE SCENARIOS
+
+Introduce practical situations throughout the course.
+
+Examples:
+
+At home
+
+At school
+
+At work
+
+At a shop
+
+At a restaurant
+
+At an airport
+
+In a taxi
+
+At a hotel
+
+Meeting someone
+
+Asking for directions
+
+Buying something
+
+Ordering food
+
+Talking about family
+
+Talking about the weather
+
+These scenarios should become progressively more complex.
+
+---
+
+# 30. CHARACTERS
+
+Create a small cast of original characters.
+
+For example:
+
+👦 Dara
+
+👧 Rojin
+
+👨 Azad
+
+👩 Shirin
+
+They can appear in conversations and mini-games.
+
+Keep the character design culturally comfortable and friendly.
+
+Do not make the application feel like a children's-only app.
+
+The same system should work for adults.
+
+Use a modern illustration style.
+
+---
+
+# 31. CULTURAL LOCALIZATION
+
+The application should feel familiar to Kurdish users.
+
+Use examples relevant to everyday life in Kurdistan.
+
+Examples:
+
+Tea
+
+Coffee
+
+Family
+
+Market
+
+Taxi
+
+School
+
+Work
+
+Airport
+
+Restaurant
+
+Mobile phone
+
+Shopping
+
+Travel
+
+Do not make every example revolve around Western culture.
+
+However, the goal is to teach internationally useful English, so gradually introduce global situations too.
+
+---
+
+# 32. BAHHDINI UI
+
+The interface should support Kurdish text properly.
+
+Important:
+
+* RTL interface for Bahdini
+* English words remain LTR
+* mixed RTL/LTR text must render correctly
+* numbers should render correctly
+* English sentences should not become visually reversed
+* buttons should support RTL layout
+* vocabulary cards should clearly separate Bahdini and English
+
+Do not simply apply RTL to everything.
+
+Mixed-language rendering must be handled carefully.
+
+---
+
+# 33. RESPONSIVE DESIGN
+
+Build mobile-first.
+
+Primary target:
+
+📱 Mobile
+
+Secondary:
+
+💻 Desktop
+
+Also support:
+
+📱 Android
+
+📱 iPhone
+
+The web application should work well at:
+
+320px
+
+375px
+
+390px
+
+430px
+
+768px
+
+1024px
+
+1440px+
+
+Avoid desktop-only interactions such as hover being required to understand a game.
+
+All games must work using:
+
+Touch
+
+Mouse
+
+Keyboard where appropriate
+
+---
+
+# 34. FUTURE MOBILE APP ARCHITECTURE
+
+Design the application so that the frontend can later be moved to:
+
+React Native / Expo
+
+or another appropriate cross-platform mobile framework.
+
+Avoid building critical functionality around desktop-only browser behavior.
+
+Separate:
+
+UI
+
+game logic
+
+course content
+
+user progress
+
+authentication
+
+audio
+
+database
+
+analytics
+
+This will make future mobile development much easier.
+
+---
+
+# 35. DATABASE ARCHITECTURE
+
+Create a scalable database structure.
+
+Suggested tables:
+
+users
+
+courses
+
+levels
+
+lessons
+
+vocabulary
+
+vocabulary_translations
+
+grammar_topics
+
+exercises
+
+exercise_questions
+
+exam_questions
+
+user_progress
+
+user_vocabulary
+
+user_answers
+
+user_exam_results
+
+achievements
+
+user_achievements
+
+streaks
+
+daily_goals
+
+review_queue
+
+audio_assets
+
+image_assets
+
+characters
+
+scenarios
+
+---
+
+# 36. USER PROGRESS
+
+Track:
+
+current_level
+
+completed_levels
+
+lesson_completion
+
+exercise_completion
+
+exam_score
+
+total_xp
+
+coins
+
+streak
+
+daily_goal
+
+vocabulary_mastery
+
+last_activity
+
+review_items
+
+achievements
+
+This should allow the learner to leave the application and return later without losing progress.
+
+---
+
+# 37. CONTENT MANAGEMENT
+
+Create the application so educational content can eventually be managed through an admin dashboard.
+
+Admin should be able to:
+
+Create level
+
+Edit level
+
+Create vocabulary
+
+Edit Bahdini translation
+
+Upload image
+
+Upload audio
+
+Create exercise
+
+Create question
+
+Create exam
+
+Change difficulty
+
+Reorder questions
+
+Enable/disable content
+
+View learner statistics
+
+This is extremely important because Bahdini translations will need human review and refinement.
+
+---
+
+# 38. ANALYTICS
+
+Track anonymous/authorized learning events such as:
+
+lesson_started
+
+lesson_completed
+
+exercise_started
+
+exercise_completed
+
+question_answered
+
+question_correct
+
+question_incorrect
+
+word_learned
+
+word_reviewed
+
+exam_started
+
+exam_completed
+
+exam_passed
+
+level_completed
+
+daily_goal_completed
+
+streak_started
+
+speaking_attempt
+
+This allows us to identify which lessons learners struggle with.
+
+---
+
+# 39. ACCESSIBILITY
+
+Support:
+
+* large touch targets
+* readable fonts
+* clear contrast
+* audio replay
+* captions/transcripts
+* reduced animation option
+* keyboard navigation
+* screen-reader-friendly labels where possible
+
+Never rely solely on color.
+
+For example:
+
+Do not make correct = green only.
+
+Also show:
+
+✓ Correct
+
+---
+
+# 40. VISUAL STYLE
+
+Create an original visual identity.
+
+Desired feeling:
+
+Friendly
+
+Modern
+
+Playful
+
+Clean
+
+Premium
+
+Educational
+
+Not childish.
+
+Use:
+
+rounded cards
+
+large illustrations
+
+soft animations
+
+large buttons
+
+progress bars
+
+XP animations
+
+celebration effects
+
+character illustrations
+
+Avoid excessive clutter.
+
+---
+
+# 41. ANIMATIONS
+
+Use subtle animations.
+
+Examples:
+
+Correct answer:
+
+✨ card bounce
+
+⭐ XP flies into XP counter
+
+Level completion:
+
+🎉 celebration animation
+
+Wrong answer:
+
+gentle shake
+
+Do not make animations slow down the learning experience.
+
+Provide reduced-motion support.
+
+---
+
+# 42. SOUND DESIGN
+
+Optional sound effects:
+
+Correct:
+
+pleasant success sound
+
+Wrong:
+
+soft error sound
+
+Level complete:
+
+celebration
+
+Achievement:
+
+reward sound
+
+Allow sound to be disabled.
+
+---
+
+# 43. DAILY CHALLENGE
+
+Add a daily challenge.
+
+Example:
+
+# DAILY CHALLENGE
+
+🔥 5 questions
+
+Today's topic:
+
+FOOD 🍎
+
+Complete it to earn:
+
++50 XP
+
++10 coins
+
+---
+
+# 44. WEEKLY CHALLENGE
+
+Optional future feature.
+
+Example:
+
+Learn 30 words this week.
+
+Progress:
+
+18 / 30
+
+Reward:
+
+🏆 Weekly Learner Badge
+
+---
+
+# 45. LEADERBOARD
+
+This should be optional.
+
+Do not make the learning experience dependent on competition.
+
+If implemented:
+
+Friends
+
+Weekly XP
+
+Monthly XP
+
+Global leaderboard
+
+Allow users to hide their profile.
+
+---
+
+# 46. ONBOARDING
+
+First launch:
+
+### Welcome 👋
+
+"Learn English from Bahdini."
+
+Button:
+
+START
+
+Then ask:
+
+What is your English level?
+
+Options:
+
+🌱 I know almost no English
+
+🌿 I know some English
+
+🌳 I can understand basic English
+
+For the initial Basic English course, default to beginner.
+
+Eventually add a placement test.
+
+---
+
+# 47. PLACEMENT TEST — FUTURE
+
+Do not force placement testing in the first version.
+
+But architect for:
+
+Beginner
+
+A1
+
+A2
+
+B1
+
+B2
+
+C1
+
+CEFR is a useful framework for progression; established English courses commonly use A1–C1 structures.
+
+---
+
+# 48. COURSE EXPANSION
+
+The 20 levels above are only the beginning.
+
+Design the content architecture to eventually support:
+
+### Beginner
+
+A1
+
+A2
+
+### Intermediate
+
+B1
+
+B2
+
+### Advanced
+
+C1
+
+Future specialist courses:
+
+English for Travel
+
+English for Work
+
+English for Airport Employees
+
+English for Hospitality
+
+English for Business
+
+English for School
+
+English Conversation
+
+English Pronunciation
+
+---
+
+# 49. IMPORTANT LEARNING PRINCIPLE
+
+Do not make the application:
+
+"Flashcards with a game around them."
+
+Make it:
+
+"A game where learning English is the way the player progresses."
+
+The user should feel:
+
+"I am playing."
+
+while the system is actually:
+
+teaching vocabulary
+
+teaching grammar
+
+testing listening
+
+building sentence structure
+
+reinforcing memory
+
+developing pronunciation
+
+building conversational ability.
+
+---
+
+# 50. LEVEL COMPLETION EXPERIENCE
+
+When the learner passes a level:
+
+Display:
+
+🎉
+
+# LEVEL COMPLETE!
+
+## Family & People
+
+⭐⭐⭐
+
+Score:
+
+92%
+
+New words:
+
+14
+
+XP earned:
+
++100 XP
+
+Badge:
+
+👨‍👩‍👧 FAMILY FRIEND
+
+Then:
+
+### What you learned
+
+✓ Family vocabulary
+
+✓ He / She
+
+✓ My / Your
+
+✓ Simple descriptions
+
+Button:
+
+### CONTINUE →
+
+---
+
+# 51. COURSE PROGRESSION
+
+The 20 levels should have increasing complexity.
+
+Levels 1–5:
+
+Mostly vocabulary + recognition.
+
+Levels 6–10:
+
+Vocabulary + simple sentence patterns.
+
+Levels 11–15:
+
+Vocabulary + grammar + short conversations.
+
+Levels 16–20:
+
+More listening + sentence construction + real-world situations.
+
+Do not suddenly increase difficulty.
+
+Each level should reuse approximately 20–40% of earlier vocabulary where useful.
+
+This creates natural spaced repetition.
+
+---
+
+# 52. IMPORTANT: CONTENT QUALITY
+
+Before considering the course complete, review every level.
+
+Check:
+
+1. Is the vocabulary genuinely useful?
+2. Is the English correct?
+3. Is the Bahdini translation natural?
+4. Does the difficulty increase gradually?
+5. Are old words being reused?
+6. Are there enough exercises?
+7. Is listening included?
+8. Is sentence construction included?
+9. Does the exam test the lesson?
+10. Does the learner understand why an answer is correct?
+11. Does the lesson feel fun?
+12. Does the lesson work on a phone?
+
+Do not generate 20 levels and stop.
+
+Iterate through the entire course and improve it.
+
+---
+
+# 53. TECHNICAL IMPLEMENTATION
+
+Recommended stack:
+
+Frontend:
+
+React
+
+TypeScript
+
+Vite
+
+Tailwind CSS
+
+Component library where appropriate
+
+Backend:
+
+Supabase
+
+Database:
+
+PostgreSQL
+
+Authentication:
+
+Supabase Auth
+
+Storage:
+
+Supabase Storage
+
+Audio:
+
+Database references + storage
+
+Images:
+
+Optimized WebP/AVIF assets
+
+State:
+
+Use a predictable state-management approach appropriate to application size.
+
+---
+
+# 54. PWA
+
+Make the website a Progressive Web App.
+
+Include:
+
+manifest
+
+icons
+
+install prompt
+
+mobile-friendly navigation
+
+offline-capable architecture where practical
+
+cache static course content where appropriate
+
+This will make the eventual Android/iOS transition easier.
+
+---
+
+# 55. PERFORMANCE
+
+The application must feel fast.
+
+Avoid loading every image/audio asset at once.
+
+Lazy-load:
+
+images
+
+audio
+
+levels
+
+large assets
+
+Keep games responsive even on mid-range Android devices.
+
+---
+
+# 56. SECURITY
+
+Never expose Supabase service-role keys.
+
+Use proper Row Level Security.
+
+Users should only be able to modify their own:
+
+progress
+
+XP
+
+streak
+
+answers
+
+achievements
+
+reviews
+
+Prevent clients from simply modifying:
+
+XP
+
+coins
+
+exam scores
+
+level completion
+
+through browser developer tools.
+
+Validate important progress server-side.
+
+---
+
+# 57. MOBILE NAVIGATION
+
+Bottom navigation:
+
+🏠 Home
+
+📚 Learn
+
+🔄 Review
+
+🏆 Achievements
+
+👤 Profile
+
+Keep navigation simple.
+
+During a lesson, hide unnecessary navigation to keep focus.
+
+---
+
+# 58. DESKTOP NAVIGATION
+
+Desktop can use:
+
+Sidebar
+
+Home
+
+Course
+
+Review
+
+Progress
+
+Achievements
+
+Profile
+
+Settings
+
+But maintain the same underlying navigation structure.
+
+---
+
+# 59. PROFILE
+
+Show:
+
+Name
+
+Avatar
+
+Current level
+
+XP
+
+Streak
+
+Words learned
+
+Levels completed
+
+Achievements
+
+Daily goal
+
+Learning statistics
+
+---
+
+# 60. PROGRESS DASHBOARD
+
+Show:
+
+English level
+
+Course progress
+
+Vocabulary learned
+
+Listening accuracy
+
+Quiz accuracy
+
+Speaking practice
+
+Current streak
+
+Study time
+
+This should motivate users without overwhelming beginners.
+
+---
+
+# 61. REVIEW SCREEN
+
+Example:
+
+# WORD REVIEW
+
+How do you say:
+
+🍎
+
+Options:
+
+سیڤ
+
+ئاڤ
+
+مال
+
+نان
+
+Then:
+
+APPLE
+
+🔊
+
+Repeat.
+
+---
+
+# 62. EXAM DESIGN
+
+Make exams feel like challenges rather than school tests.
+
+Example:
+
+# FINAL CHALLENGE
+
+🏆
+
+"Can you complete today's mission?"
+
+Mission 1:
+
+Match 5 words.
+
+Mission 2:
+
+Listen to 5 words.
+
+Mission 3:
+
+Build 3 sentences.
+
+Mission 4:
+
+Complete a conversation.
+
+Mission 5:
+
+Final question.
+
+This is much more engaging than:
+
+"Exam — Question 1 of 20."
+
+---
+
+# 63. LEARNING LOOP
+
+The fundamental loop should be:
+
+LEARN
+
+↓
+
+PLAY
+
+↓
+
+PRACTICE
+
+↓
+
+PLAY
+
+↓
+
+TEST
+
+↓
+
+REVIEW
+
+↓
+
+REWARD
+
+↓
+
+UNLOCK
+
+↓
+
+REPEAT
+
+---
+
+# 64. DO NOT BUILD ONLY THE UI
+
+Build the actual functional learning experience.
+
+The initial prototype should contain real working content for all 20 levels.
+
+Do not use:
+
+"Lorem ipsum"
+
+"Coming soon"
+
+"Example question"
+
+or empty placeholder lessons.
+
+Every level should contain actual:
+
+* vocabulary
+* Bahdini translations
+* exercises
+* exam questions
+* progression
+* rewards
+
+---
+
+# 65. INITIAL MVP PRIORITY
+
+If time or implementation complexity becomes an issue, prioritize:
+
+1. Authentication
+2. Course map
+3. 20 levels
+4. Vocabulary cards
+5. Matching game
+6. Multiple-choice game
+7. Sentence builder
+8. Listening game
+9. Level exams
+10. XP
+11. Progress tracking
+12. Review system
+13. Mobile responsive design
+
+Then add:
+
+speech recognition
+
+advanced animations
+
+leaderboards
+
+social features
+
+advanced analytics
+
+---
+
+# 66. FINAL PRODUCT TEST
+
+Before declaring the application finished, simulate a brand-new learner.
+
+Start with:
+
+Level 1.
+
+Pretend the user knows almost no English.
+
+Ask:
+
+Can they understand what to do without knowing English?
+
+Can they hear the word?
+
+Can they see the Bahdini meaning?
+
+Can they complete the game?
+
+Can they understand why they were wrong?
+
+Can they finish the level?
+
+Can they understand their score?
+
+Can they immediately continue to Level 2?
+
+Repeat this mental/user test throughout Levels 1–20.
+
+---
+
+# 67. FINAL DESIGN PHILOSOPHY
+
+The application should feel like:
+
+### "Duolingo made specifically for Kurdish Bahdini speakers."
+
+But it must have its own:
+
+brand
+
+characters
+
+visual identity
+
+game mechanics
+
+content
+
+course structure
+
+Bahdini translations
+
+learning methodology.
+
+The most important objective is:
+
+## Make English understandable, useful and fun for someone who speaks Bahdini.
+
+Do not optimize merely for flashy UI.
+
+Optimize for:
+
+**learning + retention + confidence + enjoyment.**
+
+Build the application as a serious educational product that can eventually grow from a 20-level beginner course into a complete English-learning platform.
+
+Start with the complete 20-level Basic English course and make it genuinely usable from the first launch.

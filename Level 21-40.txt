@@ -1,0 +1,2329 @@
+# MASTER CURRICULUM PROMPT
+
+## Extend the Bahdini → English Basic English Course from Level 21 to Level 40
+
+Continue developing the Bahdini-first English learning application.
+
+The first 20 levels established the learner's foundation:
+
+* greetings
+* introductions
+* numbers
+* colors
+* family
+* home
+* objects
+* food
+* shopping
+* time
+* daily routines
+* places
+* transportation
+* clothes
+* weather
+* actions
+* basic questions
+* basic conversations
+* basic English challenge
+
+Now create **20 additional levels: Levels 21–40**.
+
+These levels should NOT simply introduce more vocabulary.
+
+The learner should now begin to transition from:
+
+> "I recognize English words."
+
+to:
+
+> "I can actually communicate in simple English."
+
+The progression should move approximately from:
+
+**A1 foundation → strong A1 → early A2**
+
+Use the vocabulary from Levels 1–20 repeatedly, combining it with the new material.
+
+Every level must continue to use the same learning structure:
+
+1. Introduction
+2. Exercise Round 1
+3. Exercise Round 2
+4. Level Exam
+5. Reward
+6. Review / weak-word reinforcement
+
+However, the games and scenarios should become progressively more realistic.
+
+---
+
+# IMPORTANT PEDAGOGICAL PRINCIPLE
+
+The objective is not to teach the largest number of words.
+
+The objective is to make the learner able to **use a relatively small vocabulary extremely well**.
+
+For example, instead of teaching 30 new verbs at once, teach 8–12 useful verbs and make the learner use them in:
+
+* statements
+* questions
+* negatives
+* past tense
+* future tense
+* conversations
+* listening
+* sentence building
+* real-world scenarios
+
+The application should repeatedly recycle vocabulary.
+
+A word learned in Level 4 should potentially appear again in Level 24, 29 and 35.
+
+This is intentional spaced repetition.
+
+---
+
+# LEVEL 21 — I LIKE / I DON'T LIKE
+
+## Goal
+
+Teach learners to express preferences.
+
+### New vocabulary
+
+Like
+Love
+Want
+Need
+Prefer
+Hate
+Food
+Drink
+Music
+Movie
+Sport
+Game
+Book
+Place
+Color
+
+### Core grammar
+
+I like...
+
+I don't like...
+
+I love...
+
+I don't love...
+
+I want...
+
+I don't want...
+
+### Examples
+
+I like coffee.
+
+I don't like tea.
+
+I like football.
+
+I don't like cold weather.
+
+I want water.
+
+I need a taxi.
+
+### Introduction
+
+Use pictures.
+
+🍕 I like pizza.
+
+☕ I like coffee.
+
+🥦 I don't like broccoli.
+
+The learner hears the sentence.
+
+### Exercise Round 1
+
+**Like / Don't Like Game**
+
+Show pictures.
+
+The learner selects:
+
+👍 I like it.
+
+👎 I don't like it.
+
+Then convert the choice into English.
+
+### Exercise Round 2
+
+**Sentence Builder**
+
+I / coffee / like
+
+→
+
+I like coffee.
+
+Then:
+
+I / don't / coffee / like
+
+→
+
+I don't like coffee.
+
+### Exam
+
+Mix:
+
+* listening
+* sentence building
+* picture interpretation
+* choosing correct sentence
+* simple personal preference questions
+
+The learner should finish the level able to talk about basic preferences.
+
+---
+
+# LEVEL 22 — CAN YOU?
+
+## Goal
+
+Teach ability and simple requests using **can**.
+
+### Vocabulary
+
+Can
+Swim
+Run
+Drive
+Speak
+Read
+Write
+Cook
+Help
+Open
+Close
+Use
+Understand
+
+### Grammar
+
+I can...
+
+I can't...
+
+Can you...?
+
+Yes, I can.
+
+No, I can't.
+
+### Examples
+
+I can swim.
+
+I can speak English.
+
+I can't drive.
+
+Can you help me?
+
+Can you open the door?
+
+### Game 1 — Ability Challenge
+
+Characters perform activities.
+
+The learner chooses:
+
+He can swim.
+
+He can't swim.
+
+### Game 2 — Help Me!
+
+Interactive situations.
+
+Character:
+
+"Can you help me?"
+
+Learner chooses the appropriate response.
+
+### Exam
+
+Create a short conversation involving:
+
+can
+
+can't
+
+Can you...?
+
+---
+
+# LEVEL 23 — THERE IS / THERE ARE
+
+## Goal
+
+Teach learners to describe what exists in a place.
+
+### Vocabulary
+
+There
+Room
+House
+Shop
+Street
+Car
+People
+Chair
+Table
+Window
+Door
+Building
+
+### Grammar
+
+There is...
+
+There are...
+
+There isn't...
+
+There aren't...
+
+### Examples
+
+There is a table.
+
+There are two chairs.
+
+There is a car outside.
+
+There are three people in the room.
+
+### Game 1 — Look Around
+
+Show a room.
+
+Ask:
+
+"How many chairs are there?"
+
+### Game 2 — Build the Room
+
+The learner places objects into a room.
+
+Then describes it:
+
+There is a table.
+
+There are two chairs.
+
+### Exam
+
+Visual scene description.
+
+---
+
+# LEVEL 24 — WHERE IS IT?
+
+## Goal
+
+Teach location and prepositions.
+
+### Vocabulary
+
+In
+On
+Under
+Next to
+Behind
+In front of
+Between
+Near
+Far
+Inside
+Outside
+
+### Examples
+
+The phone is on the table.
+
+The shoes are under the bed.
+
+The car is in front of the house.
+
+The shop is next to the bank.
+
+### Game 1 — Find It
+
+Show a room.
+
+Ask:
+
+"Where is the phone?"
+
+### Game 2 — Move the Object
+
+Drag the phone:
+
+on the table
+
+under the table
+
+next to the chair
+
+This makes prepositions visual rather than abstract.
+
+### Exam
+
+Combination of pictures and sentence construction.
+
+---
+
+# LEVEL 25 — DESCRIBING PEOPLE
+
+## Goal
+
+Allow the learner to describe someone's appearance and simple characteristics.
+
+### Vocabulary
+
+Tall
+Short
+Young
+Old
+Beautiful
+Handsome
+Long
+Short
+Hair
+Eyes
+Face
+Beard
+Glasses
+Shirt
+Shoes
+
+### Grammar
+
+He has...
+
+She has...
+
+He is...
+
+She is...
+
+### Examples
+
+He is tall.
+
+She has long hair.
+
+He has a beard.
+
+She has blue eyes.
+
+He is wearing a black shirt.
+
+### Game 1 — Who Is It?
+
+Show several characters.
+
+Give a description.
+
+The learner identifies the correct person.
+
+### Game 2 — Build the Character
+
+Select:
+
+hair
+
+eyes
+
+clothes
+
+height
+
+Then describe the character.
+
+### Exam
+
+Listen to a description and identify the correct person.
+
+---
+
+# LEVEL 26 — PRESENT CONTINUOUS
+
+## Goal
+
+Teach learners to describe what is happening NOW.
+
+### Grammar
+
+I am eating.
+
+He is walking.
+
+She is drinking.
+
+They are working.
+
+### Vocabulary
+
+Eating
+Drinking
+Walking
+Running
+Working
+Sleeping
+Reading
+Writing
+Talking
+Watching
+Driving
+Cooking
+
+### Game 1 — What Are They Doing?
+
+Animated characters perform actions.
+
+Question:
+
+"What is he doing?"
+
+Answer:
+
+"He is running."
+
+### Game 2 — Live Scene
+
+Show a busy street.
+
+The learner identifies what different people are doing.
+
+### Exam
+
+Mix:
+
+I am...
+
+He is...
+
+She is...
+
+They are...
+
+---
+
+# LEVEL 27 — EVERYDAY ROUTINES: MORE DETAIL
+
+## Goal
+
+Move beyond simple routine vocabulary and create complete sentences.
+
+### Vocabulary
+
+Wake up
+Get dressed
+Brush my teeth
+Take a shower
+Have breakfast
+Leave home
+Arrive at work
+Have lunch
+Finish work
+Go home
+Have dinner
+Go to bed
+
+### Grammar
+
+I usually...
+
+I always...
+
+I sometimes...
+
+I never...
+
+### Examples
+
+I usually wake up at seven.
+
+I always brush my teeth.
+
+I sometimes drink coffee.
+
+I never go to bed early.
+
+### Game
+
+Build a person's day.
+
+The learner puts activities in chronological order.
+
+Then describes the day.
+
+### Exam
+
+Listening + ordering + sentence building.
+
+---
+
+# LEVEL 28 — THE PAST: YESTERDAY
+
+## Goal
+
+Introduce the simple past gradually.
+
+Do NOT overload the learner with irregular verbs.
+
+Start with highly useful verbs.
+
+### Vocabulary
+
+Yesterday
+Last night
+Last week
+Went
+Had
+Ate
+Drank
+Saw
+Bought
+Worked
+Played
+Watched
+Visited
+
+### Core patterns
+
+I went...
+
+I ate...
+
+I worked...
+
+I watched...
+
+### Examples
+
+Yesterday I worked.
+
+I went to the shop.
+
+I ate chicken.
+
+I watched a movie.
+
+### Game 1 — Yesterday
+
+Show today's scene and yesterday's scene.
+
+Learner identifies what changed.
+
+### Game 2 — What Did You Do?
+
+Choose activities from yesterday.
+
+Generate simple sentences.
+
+### Exam
+
+Simple past recognition and sentence construction.
+
+Do not expect perfect free-form grammar yet.
+
+---
+
+# LEVEL 29 — QUESTIONS IN THE PAST
+
+## Goal
+
+Teach basic past questions.
+
+### Grammar
+
+Did you...?
+
+Yes, I did.
+
+No, I didn't.
+
+What did you...?
+
+Where did you...?
+
+When did you...?
+
+### Examples
+
+Did you work yesterday?
+
+Yes, I did.
+
+Did you go to the shop?
+
+No, I didn't.
+
+Where did you go?
+
+I went home.
+
+### Game — Yesterday Interview
+
+A character asks the learner questions.
+
+The learner selects responses.
+
+### Exam
+
+Complete a short conversation about yesterday.
+
+---
+
+# LEVEL 30 — TALKING ABOUT THE FUTURE
+
+## Goal
+
+Teach simple future communication.
+
+Start with **going to** because it is useful for everyday plans.
+
+### Vocabulary
+
+Tomorrow
+Tonight
+Next week
+Plan
+Visit
+Travel
+Buy
+Meet
+Work
+Study
+Go
+
+### Grammar
+
+I am going to...
+
+I'm going to...
+
+Are you going to...?
+
+### Examples
+
+I'm going to work tomorrow.
+
+I'm going to visit my family.
+
+I'm going to buy a phone.
+
+Are you going to travel?
+
+Yes, I am.
+
+### Game
+
+Build Tomorrow.
+
+The learner creates a plan for tomorrow.
+
+### Exam
+
+Future plans conversation.
+
+---
+
+# LEVEL 31 — SHOPPING CONVERSATION
+
+## Goal
+
+Combine:
+
+numbers
+
+money
+
+colors
+
+clothes
+
+food
+
+questions
+
+preferences
+
+### Vocabulary
+
+Size
+Small
+Medium
+Large
+Price
+Cash
+Card
+Change
+Buy
+Sell
+Try
+Fit
+
+### Expressions
+
+How much is it?
+
+How much are they?
+
+Can I try it?
+
+Do you have a larger size?
+
+I want this one.
+
+It's too expensive.
+
+### Game — Virtual Shop
+
+The learner enters a shop.
+
+They must:
+
+1. Ask for an item.
+2. Ask the price.
+3. Choose a size.
+4. Pay.
+5. Receive change.
+
+### Exam
+
+Complete a shopping conversation.
+
+---
+
+# LEVEL 32 — RESTAURANT ENGLISH
+
+## Goal
+
+Teach practical restaurant communication.
+
+### Vocabulary
+
+Menu
+Order
+Waiter
+Table
+Water
+Coffee
+Tea
+Chicken
+Rice
+Fish
+Bread
+Bill
+Breakfast
+Lunch
+Dinner
+
+### Expressions
+
+Can I have...?
+
+I'd like...
+
+Can I have the menu?
+
+What do you recommend?
+
+The bill, please.
+
+### Game — Restaurant
+
+The learner becomes the customer.
+
+Character:
+
+"Hello. What would you like?"
+
+Learner:
+
+"I'd like chicken and rice, please."
+
+### Exercise Round 2
+
+Listening-based restaurant orders.
+
+### Exam
+
+Complete an entire restaurant interaction.
+
+---
+
+# LEVEL 33 — ASKING FOR DIRECTIONS
+
+## Goal
+
+Teach learners to navigate a city.
+
+### Vocabulary
+
+Left
+Right
+Straight
+Turn
+Street
+Corner
+Traffic light
+Near
+Far
+Next to
+Opposite
+Behind
+
+### Expressions
+
+Where is the bank?
+
+How do I get to the airport?
+
+Turn left.
+
+Turn right.
+
+Go straight.
+
+It's next to the hotel.
+
+### Game — City Map
+
+Create an interactive map.
+
+The character asks:
+
+"How do I get to the hospital?"
+
+The learner gives directions.
+
+### Exam
+
+Navigation challenge.
+
+---
+
+# LEVEL 34 — TRAVEL & AIRPORT ENGLISH
+
+## Goal
+
+Teach useful English for international travel.
+
+### Vocabulary
+
+Airport
+Flight
+Ticket
+Passport
+Boarding pass
+Gate
+Security
+Baggage
+Suitcase
+Departure
+Arrival
+Plane
+
+### Expressions
+
+Where is Gate 5?
+
+Where is passport control?
+
+Here is my passport.
+
+Where is baggage claim?
+
+What time is the flight?
+
+### Game — Airport Mission
+
+The learner must navigate through an airport.
+
+Tasks:
+
+Find check-in.
+
+Find security.
+
+Find the gate.
+
+Ask for directions.
+
+Find baggage claim.
+
+### Exam
+
+Airport conversation.
+
+---
+
+# LEVEL 35 — HOTEL ENGLISH
+
+## Goal
+
+Teach basic hotel communication.
+
+### Vocabulary
+
+Hotel
+Room
+Reservation
+Reception
+Key
+Passport
+Single room
+Double room
+Breakfast
+Check-in
+Check-out
+Night
+
+### Expressions
+
+I have a reservation.
+
+I need a room.
+
+What time is breakfast?
+
+Where is my room?
+
+Can I have another key?
+
+What time is check-out?
+
+### Game — Hotel Reception
+
+Interactive conversation.
+
+The learner checks into a hotel.
+
+### Exam
+
+Full check-in scenario.
+
+---
+
+# LEVEL 36 — WORK & JOBS
+
+## Goal
+
+Teach practical workplace English.
+
+### Vocabulary
+
+Work
+Job
+Manager
+Employee
+Customer
+Office
+Meeting
+Break
+Computer
+Email
+Phone
+Busy
+Free
+Start
+Finish
+
+### Grammar
+
+I work at...
+
+I work in...
+
+I start at...
+
+I finish at...
+
+### Examples
+
+I work at an airport.
+
+I work in a restaurant.
+
+I start work at eight.
+
+I finish at four.
+
+### Game — First Day at Work
+
+The learner enters a workplace and must communicate with colleagues.
+
+### Exam
+
+Workplace introduction and schedule.
+
+---
+
+# LEVEL 37 — HEALTH & BASIC PROBLEMS
+
+## Goal
+
+Teach learners to communicate basic health problems.
+
+Keep this level focused on everyday communication, NOT medical advice.
+
+### Vocabulary
+
+Head
+Stomach
+Back
+Hand
+Foot
+Pain
+Sick
+Tired
+Cold
+Fever
+Doctor
+Hospital
+Medicine
+
+### Expressions
+
+I don't feel well.
+
+My head hurts.
+
+My stomach hurts.
+
+I am tired.
+
+I need a doctor.
+
+Where is the hospital?
+
+### Game — Doctor Visit
+
+The learner explains a basic problem to a doctor character.
+
+### Exam
+
+Listen to a patient and identify the problem.
+
+---
+
+# LEVEL 38 — COMPARING THINGS
+
+## Goal
+
+Teach comparisons.
+
+### Vocabulary
+
+Big
+Small
+Cheap
+Expensive
+Fast
+Slow
+Easy
+Difficult
+Good
+Bad
+Better
+Bigger
+Smaller
+More expensive
+
+### Grammar
+
+This is bigger.
+
+That is cheaper.
+
+The blue car is faster.
+
+This hotel is more expensive.
+
+### Game — Compare!
+
+Show two objects.
+
+Ask:
+
+Which car is bigger?
+
+Which phone is cheaper?
+
+### Game 2 — Shopping Comparison
+
+Compare products and prices.
+
+### Exam
+
+Visual comparisons + sentence building.
+
+---
+
+# LEVEL 39 — REAL CONVERSATIONS
+
+## Goal
+
+Combine everything learned.
+
+This level should feel significantly more like real communication.
+
+Create multiple scenarios:
+
+### Scenario 1
+
+Meeting someone.
+
+### Scenario 2
+
+At work.
+
+### Scenario 3
+
+At a shop.
+
+### Scenario 4
+
+At a restaurant.
+
+### Scenario 5
+
+At the airport.
+
+### Scenario 6
+
+Asking for directions.
+
+### Scenario 7
+
+Talking about yesterday.
+
+### Scenario 8
+
+Talking about tomorrow.
+
+The learner should have to choose responses based on context rather than simply translating sentences.
+
+### Game — Conversation Adventure
+
+Create a branching conversation.
+
+Example:
+
+Character:
+
+"Hi! Where are you going?"
+
+Choices:
+
+A. I went yesterday.
+
+B. I'm going to the airport.
+
+C. It's blue.
+
+Correct:
+
+B.
+
+The conversation continues.
+
+Different answers should lead to different dialogue branches where appropriate.
+
+---
+
+# LEVEL 40 — A1 / EARLY A2 FINAL CHALLENGE
+
+This should NOT simply be a bigger vocabulary test.
+
+It should be a complete practical English mission.
+
+Call it:
+
+# ENGLISH ADVENTURE 🏆
+
+The learner receives a fictional mission:
+
+"You are travelling to another city."
+
+They must complete a sequence of real-life situations.
+
+---
+
+## MISSION 1 — AIRPORT
+
+Find the correct gate.
+
+Ask for directions.
+
+Understand a departure announcement.
+
+---
+
+## MISSION 2 — TAXI
+
+Tell the driver where you want to go.
+
+Understand the price.
+
+---
+
+## MISSION 3 — HOTEL
+
+Check into the hotel.
+
+Give your name.
+
+Confirm the reservation.
+
+Ask about breakfast.
+
+---
+
+## MISSION 4 — RESTAURANT
+
+Read a simple menu.
+
+Order food.
+
+Ask for water.
+
+Ask for the bill.
+
+---
+
+## MISSION 5 — CITY
+
+Ask for directions.
+
+Understand:
+
+left
+
+right
+
+straight
+
+next to
+
+opposite
+
+---
+
+## MISSION 6 — SHOPPING
+
+Ask the price.
+
+Choose a size.
+
+Compare two products.
+
+Pay.
+
+---
+
+## MISSION 7 — CONVERSATION
+
+Meet someone.
+
+Introduce yourself.
+
+Talk about:
+
+family
+
+work
+
+hobbies
+
+likes
+
+daily routine
+
+---
+
+## MISSION 8 — PAST
+
+Answer:
+
+"What did you do yesterday?"
+
+---
+
+## MISSION 9 — FUTURE
+
+Answer:
+
+"What are you going to do tomorrow?"
+
+---
+
+## MISSION 10 — FINAL LISTENING
+
+Play a short natural English conversation.
+
+Ask the learner questions about it.
+
+Do not show the transcript initially.
+
+Allow replay.
+
+Then show the transcript after answering.
+
+---
+
+# FINAL LEVEL 40 EXAM
+
+The final exam should test:
+
+### Vocabulary
+
+Can the learner understand common words?
+
+### Listening
+
+Can the learner understand slow, clear everyday English?
+
+### Reading
+
+Can the learner understand simple sentences?
+
+### Grammar
+
+Can they correctly use:
+
+I am
+
+I have
+
+I like
+
+I can
+
+There is
+
+There are
+
+Present continuous
+
+Simple past
+
+Going to
+
+Comparatives
+
+### Conversation
+
+Can they select appropriate responses?
+
+### Practical English
+
+Can they:
+
+order food?
+
+buy something?
+
+ask directions?
+
+check into a hotel?
+
+communicate at an airport?
+
+talk about yesterday?
+
+talk about tomorrow?
+
+---
+
+# 9. PROGRESSION BETWEEN LEVELS 21–40
+
+Make the difficulty increase naturally.
+
+## Levels 21–25
+
+Focus:
+
+Sentence patterns
+
+Preferences
+
+Abilities
+
+Descriptions
+
+Locations
+
+Learner is still heavily supported by Bahdini and visuals.
+
+---
+
+## Levels 26–30
+
+Focus:
+
+Actions
+
+Daily routines
+
+Past
+
+Future
+
+Learner begins producing more English sentences.
+
+Reduce Bahdini support slightly.
+
+---
+
+## Levels 31–35
+
+Focus:
+
+Real-world communication.
+
+Shopping
+
+Restaurant
+
+Directions
+
+Airport
+
+Hotel
+
+Learner should start thinking in common English phrases rather than translating every word.
+
+---
+
+## Levels 36–40
+
+Focus:
+
+Functional communication.
+
+Work
+
+Health
+
+Comparisons
+
+Conversation
+
+Integrated scenarios
+
+Learner should be increasingly comfortable with English-only instructions for familiar material.
+
+---
+
+# 10. GRADUALLY REDUCE BAHHDINI SUPPORT
+
+This is extremely important.
+
+Do NOT remove Bahdini suddenly.
+
+Use a progression.
+
+### Levels 1–10
+
+English:
+
+APPLE
+
+Bahdini:
+
+سیڤ
+
+Picture:
+
+🍎
+
+---
+
+### Levels 11–20
+
+English:
+
+Where is the airport?
+
+Picture/map support.
+
+Bahdini translation available.
+
+---
+
+### Levels 21–30
+
+English sentence first.
+
+Picture/context.
+
+Bahdini help button:
+
+"Need help?"
+
+The translation is hidden until requested.
+
+---
+
+### Levels 31–40
+
+English instructions should increasingly be used directly.
+
+For example:
+
+"Choose the correct answer."
+
+The learner should learn what this means through repetition.
+
+Bahdini help remains available.
+
+---
+
+# 11. HINT SYSTEM
+
+Do NOT immediately show the answer.
+
+Use progressive hints.
+
+### Hint 1
+
+Show a picture.
+
+### Hint 2
+
+Highlight important word.
+
+### Hint 3
+
+Show first letter.
+
+### Hint 4
+
+Show Bahdini meaning.
+
+### Hint 5
+
+Show the answer.
+
+This encourages learning instead of guessing.
+
+---
+
+# 12. ERROR LEARNING
+
+Every incorrect answer should be recorded.
+
+For example:
+
+User repeatedly confuses:
+
+cheap
+
+expensive
+
+The system should create a personalized review.
+
+### YOUR REVIEW
+
+You often confuse:
+
+CHEAP
+
+EXPENSIVE
+
+Let's practice.
+
+Then create 5 new questions using those words.
+
+This should happen automatically.
+
+---
+
+# 13. SENTENCE PATTERN LEARNING
+
+Introduce reusable sentence templates.
+
+Examples:
+
+I like ___.
+
+I don't like ___.
+
+I want ___.
+
+I need ___.
+
+I can ___.
+
+I can't ___.
+
+There is ___.
+
+There are ___.
+
+I am ___ing.
+
+I went ___.
+
+I'm going to ___.
+
+The learner should see the same pattern many times with different vocabulary.
+
+This is more useful than memorizing disconnected sentences.
+
+---
+
+# 14. WORD FAMILY LEARNING
+
+Where useful, group related words.
+
+Example:
+
+WORK
+
+work
+
+worker
+
+working
+
+worked
+
+Do not teach all forms at once.
+
+Introduce them naturally.
+
+---
+
+# 15. SMART VOCABULARY RECYCLING
+
+Every new level should deliberately reuse previous words.
+
+Example:
+
+Level 9:
+
+coffee
+
+restaurant
+
+water
+
+Level 32:
+
+"I'd like coffee and water, please."
+
+Level 36:
+
+"I drink coffee at work."
+
+Level 39:
+
+"I usually drink coffee in the morning."
+
+This demonstrates how vocabulary becomes functional over time.
+
+---
+
+# 16. LISTENING SHOULD BECOME MORE IMPORTANT
+
+Levels 1–10:
+
+Single words.
+
+Levels 11–20:
+
+Short sentences.
+
+Levels 21–30:
+
+Two-sentence conversations.
+
+Levels 31–35:
+
+Short real-world conversations.
+
+Levels 36–40:
+
+Short natural conversations.
+
+Always allow replay.
+
+Initially use slower, clear pronunciation.
+
+Later introduce normal conversational speed.
+
+---
+
+# 17. SPEAKING SHOULD ALSO PROGRESS
+
+Levels 1–10:
+
+Repeat individual words.
+
+Levels 11–20:
+
+Repeat short sentences.
+
+Levels 21–30:
+
+Repeat sentence patterns.
+
+Levels 31–35:
+
+Practice useful phrases.
+
+Levels 36–40:
+
+Short spoken responses.
+
+Eventually implement speech recognition.
+
+For example:
+
+Prompt:
+
+"Where are you going?"
+
+Learner:
+
+"I'm going to the airport."
+
+The system should evaluate whether the response is understandable rather than demanding a perfect native accent.
+
+---
+
+# 18. DO NOT MAKE EVERYTHING MULTIPLE CHOICE
+
+This is extremely important.
+
+Multiple choice is easy to build but does not necessarily produce strong learning.
+
+Across each level, mix:
+
+* recognition
+* recall
+* listening
+* sentence construction
+* matching
+* speaking
+* ordering
+* contextual decisions
+* conversation
+
+The learner should sometimes have to **produce** the answer.
+
+---
+
+# 19. ACTIVE RECALL
+
+Introduce questions where the learner must remember the answer.
+
+Example:
+
+Show:
+
+🍎
+
+"What is this?"
+
+Instead of immediately showing four options.
+
+The learner types:
+
+apple
+
+For beginners, allow the correct answer after a few seconds or through a hint.
+
+---
+
+# 20. CONVERSATION ENGINE
+
+Build the conversation game as a reusable system.
+
+Each conversation should contain:
+
+character
+
+message
+
+audio
+
+possible responses
+
+correct response
+
+explanation
+
+difficulty
+
+topic
+
+previous vocabulary
+
+next dialogue node
+
+Example structure:
+
+```text
+Conversation
+ ├── Node 1
+ │    ├── Character message
+ │    └── Choices
+ │
+ ├── Node 2
+ │    ├── Character message
+ │    └── Choices
+ │
+ └── Node 3
+      └── Completion
+```
+
+This will allow hundreds of future conversations to be created without rebuilding the game.
+
+---
+
+# 21. PRACTICAL ENGLISH OVER PERFECT ENGLISH
+
+Teach phrases that learners will actually use.
+
+For example:
+
+"I'd like..."
+
+"Can I have...?"
+
+"How much is it?"
+
+"Where is...?"
+
+"Can you help me?"
+
+"I don't understand."
+
+"Can you repeat that?"
+
+"Please speak slowly."
+
+These phrases are extremely valuable for someone travelling or working in an English-speaking environment.
+
+---
+
+# 22. EMERGENCY COMMUNICATION
+
+Introduce basic survival phrases naturally within the later levels.
+
+Examples:
+
+"I need help."
+
+"Please call a doctor."
+
+"I don't understand."
+
+"Please speak slowly."
+
+"Where is the hospital?"
+
+"I lost my passport."
+
+"Where is the police station?"
+
+Keep this practical and simple.
+
+---
+
+# 23. CONFIDENCE SYSTEM
+
+The application should explicitly build confidence.
+
+After a learner completes a conversation:
+
+### You did it! 🎉
+
+You just completed an English conversation.
+
+Do not say:
+
+"Your English is poor."
+
+Instead identify what they successfully demonstrated.
+
+Example:
+
+✓ Asked a question
+
+✓ Understood a response
+
+✓ Ordered food
+
+✓ Used "please"
+
+✓ Used numbers correctly
+
+---
+
+# 24. MICRO-LESSON LENGTH
+
+Do not make levels unnecessarily long.
+
+Target:
+
+5–10 minutes per lesson.
+
+A level may contain multiple short sessions.
+
+The learner should be able to complete meaningful progress even when they only have a few minutes.
+
+---
+
+# 25. SESSION DESIGN
+
+When opening the application, show:
+
+### Continue Learning
+
+"Level 27 — Daily Routine"
+
+### Quick Review
+
+"5 words need practice."
+
+### Daily Challenge
+
+"Complete today's 5-question challenge."
+
+This gives the learner three obvious choices.
+
+---
+
+# 26. PERSONALIZED REVIEW
+
+After each session calculate:
+
+Strong:
+
+🟢
+
+Needs practice:
+
+🟡
+
+Weak:
+
+🔴
+
+Then automatically generate review questions.
+
+The learner should not have to manually remember which words they struggled with.
+
+---
+
+# 27. EXAM QUESTIONS MUST BE NEW
+
+Do not simply reuse the exact exercise questions.
+
+If the exercise taught:
+
+"I like coffee."
+
+The exam could ask:
+
+"Which sentence describes this picture?"
+
+☕ + character
+
+A:
+
+I like coffee.
+
+B:
+
+I am drinking water.
+
+C:
+
+I don't like tea.
+
+The learner must transfer knowledge.
+
+---
+
+# 28. REAL-WORLD LANGUAGE
+
+From Level 31 onward, favor language that a learner could realistically use tomorrow.
+
+Examples:
+
+At the airport:
+
+"Where is the gate?"
+
+At a restaurant:
+
+"I'd like chicken, please."
+
+At a hotel:
+
+"I have a reservation."
+
+At a shop:
+
+"How much is this?"
+
+At work:
+
+"I'll finish it tomorrow."
+
+Asking directions:
+
+"Where is the bank?"
+
+This should be one of the defining characteristics of the course.
+
+---
+
+# 29. END OF LEVEL REVIEW
+
+After each level:
+
+### What you learned
+
+Show 5–8 key concepts.
+
+Example:
+
+LEVEL 34
+
+✈️ Airport English
+
+You learned:
+
+✓ Gate
+
+✓ Passport
+
+✓ Boarding pass
+
+✓ Departure
+
+✓ Asking for directions
+
+✓ "Where is...?"
+
+Then:
+
+### Practice again
+
+or
+
+### Continue
+
+---
+
+# 30. LEVEL MASTERY
+
+Do not consider a level permanently mastered simply because the learner passed once.
+
+A level should have:
+
+Completed
+
+Practicing
+
+Mastered
+
+A level becomes:
+
+🏆 MASTERED
+
+when the learner later successfully recalls its key vocabulary during review.
+
+---
+
+# 31. CUMULATIVE CHALLENGES
+
+Every 5 levels, include a cumulative challenge.
+
+### Level 25
+
+Review Levels 21–25.
+
+### Level 30
+
+Review Levels 26–30.
+
+### Level 35
+
+Review Levels 31–35.
+
+### Level 40
+
+Full Levels 1–40 challenge.
+
+This prevents learners from forgetting older material.
+
+---
+
+# 32. LEVEL 40 COMPLETION
+
+After passing Level 40:
+
+Display a major celebration.
+
+# 🎉 BASIC ENGLISH COMPLETE!
+
+## You completed 40 levels.
+
+Show:
+
+Words learned
+
+Sentences practiced
+
+Listening exercises
+
+Conversations completed
+
+Days studied
+
+XP earned
+
+Achievements
+
+Then introduce:
+
+# NEXT COURSE
+
+## English A2
+
+"Ready for the next adventure?"
+
+---
+
+# 33. FUTURE COURSE STRUCTURE
+
+The application should now be capable of continuing with:
+
+### A2
+
+Levels 41–80
+
+### B1
+
+Levels 81–120
+
+### B2
+
+Levels 121–160
+
+### C1
+
+Levels 161+
+
+Do not hard-code the application to exactly 40 levels.
+
+The course system must support unlimited future levels.
+
+---
+
+# 34. FINAL QUALITY CHECK
+
+Before considering Levels 21–40 complete, review the entire 40-level curriculum.
+
+Ask:
+
+### Does every level have a clear purpose?
+
+### Is the English immediately useful?
+
+### Does the learner reuse previous vocabulary?
+
+### Does difficulty increase gradually?
+
+### Is grammar introduced through useful patterns?
+
+### Is listening increasing?
+
+### Is speaking increasing?
+
+### Is Bahdini support gradually decreasing?
+
+### Are learners actually producing English?
+
+### Are the games varied?
+
+### Are exams testing transfer rather than memorization?
+
+### Does each level feel achievable?
+
+### Does the learner understand why an answer is wrong?
+
+### Does the course build confidence?
+
+---
+
+# MOST IMPORTANT PRINCIPLE
+
+The first 20 levels taught the learner:
+
+**"What does this English word mean?"**
+
+Levels 21–40 must increasingly teach:
+
+**"How do I use this English?"**
+
+By the end of Level 40, a motivated learner who started with almost no English should be able to handle simple everyday situations such as:
+
+* introducing themselves
+* talking about family
+* talking about likes and dislikes
+* describing people
+* describing places
+* explaining where something is
+* talking about what they are doing
+* talking about yesterday
+* talking about tomorrow
+* buying something
+* ordering food
+* asking for directions
+* taking a taxi
+* navigating an airport
+* checking into a hotel
+* having a basic workplace conversation
+* explaining a simple problem
+* understanding simple spoken English
+
+The application should achieve this through **repetition, active recall, listening, speaking, games, contextual learning and progressively reduced Bahdini support**.
+
+The goal is not for the learner to finish 40 levels.
+
+The goal is for the learner to finish Level 40 and realize:
+
+# "I can actually speak some English now."
+
+Build the curriculum and game system around that outcome.
