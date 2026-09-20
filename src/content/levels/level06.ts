@@ -155,7 +155,7 @@ export const level06: Level = {
     {
       id: 'l6-slow',
       en: 'Slow',
-      ckb: 'ب حەوانێ',
+      ckb: 'حەوان',
       pos: 'adjective',
       emoji: '🐢',
       phonetic: '/sloʊ/',

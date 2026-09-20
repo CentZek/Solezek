@@ -90,7 +90,7 @@ export const level18: Level = {
     {
       id: 'l18-how-are-you',
       en: 'How are you?',
-      ckb: 'تو چەوا یی؟',
+      ckb: 'چەوانی؟',
       pos: 'phrase',
       emoji: '🙂',
       phonetic: '/haʊ ɑːr juː/',

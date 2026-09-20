@@ -1,0 +1,68 @@
+id	en	ckb	reason
+l1-good-morning	Good morning	بەیانیت بخێر	what Zakho/Duhok speakers actually say; current spelling بەیانیا خێر is malformed
+l5-brother	Brother	برا	citation form is برا; برای is the izafe/oblique form
+l6-slow	Slow	حەوان	adjective gloss; current ب حەوانێ is the adverb slowly; حەوان is everyday Badînan
+l7-bed	Bed	جێگای نڤستنێ	جێگا alone means place; جێگای نڤستنێ unambiguously means bed
+l9-banana	banana	مۆز	Badînan pronunciation is môz (مۆز); موس is Kurmanji-proper form
+l11-evening	evening	ئێڤار	ئێڤار is the authentic Badînan form (ئێڤارێ = this evening)
+l12-wake-up	wake up	هشیار بوون (ئەز هشیار دبم)	هشیار بوون is the intransitive wake up; current هێش بوون is malformed
+l12-get-up	get up	سەر پێ هەستان (ئەز سەر پێ دھێسم)	natural Badînî get up/stand up; current سەرەکە هەستان is malformed
+l13-restaurant	Restaurant	خوارنگەه	خوارنگەه is the Badînî term; خواردنگەه is Sorani-influenced spelling
+l14-road	Road	ڕێکا	ڕێ means way/path; road as a physical road is ڕێکا (dictionary's ڕێک with fixed orthography)
+l16-warm	Warm	گەرم	هین means hot; warm is گەرم (dictionary's verb phrase reduced to the adjective)
+l16-cool	Cool	خنک	هینین means hot/sweaty — wrong meaning; cool (weather) is خنک in Badînan
+l17-run	run	بەزین	بەزین is the authentic everyday Badînan verb for running; ڕیکن means to flow/pour
+l17-stand	stand	وەستان	single concise infinitive required; وەستان covers 'stand up/stop' in everyday usage
+l18-how-are-you	How are you?	چەوانی؟	چەوانی؟ is THE authentic everyday Badînan greeting
+l19-meet	meet	ھەڤدیتن	single gloss required; ھەڤدیتن is 'to meet (each other)' — دیتن alone means 'to see'
+l20-taxi	taxi	تەکسی	unify spelling with l14-taxi; تەکسی matches Badînan pronunciation
+l20-sunny	sunny	ھەتاوی	single adjective form, consistent with l16-sunny
+l21-want	want	ڤیان	fix typo ڤێان → ڤیان; infinitive, consistent with l20-want
+l21-hate	hate	ھیچ حەزنەکرن	fix typo هیڤ → ھیچ; 'to not like at all' is the natural beginner rendering of hate
+l22-can	can	شێتن	correct spelling of the Badînan modal 'to be able'; dictionary entry is unrelated
+l22-run	run	بەزین	بەزین is the authentic everyday Badînan verb; consistent with l17-run
+l22-help	help	ھاریکاریکرن	current ئارامی کرن means 'to calm down' — wrong meaning; help = ھاریکاری کرن, consistent with l19-help
+l24-next-to	next to	ل رەخ	ل نێزک means 'near' (already used for l24-near); next to = ل رەخ in Badînan
+l24-between	between	د ناڤبەرا ... دا	correct form is ناڤبەرا (current misses the ە); postposition structure kept
+l24-far	far	دور	unify spelling with l19-far (دور, not دۆر)
+l24-inside	inside	ژ ناڤە	Fixed double-ڤ typo in current; dictionary form is Sorani-style
+l26-drinking	drinking	ڤەخوارن	Dropped parenthetical example; kept correct infinitive spelling (dictionary misspells it)
+l26-walking	walking	پیاسەکرن	Dropped parenthetical example; kept natural infinitive
+l26-sleeping	sleeping	نووستن	Dropped parenthetical example; infinitive only
+l26-reading	reading	خویندن	Dropped parenthetical example; infinitive only (خاندن is the formal variant)
+l26-writing	writing	نڤیسین	Dropped parenthetical example; infinitive only
+l26-watching	watching	تەماشەکرن	Dropped parenthetical example; infinitive only
+l27-get-dressed	get dressed	جل ل بەر خۆ کرن	Completed the natural phrase (current was missing بەر); dictionary entry is a fragment
+l27-take-a-shower	take a shower	حەمامێ کرن	Single gloss instead of slash alternatives; everyday Bahdini phrase
+l28-last-week	last week	هەفتیا ڕابووری	Normalized initial ر to ڕ per consistent orthography; dictionary uses Arabic kaf
+l28-went	went	چوو	Simple past citation form for the past-tense item, no parenthetical
+l28-saw	saw	دیت	Simple past citation form; dictionary entry is junk (tree-cut fragment)
+l29-tired	tired	ماندوو	ماندوو is the everyday Duhok word and matches l37-tired; وەسقی is uncommon
+l30-buy	buy	کڕین	Fixed missing ڕ in current; matches dictionary lemma
+l30-meet	meet	هەڤدیتن	Single gloss instead of slash alternatives; هەڤدیتن is the natural word for meeting
+l31-change	change	باقی	باقی is the everyday Duhok word for money change; پاشماوە means leftovers, dictionary is a verb
+l31-buy	buy	کڕین	Dropped parenthetical example; infinitive only
+l31-sell	sell	فرۆتن	Dropped parenthetical example; infinitive only
+l31-try	try	پێڤاندن	Dropped parenthetical example; پێڤاندن is the Bahdini verb for trying on clothes
+l32-order	order	داخازی کرن	Natural verb phrase for ordering in a restaurant; current was noun only
+l33-turn	turn	زڤرین	Dropped parenthetical example; زڤرین is the natural Bahdini verb for turning
+l35-reservation	reservation	حەجز	حەجز is the everyday Duhok loanword (fixed spelling from حیجز); dictionary is a past participle
+l37-back	back	پشت	Body part noun is پشت; پشتی is the oblique/adverbial form
+l37-fever	fever	تا	تا is the correct Bahdini word (تا لێ هەیە); current had a spurious final ب
+l38-slow	slow	ھێدی	current حەوا means 'air/weather', a clear error; ھێدی is the everyday Bahdini word for slow.
+l39-hungry	hungry	برسی	standard Bahdini form/spelling is برسی (birsî), matching dictionary.
+l39-thirsty	thirsty	تێھنی	dictionary form is correct; fixed orthography with ھ (تێھنی) instead of missing ê-vowel in تهنی.
+l39-plan	plan	پلان	پلان is the everyday Duhok/Zakho pronunciation and spelling; پیلان is more literary.
+l40-gate	gate	دەرگەھە	orthography fix: ھ instead of ه in دەرگەھە; dictionary entry دەرگەھی سەرەکی means 'main gate', too specific.
+l40-flight	flight	گەشت	فرین is the verb 'to fly'; a flight (plane trip) in everyday Bahdini is گەشت.
+l40-manager	manager	بریکار	بریکار is the authentic everyday Bahdini word for manager/boss; ڕێڤەبەر is formal.
+l2-your	Your	یێ تە	single gloss per format rules; masculine default یێ تە (feminine is یا تە).
+l12-have-dinner	have dinner	نانێ ئێڤارێ خوارن	orthography fix: ئێڤار with ڤ, not ئێوار.
+l19-can-i-help-you	Can I help you?	ئەز دشێم ھاریکاریا تە بکەم؟	orthography fix: ھاریکاریا with ھ.
+l25-glasses	glasses	عەینەک	بەرگێرن looks like a verb form (بەرگرتن); عەینەک is the everyday Bahdini word for eyeglasses.
+l26-driving	driving	ترۆمبێل دان (نوکە ئەز ترۆمبێلێ ددەم)	دان alone means 'to give'; include the object ترۆمبێل so the gloss means driving.
+l27-have-dinner	have dinner	نانێ ئێڤارێ خوارن	orthography fix: ئێڤار with ڤ, not ئێوار.
+l27-go-to-bed	go to bed	چوونە خەڤێ	single gloss per format rules; چوونە خەڤێ is the natural everyday phrase.
+l28-had	had	ھەبوون (من ھەبوو)	orthography fix: ھەبوون / ھەبوو with ھ.
+l29-when-did-you-come	when did you come?	تو کیچان هات؟	Bahdini word for 'when' is کیچان (kîçan), not کیشان.
+l29-fun	fun	خۆش	single gloss; خۆش ('it was fun' = خۆش بوو) is the natural everyday word; یارمەتیبەخش means 'helpful', not fun.

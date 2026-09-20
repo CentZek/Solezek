@@ -142,7 +142,7 @@ export const level09: Level = {
     {
       id: 'l9-banana',
       en: 'banana',
-      ckb: 'موس',
+      ckb: 'مۆز',
       pos: 'noun',
       emoji: '🍌',
       phonetic: '/bəˈnɑːnə/',

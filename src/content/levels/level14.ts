@@ -90,7 +90,7 @@ export const level14: Level = {
     {
       id: 'l14-road',
       en: 'Road',
-      ckb: 'ڕێ',
+      ckb: 'ڕێکا',
       pos: 'noun',
       emoji: '🛤️',
       phonetic: '/roʊd/',

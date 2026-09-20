@@ -51,7 +51,7 @@ export const level33: Level = {
     {
       id: 'l33-turn',
       en: 'turn',
-      ckb: 'زڤرین (ئەز دزڤرم)',
+      ckb: 'زڤرین',
       pos: 'verb',
       emoji: '🔄',
       phonetic: '/tɜːrn/',

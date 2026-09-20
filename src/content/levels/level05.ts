@@ -38,7 +38,7 @@ export const level05: Level = {
     {
       id: 'l5-brother',
       en: 'Brother',
-      ckb: 'برای',
+      ckb: 'برا',
       pos: 'noun',
       emoji: '🧍‍♂️',
       phonetic: '/ˈbrʌðər/',

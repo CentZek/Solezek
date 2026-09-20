@@ -38,7 +38,7 @@ export const level16: Level = {
     {
       id: 'l16-warm',
       en: 'Warm',
-      ckb: 'هین',
+      ckb: 'گەرم',
       pos: 'adjective',
       emoji: '🌤️',
       phonetic: '/wɔːrm/',
@@ -51,7 +51,7 @@ export const level16: Level = {
     {
       id: 'l16-cool',
       en: 'Cool',
-      ckb: 'هینین',
+      ckb: 'خنک',
       pos: 'adjective',
       emoji: '🍃',
       phonetic: '/kuːl/',

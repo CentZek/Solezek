@@ -25,7 +25,7 @@ export const level26: Level = {
     {
       id: 'l26-drinking',
       en: 'drinking',
-      ckb: 'ڤەخوارن (نوکە ئەز دڤەخوم)',
+      ckb: 'ڤەخوارن',
       pos: 'verb',
       emoji: '🥤',
       phonetic: '/ˈdrɪŋkɪŋ/',
@@ -38,7 +38,7 @@ export const level26: Level = {
     {
       id: 'l26-walking',
       en: 'walking',
-      ckb: 'پیاسەکرن (نوکە ئەز پیاسە دکەم)',
+      ckb: 'پیاسەکرن',
       pos: 'verb',
       emoji: '🚶',
       phonetic: '/ˈwɔːkɪŋ/',
@@ -77,7 +77,7 @@ export const level26: Level = {
     {
       id: 'l26-sleeping',
       en: 'sleeping',
-      ckb: 'نووستن (نوکە ئەز دنووم)',
+      ckb: 'نووستن',
       pos: 'verb',
       emoji: '😴',
       phonetic: '/ˈsliːpɪŋ/',
@@ -90,7 +90,7 @@ export const level26: Level = {
     {
       id: 'l26-reading',
       en: 'reading',
-      ckb: 'خویندن (نوکە ئەز دخوینم)',
+      ckb: 'خویندن',
       pos: 'verb',
       emoji: '📖',
       phonetic: '/ˈriːdɪŋ/',
@@ -103,7 +103,7 @@ export const level26: Level = {
     {
       id: 'l26-writing',
       en: 'writing',
-      ckb: 'نڤیسین (نوکە ئەز دنڤیسم)',
+      ckb: 'نڤیسین',
       pos: 'verb',
       emoji: '✍️',
       phonetic: '/ˈraɪtɪŋ/',
@@ -129,7 +129,7 @@ export const level26: Level = {
     {
       id: 'l26-watching',
       en: 'watching',
-      ckb: 'تەماشەکرن (نوکە ئەز تەماشە دکەم)',
+      ckb: 'تەماشەکرن',
       pos: 'verb',
       emoji: '📺',
       phonetic: '/ˈwɒtʃɪŋ/',
@@ -142,7 +142,7 @@ export const level26: Level = {
     {
       id: 'l26-driving',
       en: 'driving',
-      ckb: 'دان (نوکە ئەز ترۆمبێلێ ددەم)',
+      ckb: 'ترۆمبێل دان (نوکە ئەز ترۆمبێلێ ددەم)',
       pos: 'verb',
       emoji: '🚗',
       phonetic: '/ˈdraɪvɪŋ/',

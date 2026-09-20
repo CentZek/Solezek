@@ -129,7 +129,7 @@ export const level11: Level = {
     {
       id: 'l11-evening',
       en: 'evening',
-      ckb: 'ئێوارە',
+      ckb: 'ئێڤار',
       pos: 'noun',
       emoji: '🌆',
       phonetic: '/ˈiːvnɪŋ/',

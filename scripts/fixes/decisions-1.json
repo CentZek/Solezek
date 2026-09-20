@@ -1,0 +1,674 @@
+[
+ {
+  "id": "l1-hello",
+  "en": "Hello",
+  "ckb": "سلاڤ",
+  "changed": false,
+  "reason": "سلاڤ is the everyday Badînî greeting; چەوانی is Sorani"
+ },
+ {
+  "id": "l1-hi",
+  "en": "Hi",
+  "ckb": "هێلو",
+  "changed": false,
+  "reason": "informal hi, common in Duhok speech; چەوانی is Sorani"
+ },
+ {
+  "id": "l1-good-morning",
+  "en": "Good morning",
+  "ckb": "بەیانیت بخێر",
+  "changed": true,
+  "reason": "what Zakho/Duhok speakers actually say; current spelling بەیانیا خێر is malformed"
+ },
+ {
+  "id": "l1-good-afternoon",
+  "en": "Good afternoon",
+  "ckb": "ڕۆژباش",
+  "changed": false,
+  "reason": "ڕۆژباش is the standard daytime greeting; dictionary ئێڤاری باش means good evening"
+ },
+ {
+  "id": "l1-goodbye",
+  "en": "Goodbye",
+  "ckb": "ب خاترێ تە",
+  "changed": false,
+  "reason": "correct Badînî farewell; dictionary بخاتر اتە is misspelled"
+ },
+ {
+  "id": "l1-bye",
+  "en": "Bye",
+  "ckb": "بایی",
+  "changed": false,
+  "reason": "natural casual bye"
+ },
+ {
+  "id": "l1-no",
+  "en": "No",
+  "ckb": "نەخێر",
+  "changed": false,
+  "reason": "نەخێر is the natural Badînî no"
+ },
+ {
+  "id": "l1-please",
+  "en": "Please",
+  "ckb": "هیڤیدارم",
+  "changed": false,
+  "reason": "everyday Duhok please; بێ زەحمەت also fine but current is authentic"
+ },
+ {
+  "id": "l1-sorry",
+  "en": "Sorry",
+  "ckb": "ببورە",
+  "changed": false,
+  "reason": "ببورە is the natural Badînî sorry/excuse me"
+ },
+ {
+  "id": "l2-my",
+  "en": "My",
+  "ckb": "یێ من / یا من",
+  "changed": false,
+  "reason": "both gendered izafe forms needed; dictionary من means I/me"
+ },
+ {
+  "id": "l2-name",
+  "en": "Name",
+  "ckb": "ناڤ",
+  "changed": false,
+  "reason": "noun requested; dictionary gives the verb phrase to name"
+ },
+ {
+  "id": "l2-friend",
+  "en": "Friend",
+  "ckb": "هەڤاڵ",
+  "changed": false,
+  "reason": "هەڤاڵ is the everyday Badînî word; دۆست is Sorani-leaning"
+ },
+ {
+  "id": "l2-boy",
+  "en": "Boy",
+  "ckb": "کور",
+  "changed": false,
+  "reason": "کور is correct; dictionary entry is nonsense"
+ },
+ {
+  "id": "l2-girl",
+  "en": "Girl",
+  "ckb": "کێچ",
+  "changed": false,
+  "reason": "Badînî کێچ; dictionary uses Sorani كچ"
+ },
+ {
+  "id": "l2-man",
+  "en": "Man",
+  "ckb": "زەلام",
+  "changed": false,
+  "reason": "زەلام is the everyday Badînî word for man"
+ },
+ {
+  "id": "l2-woman",
+  "en": "Woman",
+  "ckb": "ژن",
+  "changed": false,
+  "reason": "ژن is the natural Badînî word"
+ },
+ {
+  "id": "l3-seven",
+  "en": "Seven",
+  "ckb": "حەڤت",
+  "changed": false,
+  "reason": "Badînî حەڤت; same word as dictionary, established spelling"
+ },
+ {
+  "id": "l3-thirteen",
+  "en": "Thirteen",
+  "ckb": "سیازدە",
+  "changed": false,
+  "reason": "Badînî سیازدە is correct"
+ },
+ {
+  "id": "l3-seventeen",
+  "en": "Seventeen",
+  "ckb": "حەڤدە",
+  "changed": false,
+  "reason": "same word as dictionary; keep consistent with حەڤت"
+ },
+ {
+  "id": "l3-eighteen",
+  "en": "Eighteen",
+  "ckb": "هەژدە",
+  "changed": false,
+  "reason": "Badînî هەژدە is correct"
+ },
+ {
+  "id": "l4-red",
+  "en": "Red",
+  "ckb": "سور",
+  "changed": false,
+  "reason": "سور is standard Kurmanji/Badînî spelling"
+ },
+ {
+  "id": "l4-green",
+  "en": "Green",
+  "ckb": "کێسک",
+  "changed": false,
+  "reason": "کێسک is the everyday Badînî word; سەوز is Sorani"
+ },
+ {
+  "id": "l4-yellow",
+  "en": "Yellow",
+  "ckb": "زەرد",
+  "changed": false,
+  "reason": "زەرد correct; dictionary زەر is a truncated form"
+ },
+ {
+  "id": "l4-orange",
+  "en": "Orange",
+  "ckb": "پیرتەقالی",
+  "changed": false,
+  "reason": "acceptable Badînî color term; dictionary is Sorani purtekal with wrong orthography"
+ },
+ {
+  "id": "l4-pink",
+  "en": "Pink",
+  "ckb": "پەمەیی",
+  "changed": false,
+  "reason": "پەمەیی is the common word; dictionary glosses are unrelated"
+ },
+ {
+  "id": "l4-brown",
+  "en": "Brown",
+  "ckb": "قاوەیی",
+  "changed": false,
+  "reason": "قاوەیی is the Badînî spelling"
+ },
+ {
+  "id": "l4-purple",
+  "en": "Purple",
+  "ckb": "مۆر",
+  "changed": false,
+  "reason": "مۆر is correct Badînî spelling"
+ },
+ {
+  "id": "l5-father",
+  "en": "Father",
+  "ckb": "باڤ",
+  "changed": false,
+  "reason": "باڤ is the authentic Badînî citation form"
+ },
+ {
+  "id": "l5-brother",
+  "en": "Brother",
+  "ckb": "برا",
+  "changed": true,
+  "reason": "citation form is برا; برای is the izafe/oblique form"
+ },
+ {
+  "id": "l5-daughter",
+  "en": "Daughter",
+  "ckb": "کێچ",
+  "changed": false,
+  "reason": "کێچ covers daughter in everyday Badînî"
+ },
+ {
+  "id": "l5-child",
+  "en": "Child",
+  "ckb": "زارۆ",
+  "changed": false,
+  "reason": "زارۆ is the authentic Badînî word"
+ },
+ {
+  "id": "l5-baby",
+  "en": "Baby",
+  "ckb": "گیانوێ",
+  "changed": false,
+  "reason": "گیانوێ is the Badînan word for a baby"
+ },
+ {
+  "id": "l5-grandmother",
+  "en": "Grandmother",
+  "ckb": "دابیرە",
+  "changed": false,
+  "reason": "دابیرە is the authentic Badînan word (Zakho/Duhok)"
+ },
+ {
+  "id": "l6-big",
+  "en": "Big",
+  "ckb": "مەزن",
+  "changed": false,
+  "reason": "مەزن correct; dictionary بوش unrelated"
+ },
+ {
+  "id": "l6-small",
+  "en": "Small",
+  "ckb": "بچووک",
+  "changed": false,
+  "reason": "بچووک is the proper Badînî spelling"
+ },
+ {
+  "id": "l6-tall",
+  "en": "Tall",
+  "ckb": "بلند",
+  "changed": false,
+  "reason": "بلند is the everyday word for tall"
+ },
+ {
+  "id": "l6-short",
+  "en": "Short",
+  "ckb": "کن",
+  "changed": false,
+  "reason": "کن is the Badînan adjective for short (height)"
+ },
+ {
+  "id": "l6-young",
+  "en": "Young",
+  "ckb": "گەنج",
+  "changed": false,
+  "reason": "گەنج correct"
+ },
+ {
+  "id": "l6-old",
+  "en": "Old",
+  "ckb": "پیر",
+  "changed": false,
+  "reason": "پیر is the everyday Badînî word for old (person)"
+ },
+ {
+  "id": "l6-happy",
+  "en": "Happy",
+  "ckb": "دڵخۆش",
+  "changed": false,
+  "reason": "دڵخۆش is the everyday Badînî word"
+ },
+ {
+  "id": "l6-sad",
+  "en": "Sad",
+  "ckb": "خەمگین",
+  "changed": false,
+  "reason": "خەمگین is the natural single-word gloss"
+ },
+ {
+  "id": "l6-fast",
+  "en": "Fast",
+  "ckb": "خێرا",
+  "changed": false,
+  "reason": "خێرا is the everyday Badînî word; سەریع is Arabic loan less used"
+ },
+ {
+  "id": "l6-slow",
+  "en": "Slow",
+  "ckb": "حەوان",
+  "changed": true,
+  "reason": "adjective gloss; current ب حەوانێ is the adverb slowly; حەوان is everyday Badînan"
+ },
+ {
+  "id": "l7-house",
+  "en": "House",
+  "ckb": "مال",
+  "changed": false,
+  "reason": "مال is the natural Badînî word"
+ },
+ {
+  "id": "l7-room",
+  "en": "Room",
+  "ckb": "ژوور",
+  "changed": false,
+  "reason": "Badînî ژوور with û; dictionary ژور is Kurmanji-proper spelling"
+ },
+ {
+  "id": "l7-bedroom",
+  "en": "Bedroom",
+  "ckb": "ژوورا نڤستنێ",
+  "changed": false,
+  "reason": "correct Badînî phrase and orthography"
+ },
+ {
+  "id": "l7-bathroom",
+  "en": "Bathroom",
+  "ckb": "حەمام",
+  "changed": false,
+  "reason": "حەمام is the universal everyday word"
+ },
+ {
+  "id": "l7-door",
+  "en": "Door",
+  "ckb": "دەرگا",
+  "changed": false,
+  "reason": "دەرگا is the authentic Badînî word"
+ },
+ {
+  "id": "l7-window",
+  "en": "Window",
+  "ckb": "پەنجەرە",
+  "changed": false,
+  "reason": "پەنجەرە is correct"
+ },
+ {
+  "id": "l7-chair",
+  "en": "Chair",
+  "ckb": "کورسی",
+  "changed": false,
+  "reason": "کورسی is the everyday word"
+ },
+ {
+  "id": "l7-bed",
+  "en": "Bed",
+  "ckb": "جێگای نڤستنێ",
+  "changed": true,
+  "reason": "جێگا alone means place; جێگای نڤستنێ unambiguously means bed"
+ },
+ {
+  "id": "l8-phone",
+  "en": "Phone",
+  "ckb": "موبایل",
+  "changed": false,
+  "reason": "موبایل is what Duhok speakers say in daily life"
+ },
+ {
+  "id": "l8-computer",
+  "en": "Computer",
+  "ckb": "کۆمپیوتەر",
+  "changed": false,
+  "reason": "same word as dictionary with correct Kurdish ک"
+ },
+ {
+  "id": "l8-bag",
+  "en": "Bag",
+  "ckb": "چەنتە",
+  "changed": false,
+  "reason": "چەنتە is the Badînî word"
+ },
+ {
+  "id": "l8-cup",
+  "en": "Cup",
+  "ckb": "کوپ",
+  "changed": false,
+  "reason": "کوپ is the everyday word for cup; پەرداغ is a water glass"
+ },
+ {
+  "id": "l8-bottle",
+  "en": "Bottle",
+  "ckb": "شیشە",
+  "changed": false,
+  "reason": "شیشە standard and widely used; شووشە also heard, keep current"
+ },
+ {
+  "id": "l8-chair",
+  "en": "Chair",
+  "ckb": "کورسی",
+  "changed": false,
+  "reason": "کورسی is the everyday word"
+ },
+ {
+  "id": "l8-car",
+  "en": "Car",
+  "ckb": "ترۆمبێل",
+  "changed": false,
+  "reason": "ترۆمبێل is the everyday Badînî word"
+ },
+ {
+  "id": "l9-tea",
+  "en": "tea",
+  "ckb": "چای",
+  "changed": false,
+  "reason": "correct; current uses proper ی"
+ },
+ {
+  "id": "l9-banana",
+  "en": "banana",
+  "ckb": "مۆز",
+  "changed": true,
+  "reason": "Badînan pronunciation is môz (مۆز); موس is Kurmanji-proper form"
+ },
+ {
+  "id": "l9-orange",
+  "en": "orange",
+  "ckb": "پرتەقال",
+  "changed": false,
+  "reason": "پرتەقال is the Badînî word; dictionary is Sorani purtekal"
+ },
+ {
+  "id": "l10-cheap",
+  "en": "cheap",
+  "ckb": "هەرزان",
+  "changed": false,
+  "reason": "هەرزان is the Badînî spelling/pronunciation"
+ },
+ {
+  "id": "l10-buy",
+  "en": "buy",
+  "ckb": "کڕین (ئەز دکڕم)",
+  "changed": false,
+  "reason": "correct infinitive + first person, matches app verb convention"
+ },
+ {
+  "id": "l10-want",
+  "en": "want",
+  "ckb": "ڤێستن (ئەز دڤێم)",
+  "changed": false,
+  "reason": "correct Badînî infinitive ڤێستن"
+ },
+ {
+  "id": "l10-have",
+  "en": "have",
+  "ckb": "هەبوون (مە هەیە)",
+  "changed": false,
+  "reason": "correct Badînî possessive construction"
+ },
+ {
+  "id": "l10-dollar",
+  "en": "dollar",
+  "ckb": "دۆلار",
+  "changed": false,
+  "reason": "دۆلار with ۆ is correct spelling"
+ },
+ {
+  "id": "l10-how-much",
+  "en": "how much",
+  "ckb": "ب چەند؟",
+  "changed": false,
+  "reason": "everyday market phrase; چقاس is Sorani"
+ },
+ {
+  "id": "l10-fifty",
+  "en": "fifty",
+  "ckb": "پێنجی",
+  "changed": false,
+  "reason": "same word as dictionary with proper ی"
+ },
+ {
+  "id": "l11-monday",
+  "en": "Monday",
+  "ckb": "دووشەم",
+  "changed": false,
+  "reason": "دووشەم is the Badînî form"
+ },
+ {
+  "id": "l11-tuesday",
+  "en": "Tuesday",
+  "ckb": "سێشەم",
+  "changed": false,
+  "reason": "everyday Badînî form"
+ },
+ {
+  "id": "l11-wednesday",
+  "en": "Wednesday",
+  "ckb": "چارشەم",
+  "changed": false,
+  "reason": "everyday Badînî form"
+ },
+ {
+  "id": "l11-thursday",
+  "en": "Thursday",
+  "ckb": "پێنجشەم",
+  "changed": false,
+  "reason": "everyday Badînî form"
+ },
+ {
+  "id": "l11-saturday",
+  "en": "Saturday",
+  "ckb": "شەممی",
+  "changed": false,
+  "reason": "شەممی is the Badînî Saturday"
+ },
+ {
+  "id": "l11-sunday",
+  "en": "Sunday",
+  "ckb": "یەکشەم",
+  "changed": false,
+  "reason": "everyday Badînî form"
+ },
+ {
+  "id": "l11-afternoon",
+  "en": "afternoon",
+  "ckb": "پاش نیڤڕۆ",
+  "changed": false,
+  "reason": "correct Badînî phrase; spacing is acceptable"
+ },
+ {
+  "id": "l11-evening",
+  "en": "evening",
+  "ckb": "ئێڤار",
+  "changed": true,
+  "reason": "ئێڤار is the authentic Badînan form (ئێڤارێ = this evening)"
+ },
+ {
+  "id": "l11-tomorrow",
+  "en": "tomorrow",
+  "ckb": "سەبەی",
+  "changed": false,
+  "reason": "سەبەی is the everyday Badînî word"
+ },
+ {
+  "id": "l11-yesterday",
+  "en": "yesterday",
+  "ckb": "دوهی",
+  "changed": false,
+  "reason": "دوهی is the Badînî form"
+ },
+ {
+  "id": "l12-wake-up",
+  "en": "wake up",
+  "ckb": "هشیار بوون (ئەز هشیار دبم)",
+  "changed": true,
+  "reason": "هشیار بوون is the intransitive wake up; current هێش بوون is malformed"
+ },
+ {
+  "id": "l12-get-up",
+  "en": "get up",
+  "ckb": "سەر پێ هەستان (ئەز سەر پێ دھێسم)",
+  "changed": true,
+  "reason": "natural Badînî get up/stand up; current سەرەکە هەستان is malformed"
+ },
+ {
+  "id": "l12-eat",
+  "en": "eat",
+  "ckb": "خوارن (ئەز دخوم)",
+  "changed": false,
+  "reason": "correct Badînî infinitive خوارن"
+ },
+ {
+  "id": "l12-drink",
+  "en": "drink",
+  "ckb": "ڤەخوارن (ئەز دڤێخوم)",
+  "changed": false,
+  "reason": "correct Badînî infinitive"
+ },
+ {
+  "id": "l12-go",
+  "en": "go",
+  "ckb": "چوون (ئەز دچم)",
+  "changed": false,
+  "reason": "correct; dictionary entry is a different verb"
+ },
+ {
+  "id": "l12-come",
+  "en": "come",
+  "ckb": "هاتن (ئەز دێم)",
+  "changed": false,
+  "reason": "correct infinitive; dictionary gives imperative/present forms"
+ },
+ {
+  "id": "l12-work",
+  "en": "work",
+  "ckb": "کارکرن (ئەز کار دکەم)",
+  "changed": false,
+  "reason": "everyday Badînî to work"
+ },
+ {
+  "id": "l12-study",
+  "en": "study",
+  "ckb": "خواندن (ئەز دخوینم)",
+  "changed": false,
+  "reason": "correct; خویندن/خواندن covers read and study"
+ },
+ {
+  "id": "l12-sleep",
+  "en": "sleep",
+  "ckb": "خەڤتن (ئەز ڕادکەڤم)",
+  "changed": false,
+  "reason": "خەڤتن is the Badînî infinitive"
+ },
+ {
+  "id": "l12-go-home",
+  "en": "go home",
+  "ckb": "چوونە مال (ئەز دچمە مال)",
+  "changed": false,
+  "reason": "natural Badînî phrase; ھەرە مال is imperative only"
+ },
+ {
+  "id": "l13-home",
+  "en": "Home",
+  "ckb": "ماڵ",
+  "changed": false,
+  "reason": "ماڵ is the natural Badînî word"
+ },
+ {
+  "id": "l13-work",
+  "en": "Work",
+  "ckb": "کار",
+  "changed": false,
+  "reason": "کار is the everyday Badînî noun"
+ },
+ {
+  "id": "l13-airport",
+  "en": "Airport",
+  "ckb": "فڕۆکەخانە",
+  "changed": false,
+  "reason": "same word as dictionary with proper ک and ڕ"
+ },
+ {
+  "id": "l13-restaurant",
+  "en": "Restaurant",
+  "ckb": "خوارنگەه",
+  "changed": true,
+  "reason": "خوارنگەه is the Badînî term; خواردنگەه is Sorani-influenced spelling"
+ },
+ {
+  "id": "l13-hospital",
+  "en": "Hospital",
+  "ckb": "نەخۆشخانە",
+  "changed": false,
+  "reason": "نەخۆشخانە is the everyday word"
+ },
+ {
+  "id": "l13-hotel",
+  "en": "Hotel",
+  "ckb": "هۆتێل",
+  "changed": false,
+  "reason": "هۆتێل correct spelling"
+ },
+ {
+  "id": "l13-park",
+  "en": "Park",
+  "ckb": "پارک",
+  "changed": false,
+  "reason": "پارک is what people say"
+ },
+ {
+  "id": "l14-car",
+  "en": "Car",
+  "ckb": "ترۆمبێل",
+  "changed": false,
+  "reason": "ترۆمبێل is the everyday Badînî word"
+ }
+]

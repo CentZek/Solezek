@@ -1,0 +1,674 @@
+[
+ {
+  "id": "l24-inside",
+  "en": "inside",
+  "ckb": "ژ ناڤە",
+  "changed": true,
+  "reason": "Fixed double-ڤ typo in current; dictionary form is Sorani-style"
+ },
+ {
+  "id": "l24-outside",
+  "en": "outside",
+  "ckb": "ل دەرڤە",
+  "changed": false,
+  "reason": "Current is the natural everyday Bahdini form"
+ },
+ {
+  "id": "l25-young",
+  "en": "young",
+  "ckb": "گەنج",
+  "changed": false,
+  "reason": "Current correct; dictionary entry means something else (sharp/spicy)"
+ },
+ {
+  "id": "l25-old",
+  "en": "old",
+  "ckb": "پیر",
+  "changed": false,
+  "reason": "Current is the common word for old (people); kept to avoid churn"
+ },
+ {
+  "id": "l25-beautiful",
+  "en": "beautiful",
+  "ckb": "جوان",
+  "changed": false,
+  "reason": "Current correct; dictionary gloss is not a real form"
+ },
+ {
+  "id": "l25-handsome",
+  "en": "handsome",
+  "ckb": "جوان",
+  "changed": false,
+  "reason": "جوان is the everyday word for a good-looking man; dictionary لاو means boy"
+ },
+ {
+  "id": "l25-hair",
+  "en": "hair",
+  "ckb": "پڕچ",
+  "changed": false,
+  "reason": "Current is the authentic Bahdini word; dictionary is a multi-gloss entry"
+ },
+ {
+  "id": "l25-face",
+  "en": "face",
+  "ckb": "دەموچاڤ",
+  "changed": false,
+  "reason": "Current is the standard Bahdini word for face; dictionary دێم means cheek/chin"
+ },
+ {
+  "id": "l25-beard",
+  "en": "beard",
+  "ckb": "ڕێش",
+  "changed": false,
+  "reason": "Current correct; dictionary entry is a fragment"
+ },
+ {
+  "id": "l25-shirt",
+  "en": "shirt",
+  "ckb": "کراس",
+  "changed": false,
+  "reason": "Current is the everyday Bahdini word; dictionary entry is unrelated"
+ },
+ {
+  "id": "l26-drinking",
+  "en": "drinking",
+  "ckb": "ڤەخوارن",
+  "changed": true,
+  "reason": "Dropped parenthetical example; kept correct infinitive spelling (dictionary misspells it)"
+ },
+ {
+  "id": "l26-walking",
+  "en": "walking",
+  "ckb": "پیاسەکرن",
+  "changed": true,
+  "reason": "Dropped parenthetical example; kept natural infinitive"
+ },
+ {
+  "id": "l26-sleeping",
+  "en": "sleeping",
+  "ckb": "نووستن",
+  "changed": true,
+  "reason": "Dropped parenthetical example; infinitive only"
+ },
+ {
+  "id": "l26-reading",
+  "en": "reading",
+  "ckb": "خویندن",
+  "changed": true,
+  "reason": "Dropped parenthetical example; infinitive only (خاندن is the formal variant)"
+ },
+ {
+  "id": "l26-writing",
+  "en": "writing",
+  "ckb": "نڤیسین",
+  "changed": true,
+  "reason": "Dropped parenthetical example; infinitive only"
+ },
+ {
+  "id": "l26-watching",
+  "en": "watching",
+  "ckb": "تەماشەکرن",
+  "changed": true,
+  "reason": "Dropped parenthetical example; infinitive only"
+ },
+ {
+  "id": "l27-wake-up",
+  "en": "wake up",
+  "ckb": "هێش بوون",
+  "changed": false,
+  "reason": "هێش بوون is authentic Bahdini for waking up; dictionary uses Arabic-kaf spelling and multi-gloss"
+ },
+ {
+  "id": "l27-get-dressed",
+  "en": "get dressed",
+  "ckb": "جل ل بەر خۆ کرن",
+  "changed": true,
+  "reason": "Completed the natural phrase (current was missing بەر); dictionary entry is a fragment"
+ },
+ {
+  "id": "l27-take-a-shower",
+  "en": "take a shower",
+  "ckb": "حەمامێ کرن",
+  "changed": true,
+  "reason": "Single gloss instead of slash alternatives; everyday Bahdini phrase"
+ },
+ {
+  "id": "l27-go-home",
+  "en": "go home",
+  "ckb": "چوونە مال",
+  "changed": false,
+  "reason": "Current is the infinitive phrase; dictionary is the imperative form"
+ },
+ {
+  "id": "l28-yesterday",
+  "en": "yesterday",
+  "ckb": "دوھێ",
+  "changed": false,
+  "reason": "Current correct; dictionary is a multi-gloss entry"
+ },
+ {
+  "id": "l28-last-night",
+  "en": "last night",
+  "ckb": "دوھێ شەڤ",
+  "changed": false,
+  "reason": "Current is the natural everyday phrase; dictionary entry is odd"
+ },
+ {
+  "id": "l28-last-week",
+  "en": "last week",
+  "ckb": "هەفتیا ڕابووری",
+  "changed": true,
+  "reason": "Normalized initial ر to ڕ per consistent orthography; dictionary uses Arabic kaf"
+ },
+ {
+  "id": "l28-went",
+  "en": "went",
+  "ckb": "چوو",
+  "changed": true,
+  "reason": "Simple past citation form for the past-tense item, no parenthetical"
+ },
+ {
+  "id": "l28-saw",
+  "en": "saw",
+  "ckb": "دیت",
+  "changed": true,
+  "reason": "Simple past citation form; dictionary entry is junk (tree-cut fragment)"
+ },
+ {
+  "id": "l29-busy",
+  "en": "busy",
+  "ckb": "مژوول",
+  "changed": false,
+  "reason": "مژوول is the authentic Bahdini word"
+ },
+ {
+  "id": "l29-tired",
+  "en": "tired",
+  "ckb": "ماندوو",
+  "changed": true,
+  "reason": "ماندوو is the everyday Duhok word and matches l37-tired; وەسقی is uncommon"
+ },
+ {
+  "id": "l30-tomorrow",
+  "en": "tomorrow",
+  "ckb": "سبەی",
+  "changed": false,
+  "reason": "Current is the common Bahdini form; dictionary is a Sorani-style multi-gloss"
+ },
+ {
+  "id": "l30-plan",
+  "en": "plan",
+  "ckb": "پیلان",
+  "changed": false,
+  "reason": "Both spellings heard; kept current to avoid churn"
+ },
+ {
+  "id": "l30-visit",
+  "en": "visit",
+  "ckb": "سەرەدانکرن",
+  "changed": false,
+  "reason": "Current is the proper verb; dictionary is a noun (shrine visit)"
+ },
+ {
+  "id": "l30-travel",
+  "en": "travel",
+  "ckb": "گەشتکرن",
+  "changed": false,
+  "reason": "Current is authentic Bahdini; dictionary entry uses ZWNJ"
+ },
+ {
+  "id": "l30-buy",
+  "en": "buy",
+  "ckb": "کڕین",
+  "changed": true,
+  "reason": "Fixed missing ڕ in current; matches dictionary lemma"
+ },
+ {
+  "id": "l30-meet",
+  "en": "meet",
+  "ckb": "هەڤدیتن",
+  "changed": true,
+  "reason": "Single gloss instead of slash alternatives; هەڤدیتن is the natural word for meeting"
+ },
+ {
+  "id": "l30-work",
+  "en": "work",
+  "ckb": "کارکرن",
+  "changed": false,
+  "reason": "Current is the everyday verb; dictionary is a noun with ZWNJ"
+ },
+ {
+  "id": "l30-go",
+  "en": "go",
+  "ckb": "چوون",
+  "changed": false,
+  "reason": "Current correct; dictionary entry means to-leave-somewhere"
+ },
+ {
+  "id": "l31-size",
+  "en": "size",
+  "ckb": "پێڤ",
+  "changed": false,
+  "reason": "پێڤ is the authentic Bahdini word for size (esp. clothes/shoes)"
+ },
+ {
+  "id": "l31-small",
+  "en": "small",
+  "ckb": "بچوک",
+  "changed": false,
+  "reason": "Current correct; dictionary uses Arabic kaf"
+ },
+ {
+  "id": "l31-medium",
+  "en": "medium",
+  "ckb": "مامناڤەندی",
+  "changed": false,
+  "reason": "Current is the standard word for medium; dictionary means something else"
+ },
+ {
+  "id": "l31-large",
+  "en": "large",
+  "ckb": "مەزن",
+  "changed": false,
+  "reason": "Current is the everyday word; dictionary means extensive"
+ },
+ {
+  "id": "l31-cash",
+  "en": "cash",
+  "ckb": "نەخت",
+  "changed": false,
+  "reason": "نەخت is the common word for cash; kept current"
+ },
+ {
+  "id": "l31-card",
+  "en": "card",
+  "ckb": "کارت",
+  "changed": false,
+  "reason": "Current correct; dictionary is a multi-gloss entry"
+ },
+ {
+  "id": "l31-change",
+  "en": "change",
+  "ckb": "باقی",
+  "changed": true,
+  "reason": "باقی is the everyday Duhok word for money change; پاشماوە means leftovers, dictionary is a verb"
+ },
+ {
+  "id": "l31-buy",
+  "en": "buy",
+  "ckb": "کڕین",
+  "changed": true,
+  "reason": "Dropped parenthetical example; infinitive only"
+ },
+ {
+  "id": "l31-sell",
+  "en": "sell",
+  "ckb": "فرۆتن",
+  "changed": true,
+  "reason": "Dropped parenthetical example; infinitive only"
+ },
+ {
+  "id": "l31-try",
+  "en": "try",
+  "ckb": "پێڤاندن",
+  "changed": true,
+  "reason": "Dropped parenthetical example; پێڤاندن is the Bahdini verb for trying on clothes"
+ },
+ {
+  "id": "l31-fit",
+  "en": "fit",
+  "ckb": "ب قەپۆڵ هاتن",
+  "changed": false,
+  "reason": "Current is the natural phrase for clothes fitting; dictionary means to be useful"
+ },
+ {
+  "id": "l32-order",
+  "en": "order",
+  "ckb": "داخازی کرن",
+  "changed": true,
+  "reason": "Natural verb phrase for ordering in a restaurant; current was noun only"
+ },
+ {
+  "id": "l32-waiter",
+  "en": "waiter",
+  "ckb": "گارسۆن",
+  "changed": false,
+  "reason": "Current is the everyday loanword; dictionary is a spelling variant"
+ },
+ {
+  "id": "l32-tea",
+  "en": "tea",
+  "ckb": "چای",
+  "changed": false,
+  "reason": "Current correct; dictionary uses Arabic ى"
+ },
+ {
+  "id": "l32-bill",
+  "en": "bill",
+  "ckb": "حیساب",
+  "changed": false,
+  "reason": "حیساب is the everyday word for the restaurant bill"
+ },
+ {
+  "id": "l32-breakfast",
+  "en": "breakfast",
+  "ckb": "تاشتی",
+  "changed": false,
+  "reason": "Both تاشتی and تێشت used in Bahdini; kept current to avoid churn"
+ },
+ {
+  "id": "l32-lunch",
+  "en": "lunch",
+  "ckb": "نانی نیڤرۆ",
+  "changed": false,
+  "reason": "Current is the clear term for lunch; dictionary فراڤین means dinner"
+ },
+ {
+  "id": "l33-right",
+  "en": "right",
+  "ckb": "ڕاست",
+  "changed": false,
+  "reason": "Current is the direction word; dictionary means correct"
+ },
+ {
+  "id": "l33-straight",
+  "en": "straight",
+  "ckb": "ڕاستی",
+  "changed": false,
+  "reason": "Current correct; dictionary entry is a junk fragment"
+ },
+ {
+  "id": "l33-turn",
+  "en": "turn",
+  "ckb": "زڤرین",
+  "changed": true,
+  "reason": "Dropped parenthetical example; زڤرین is the natural Bahdini verb for turning"
+ },
+ {
+  "id": "l33-corner",
+  "en": "corner",
+  "ckb": "گۆشە",
+  "changed": false,
+  "reason": "Current is the standard everyday word"
+ },
+ {
+  "id": "l33-near",
+  "en": "near",
+  "ckb": "نێزک",
+  "changed": false,
+  "reason": "Current correct; dictionary uses Arabic kaf"
+ },
+ {
+  "id": "l33-next-to",
+  "en": "next to",
+  "ckb": "ل تەنیشت",
+  "changed": false,
+  "reason": "Current is the natural phrase; dictionary entry has placeholder tilde"
+ },
+ {
+  "id": "l33-opposite",
+  "en": "opposite",
+  "ckb": "بەرامبەر",
+  "changed": false,
+  "reason": "Current is the everyday word"
+ },
+ {
+  "id": "l33-behind",
+  "en": "behind",
+  "ckb": "ل پاش",
+  "changed": false,
+  "reason": "Current is the natural prepositional phrase"
+ },
+ {
+  "id": "l34-airport",
+  "en": "airport",
+  "ckb": "فڕۆکەخانە",
+  "changed": false,
+  "reason": "Current correct; dictionary uses Arabic kaf"
+ },
+ {
+  "id": "l34-ticket",
+  "en": "ticket",
+  "ckb": "بلیت",
+  "changed": false,
+  "reason": "بلیت is the everyday Duhok word"
+ },
+ {
+  "id": "l34-passport",
+  "en": "passport",
+  "ckb": "پاسپۆرت",
+  "changed": false,
+  "reason": "Current correct; dictionary is a multi-gloss entry"
+ },
+ {
+  "id": "l34-gate",
+  "en": "gate",
+  "ckb": "گەیت",
+  "changed": false,
+  "reason": "Current is the word used at airports in Duhok; dictionary means main door"
+ },
+ {
+  "id": "l34-departure",
+  "en": "departure",
+  "ckb": "ڕۆیشتن",
+  "changed": false,
+  "reason": "Current is the natural noun for departure"
+ },
+ {
+  "id": "l34-arrival",
+  "en": "arrival",
+  "ckb": "گەهیشتن",
+  "changed": false,
+  "reason": "Current is the natural noun for arrival"
+ },
+ {
+  "id": "l34-plane",
+  "en": "plane",
+  "ckb": "فڕۆکە",
+  "changed": false,
+  "reason": "Current correct; dictionary uses Arabic kaf"
+ },
+ {
+  "id": "l35-hotel",
+  "en": "hotel",
+  "ckb": "ئۆتێل",
+  "changed": false,
+  "reason": "Current is the standard loanword spelling"
+ },
+ {
+  "id": "l35-room",
+  "en": "room",
+  "ckb": "ژوور",
+  "changed": false,
+  "reason": "Current is the authentic Bahdini word"
+ },
+ {
+  "id": "l35-reservation",
+  "en": "reservation",
+  "ckb": "حەجز",
+  "changed": true,
+  "reason": "حەجز is the everyday Duhok loanword (fixed spelling from حیجز); dictionary is a past participle"
+ },
+ {
+  "id": "l35-reception",
+  "en": "reception",
+  "ckb": "پێشوازی",
+  "changed": false,
+  "reason": "Current is the natural word for hotel reception; dictionary means office"
+ },
+ {
+  "id": "l35-passport",
+  "en": "passport",
+  "ckb": "پاسپۆرت",
+  "changed": false,
+  "reason": "Current correct; dictionary is a multi-gloss entry"
+ },
+ {
+  "id": "l35-breakfast",
+  "en": "breakfast",
+  "ckb": "تاشتی",
+  "changed": false,
+  "reason": "Consistent with l32-breakfast; kept current"
+ },
+ {
+  "id": "l36-work",
+  "en": "work",
+  "ckb": "کارکرن",
+  "changed": false,
+  "reason": "Consistent with l30-work; current is the everyday verb"
+ },
+ {
+  "id": "l36-job",
+  "en": "job",
+  "ckb": "کار",
+  "changed": false,
+  "reason": "Current correct and consistent with کارکرن; dictionary is a multi-gloss entry"
+ },
+ {
+  "id": "l36-manager",
+  "en": "manager",
+  "ckb": "ڕێڤەبەر",
+  "changed": false,
+  "reason": "Current is the correct word; dictionary بریکار means deputy"
+ },
+ {
+  "id": "l36-employee",
+  "en": "employee",
+  "ckb": "کارمەند",
+  "changed": false,
+  "reason": "Current correct; dictionary entry is unrelated"
+ },
+ {
+  "id": "l36-customer",
+  "en": "customer",
+  "ckb": "کڕیار",
+  "changed": false,
+  "reason": "Current is the standard Bahdini word; dictionary entry is junk"
+ },
+ {
+  "id": "l36-office",
+  "en": "office",
+  "ckb": "ئۆفیس",
+  "changed": false,
+  "reason": "Current is the everyday word; دائیرە means government office"
+ },
+ {
+  "id": "l36-meeting",
+  "en": "meeting",
+  "ckb": "کۆمبوون",
+  "changed": false,
+  "reason": "Current correct; dictionary uses Arabic kaf"
+ },
+ {
+  "id": "l36-break",
+  "en": "break",
+  "ckb": "بێهنڤەدان",
+  "changed": false,
+  "reason": "Current means a rest break at work; dictionary means to-break-something"
+ },
+ {
+  "id": "l36-computer",
+  "en": "computer",
+  "ckb": "کۆمپیوتەر",
+  "changed": false,
+  "reason": "Current correct; dictionary uses Arabic kaf"
+ },
+ {
+  "id": "l36-busy",
+  "en": "busy",
+  "ckb": "مەشغوول",
+  "changed": false,
+  "reason": "Common everyday loanword; kept current"
+ },
+ {
+  "id": "l36-start",
+  "en": "start",
+  "ckb": "دەستپێکرن",
+  "changed": false,
+  "reason": "Current correct compound verb"
+ },
+ {
+  "id": "l36-finish",
+  "en": "finish",
+  "ckb": "تمامکرن",
+  "changed": false,
+  "reason": "Current is the everyday verb; dictionary entry is a junk fragment"
+ },
+ {
+  "id": "l37-stomach",
+  "en": "stomach",
+  "ckb": "زک",
+  "changed": false,
+  "reason": "زک is the authentic everyday Bahdini word (زکم دئێشیت); dictionary مایدە is Sorani"
+ },
+ {
+  "id": "l37-back",
+  "en": "back",
+  "ckb": "پشت",
+  "changed": true,
+  "reason": "Body part noun is پشت; پشتی is the oblique/adverbial form"
+ },
+ {
+  "id": "l37-foot",
+  "en": "foot",
+  "ckb": "لنگ",
+  "changed": false,
+  "reason": "لنگ is the authentic Bahdini word for leg/foot"
+ },
+ {
+  "id": "l37-pain",
+  "en": "pain",
+  "ckb": "ئێش",
+  "changed": false,
+  "reason": "Current is the standard word for pain; dictionary means suffering"
+ },
+ {
+  "id": "l37-tired",
+  "en": "tired",
+  "ckb": "ماندوو",
+  "changed": false,
+  "reason": "Current is the everyday Duhok word; kept consistent with l29-tired"
+ },
+ {
+  "id": "l37-cold",
+  "en": "cold",
+  "ckb": "سەرما",
+  "changed": false,
+  "reason": "سەرما is the Bahdini word for a cold (illness); dictionary is the adjective cold"
+ },
+ {
+  "id": "l37-fever",
+  "en": "fever",
+  "ckb": "تا",
+  "changed": true,
+  "reason": "تا is the correct Bahdini word (تا لێ هەیە); current had a spurious final ب"
+ },
+ {
+  "id": "l37-doctor",
+  "en": "doctor",
+  "ckb": "دکتور",
+  "changed": false,
+  "reason": "Current is the everyday word; kept to avoid churn"
+ },
+ {
+  "id": "l37-hospital",
+  "en": "hospital",
+  "ckb": "نەخۆشخانە",
+  "changed": false,
+  "reason": "Current is the standard word; dictionary entry is not standard"
+ },
+ {
+  "id": "l37-medicine",
+  "en": "medicine",
+  "ckb": "دەرمان",
+  "changed": false,
+  "reason": "Current is the everyday word; dictionary ئیلاج means treatment/cure"
+ },
+ {
+  "id": "l38-cheap",
+  "en": "cheap",
+  "ckb": "هەرزان",
+  "changed": false,
+  "reason": "Both هەرزان and ئەرزان are used; kept current to avoid churn"
+ }
+]

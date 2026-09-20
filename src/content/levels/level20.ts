@@ -155,7 +155,7 @@ export const level20: Level = {
     {
       id: 'l20-taxi',
       en: 'taxi',
-      ckb: 'تاکسی',
+      ckb: 'تەکسی',
       pos: 'noun',
       emoji: '🚕',
       phonetic: '/ˈtæksi/',
@@ -181,7 +181,7 @@ export const level20: Level = {
     {
       id: 'l20-sunny',
       en: 'sunny',
-      ckb: 'ب هەتاو',
+      ckb: 'ھەتاوی',
       pos: 'adjective',
       emoji: '☀️',
       phonetic: '/ˈsʌni/',

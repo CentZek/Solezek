@@ -12,7 +12,7 @@ export const level19: Level = {
     {
       id: 'l19-meet',
       en: 'meet',
-      ckb: 'دیتن / هەڤدیتن',
+      ckb: 'ھەڤدیتن',
       pos: 'verb',
       emoji: '🤝',
       phonetic: '/miːt/',
@@ -129,7 +129,7 @@ export const level19: Level = {
     {
       id: 'l19-can-i-help-you',
       en: 'Can I help you?',
-      ckb: 'ئەز دشێم هاریکاریا تە بکەم؟',
+      ckb: 'ئەز دشێم ھاریکاریا تە بکەم؟',
       pos: 'phrase',
       emoji: '💁',
       phonetic: '/kæn aɪ help juː/',

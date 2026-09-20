@@ -129,7 +129,7 @@ export const level07: Level = {
     {
       id: 'l7-bed',
       en: 'Bed',
-      ckb: 'جێگا',
+      ckb: 'جێگای نڤستنێ',
       pos: 'noun',
       emoji: '🛏️',
       phonetic: '/bed/',

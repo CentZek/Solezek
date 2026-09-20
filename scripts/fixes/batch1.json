@@ -1,0 +1,578 @@
+[
+ {
+  "id": "l1-hello",
+  "en": "Hello",
+  "current": "سلاڤ",
+  "dictionary": "چەوانی"
+ },
+ {
+  "id": "l1-hi",
+  "en": "Hi",
+  "current": "هێلو",
+  "dictionary": "چەوانی"
+ },
+ {
+  "id": "l1-good-morning",
+  "en": "Good morning",
+  "current": "بەیانیا خێر",
+  "dictionary": "سپێدە باش"
+ },
+ {
+  "id": "l1-good-afternoon",
+  "en": "Good afternoon",
+  "current": "ڕۆژباش",
+  "dictionary": "ئێڤاری باش"
+ },
+ {
+  "id": "l1-goodbye",
+  "en": "Goodbye",
+  "current": "ب خاترێ تە",
+  "dictionary": "بخاتر اتە"
+ },
+ {
+  "id": "l1-bye",
+  "en": "Bye",
+  "current": "بایی",
+  "dictionary": "بخاتراتە"
+ },
+ {
+  "id": "l1-no",
+  "en": "No",
+  "current": "نەخێر",
+  "dictionary": "نە"
+ },
+ {
+  "id": "l1-please",
+  "en": "Please",
+  "current": "هیڤیدارم",
+  "dictionary": "بێ زەحمەت"
+ },
+ {
+  "id": "l1-sorry",
+  "en": "Sorry",
+  "current": "ببورە",
+  "dictionary": "ئه‌فوو کرن"
+ },
+ {
+  "id": "l2-my",
+  "en": "My",
+  "current": "یێ من / یا من",
+  "dictionary": "من"
+ },
+ {
+  "id": "l2-name",
+  "en": "Name",
+  "current": "ناڤ",
+  "dictionary": "ب ناڤ کرن"
+ },
+ {
+  "id": "l2-friend",
+  "en": "Friend",
+  "current": "هەڤاڵ",
+  "dictionary": "دۆست"
+ },
+ {
+  "id": "l2-boy",
+  "en": "Boy",
+  "current": "کور",
+  "dictionary": "به‌ژن و بال"
+ },
+ {
+  "id": "l2-girl",
+  "en": "Girl",
+  "current": "کێچ",
+  "dictionary": "كچ"
+ },
+ {
+  "id": "l2-man",
+  "en": "Man",
+  "current": "زەلام",
+  "dictionary": "زەلام ، مرۆڤەک"
+ },
+ {
+  "id": "l2-woman",
+  "en": "Woman",
+  "current": "ژن",
+  "dictionary": "ئافره‌ت"
+ },
+ {
+  "id": "l3-seven",
+  "en": "Seven",
+  "current": "حەڤت",
+  "dictionary": "حەفت"
+ },
+ {
+  "id": "l3-thirteen",
+  "en": "Thirteen",
+  "current": "سیازدە",
+  "dictionary": "سێزدە"
+ },
+ {
+  "id": "l3-seventeen",
+  "en": "Seventeen",
+  "current": "حەڤدە",
+  "dictionary": "ھەڤدە"
+ },
+ {
+  "id": "l3-eighteen",
+  "en": "Eighteen",
+  "current": "هەژدە",
+  "dictionary": "ھژدە"
+ },
+ {
+  "id": "l4-red",
+  "en": "Red",
+  "current": "سور",
+  "dictionary": "سۆر"
+ },
+ {
+  "id": "l4-green",
+  "en": "Green",
+  "current": "کێسک",
+  "dictionary": "سه‌وز"
+ },
+ {
+  "id": "l4-yellow",
+  "en": "Yellow",
+  "current": "زەرد",
+  "dictionary": "زەر"
+ },
+ {
+  "id": "l4-orange",
+  "en": "Orange",
+  "current": "پیرتەقالی",
+  "dictionary": "پوریتەكال"
+ },
+ {
+  "id": "l4-pink",
+  "en": "Pink",
+  "current": "پەمەیی",
+  "dictionary": "پیڤازی ، جومبە‌دی"
+ },
+ {
+  "id": "l4-brown",
+  "en": "Brown",
+  "current": "قاوەیی",
+  "dictionary": "قەھووایی"
+ },
+ {
+  "id": "l4-purple",
+  "en": "Purple",
+  "current": "مۆر",
+  "dictionary": "مور"
+ },
+ {
+  "id": "l5-father",
+  "en": "Father",
+  "current": "باڤ",
+  "dictionary": "باب"
+ },
+ {
+  "id": "l5-brother",
+  "en": "Brother",
+  "current": "برای",
+  "dictionary": "برا"
+ },
+ {
+  "id": "l5-daughter",
+  "en": "Daughter",
+  "current": "کێچ",
+  "dictionary": "كچ"
+ },
+ {
+  "id": "l5-child",
+  "en": "Child",
+  "current": "زارۆ",
+  "dictionary": "بچیك"
+ },
+ {
+  "id": "l5-baby",
+  "en": "Baby",
+  "current": "گیانوێ",
+  "dictionary": "بیبی"
+ },
+ {
+  "id": "l5-grandmother",
+  "en": "Grandmother",
+  "current": "دابیرە",
+  "dictionary": "داپیر"
+ },
+ {
+  "id": "l6-big",
+  "en": "Big",
+  "current": "مەزن",
+  "dictionary": "بوش"
+ },
+ {
+  "id": "l6-small",
+  "en": "Small",
+  "current": "بچووک",
+  "dictionary": "بچیك"
+ },
+ {
+  "id": "l6-tall",
+  "en": "Tall",
+  "current": "بلند",
+  "dictionary": "درێژ"
+ },
+ {
+  "id": "l6-short",
+  "en": "Short",
+  "current": "کن",
+  "dictionary": "كورت"
+ },
+ {
+  "id": "l6-young",
+  "en": "Young",
+  "current": "گەنج",
+  "dictionary": "تێژک"
+ },
+ {
+  "id": "l6-old",
+  "en": "Old",
+  "current": "پیر",
+  "dictionary": "كەڤن"
+ },
+ {
+  "id": "l6-happy",
+  "en": "Happy",
+  "current": "دڵخۆش",
+  "dictionary": "به‌ختیار، به‌خته‌وه‌ر"
+ },
+ {
+  "id": "l6-sad",
+  "en": "Sad",
+  "current": "خەمگین",
+  "dictionary": "ب خەم ، مەلیل ، قەھری"
+ },
+ {
+  "id": "l6-fast",
+  "en": "Fast",
+  "current": "خێرا",
+  "dictionary": "سەریع"
+ },
+ {
+  "id": "l6-slow",
+  "en": "Slow",
+  "current": "ب حەوانێ",
+  "dictionary": "ھێدی"
+ },
+ {
+  "id": "l7-house",
+  "en": "House",
+  "current": "مال",
+  "dictionary": "خانی"
+ },
+ {
+  "id": "l7-room",
+  "en": "Room",
+  "current": "ژوور",
+  "dictionary": "ژور"
+ },
+ {
+  "id": "l7-bedroom",
+  "en": "Bedroom",
+  "current": "ژوورا نڤستنێ",
+  "dictionary": "ژورا نڤستنى"
+ },
+ {
+  "id": "l7-bathroom",
+  "en": "Bathroom",
+  "current": "حەمام",
+  "dictionary": "ژورا سەرشیشتنێ"
+ },
+ {
+  "id": "l7-door",
+  "en": "Door",
+  "current": "دەرگا",
+  "dictionary": "ده‌ری"
+ },
+ {
+  "id": "l7-window",
+  "en": "Window",
+  "current": "پەنجەرە",
+  "dictionary": "پەنجەر"
+ },
+ {
+  "id": "l7-chair",
+  "en": "Chair",
+  "current": "کورسی",
+  "dictionary": "كورسیك"
+ },
+ {
+  "id": "l7-bed",
+  "en": "Bed",
+  "current": "جێگا",
+  "dictionary": "جى نفستن"
+ },
+ {
+  "id": "l8-phone",
+  "en": "Phone",
+  "current": "موبایل",
+  "dictionary": "ته‌له‌فۆن"
+ },
+ {
+  "id": "l8-computer",
+  "en": "Computer",
+  "current": "کۆمپیوتەر",
+  "dictionary": "كومپیوتەر"
+ },
+ {
+  "id": "l8-bag",
+  "en": "Bag",
+  "current": "چەنتە",
+  "dictionary": "چانتە"
+ },
+ {
+  "id": "l8-cup",
+  "en": "Cup",
+  "current": "کوپ",
+  "dictionary": "پەرداغ"
+ },
+ {
+  "id": "l8-bottle",
+  "en": "Bottle",
+  "current": "شیشە",
+  "dictionary": "شووشە"
+ },
+ {
+  "id": "l8-chair",
+  "en": "Chair",
+  "current": "کورسی",
+  "dictionary": "كورسیك"
+ },
+ {
+  "id": "l8-car",
+  "en": "Car",
+  "current": "ترۆمبێل",
+  "dictionary": "ترومبێل ، سەیارە"
+ },
+ {
+  "id": "l9-tea",
+  "en": "tea",
+  "current": "چای",
+  "dictionary": "چاى"
+ },
+ {
+  "id": "l9-banana",
+  "en": "banana",
+  "current": "موس",
+  "dictionary": "موز"
+ },
+ {
+  "id": "l9-orange",
+  "en": "orange",
+  "current": "پرتەقال",
+  "dictionary": "پوریتەكال"
+ },
+ {
+  "id": "l10-cheap",
+  "en": "cheap",
+  "current": "هەرزان",
+  "dictionary": "ئەرزان"
+ },
+ {
+  "id": "l10-buy",
+  "en": "buy",
+  "current": "کڕین (ئەز دکڕم)",
+  "dictionary": "کڕین، دكریت"
+ },
+ {
+  "id": "l10-want",
+  "en": "want",
+  "current": "ڤێستن (ئەز دڤێم)",
+  "dictionary": "دڤێت"
+ },
+ {
+  "id": "l10-have",
+  "en": "have",
+  "current": "هەبوون (مە هەیە)",
+  "dictionary": "یێ ھەى"
+ },
+ {
+  "id": "l10-dollar",
+  "en": "dollar",
+  "current": "دۆلار",
+  "dictionary": "دولار"
+ },
+ {
+  "id": "l10-how-much",
+  "en": "how much",
+  "current": "ب چەند؟",
+  "dictionary": "چقاس"
+ },
+ {
+  "id": "l10-fifty",
+  "en": "fifty",
+  "current": "پێنجی",
+  "dictionary": "پێنجى"
+ },
+ {
+  "id": "l11-monday",
+  "en": "Monday",
+  "current": "دووشەم",
+  "dictionary": "دوشەمبێ"
+ },
+ {
+  "id": "l11-tuesday",
+  "en": "Tuesday",
+  "current": "سێشەم",
+  "dictionary": "سێشەمبێ"
+ },
+ {
+  "id": "l11-wednesday",
+  "en": "Wednesday",
+  "current": "چارشەم",
+  "dictionary": "چارشەمبێ"
+ },
+ {
+  "id": "l11-thursday",
+  "en": "Thursday",
+  "current": "پێنجشەم",
+  "dictionary": "پێنجشەمبێ"
+ },
+ {
+  "id": "l11-saturday",
+  "en": "Saturday",
+  "current": "شەممی",
+  "dictionary": "شەمبێ"
+ },
+ {
+  "id": "l11-sunday",
+  "en": "Sunday",
+  "current": "یەکشەم",
+  "dictionary": "ئێكشەمبێ"
+ },
+ {
+  "id": "l11-afternoon",
+  "en": "afternoon",
+  "current": "پاش نیڤڕۆ",
+  "dictionary": "پاشنیڤرۆ"
+ },
+ {
+  "id": "l11-evening",
+  "en": "evening",
+  "current": "ئێوارە",
+  "dictionary": "ئێڤار"
+ },
+ {
+  "id": "l11-tomorrow",
+  "en": "tomorrow",
+  "current": "سەبەی",
+  "dictionary": "سوباھی ، سوبه‌"
+ },
+ {
+  "id": "l11-yesterday",
+  "en": "yesterday",
+  "current": "دوهی",
+  "dictionary": "دوهی، دوھ"
+ },
+ {
+  "id": "l12-wake-up",
+  "en": "wake up",
+  "current": "هێش بوون",
+  "dictionary": "هشیار کرن ، هشیار بین"
+ },
+ {
+  "id": "l12-get-up",
+  "en": "get up",
+  "current": "سەرەکە هەستان",
+  "dictionary": "رابین ، رابە"
+ },
+ {
+  "id": "l12-eat",
+  "en": "eat",
+  "current": "خوارن (ئەز دخوم)",
+  "dictionary": "خارن"
+ },
+ {
+  "id": "l12-drink",
+  "en": "drink",
+  "current": "ڤەخوارن (ئەز دڤێخوم)",
+  "dictionary": "ڤه‌خوارن"
+ },
+ {
+  "id": "l12-go",
+  "en": "go",
+  "current": "چوون (ئەز دچم)",
+  "dictionary": "ب جھ هێلان"
+ },
+ {
+  "id": "l12-come",
+  "en": "come",
+  "current": "هاتن (ئەز دێم)",
+  "dictionary": "وەرە ، دھێت"
+ },
+ {
+  "id": "l12-work",
+  "en": "work",
+  "current": "کارکرن (ئەز کار دکەم)",
+  "dictionary": "ئه‌مه‌ل"
+ },
+ {
+  "id": "l12-study",
+  "en": "study",
+  "current": "خواندن (ئەز دخوینم)",
+  "dictionary": "خوا‌ندن"
+ },
+ {
+  "id": "l12-sleep",
+  "en": "sleep",
+  "current": "خەڤتن (ئەز ڕادکەڤم)",
+  "dictionary": "خەو"
+ },
+ {
+  "id": "l12-go-home",
+  "en": "go home",
+  "current": "چوونە مال (ئەز دچمە مال)",
+  "dictionary": "ھەرە مال"
+ },
+ {
+  "id": "l13-home",
+  "en": "Home",
+  "current": "ماڵ",
+  "dictionary": "خانی"
+ },
+ {
+  "id": "l13-work",
+  "en": "Work",
+  "current": "کار",
+  "dictionary": "ئه‌مه‌ل"
+ },
+ {
+  "id": "l13-airport",
+  "en": "Airport",
+  "current": "فڕۆکەخانە",
+  "dictionary": "فروكەخانە"
+ },
+ {
+  "id": "l13-restaurant",
+  "en": "Restaurant",
+  "current": "خواردنگەه",
+  "dictionary": "خوارنگەھ"
+ },
+ {
+  "id": "l13-hospital",
+  "en": "Hospital",
+  "current": "نەخۆشخانە",
+  "dictionary": "خاستە"
+ },
+ {
+  "id": "l13-hotel",
+  "en": "Hotel",
+  "current": "هۆتێل",
+  "dictionary": "ئوتیل"
+ },
+ {
+  "id": "l13-park",
+  "en": "Park",
+  "current": "پارک",
+  "dictionary": "باخچێ گشتى"
+ },
+ {
+  "id": "l14-car",
+  "en": "Car",
+  "current": "ترۆمبێل",
+  "dictionary": "ترومبێل ، سەیارە"
+ }
+]

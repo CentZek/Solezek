@@ -51,7 +51,7 @@ export const level02: Level = {
     {
       id: 'l2-your',
       en: 'Your',
-      ckb: 'یێ تە / یا تە',
+      ckb: 'یێ تە',
       pos: 'other',
       emoji: '🫴',
       phonetic: '/jɔː/',

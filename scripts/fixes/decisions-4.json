@@ -1,0 +1,660 @@
+[
+ {
+  "id": "l38-fast",
+  "en": "fast",
+  "ckb": "خێرا",
+  "changed": false,
+  "reason": "خێرا is the everyday Bahdini word for fast; dictionary سەریع is a literary Arabic loan."
+ },
+ {
+  "id": "l38-slow",
+  "en": "slow",
+  "ckb": "ھێدی",
+  "changed": true,
+  "reason": "current حەوا means 'air/weather', a clear error; ھێدی is the everyday Bahdini word for slow."
+ },
+ {
+  "id": "l38-easy",
+  "en": "easy",
+  "ckb": "ئاسان",
+  "changed": false,
+  "reason": "ئاسان is common and natural in Bahdini; no need to churn to ساناھی."
+ },
+ {
+  "id": "l38-difficult",
+  "en": "difficult",
+  "ckb": "ئەستەم",
+  "changed": false,
+  "reason": "ئەستەم is very authentic everyday Bahdini for difficult; زەحمەت is also used but current is fine."
+ },
+ {
+  "id": "l39-hungry",
+  "en": "hungry",
+  "ckb": "برسی",
+  "changed": true,
+  "reason": "standard Bahdini form/spelling is برسی (birsî), matching dictionary."
+ },
+ {
+  "id": "l39-thirsty",
+  "en": "thirsty",
+  "ckb": "تێھنی",
+  "changed": true,
+  "reason": "dictionary form is correct; fixed orthography with ھ (تێھنی) instead of missing ê-vowel in تهنی."
+ },
+ {
+  "id": "l39-delicious",
+  "en": "delicious",
+  "ckb": "تامەز",
+  "changed": false,
+  "reason": "تامەز is the authentic everyday Bahdini word for delicious; شرینە means 'sweet'."
+ },
+ {
+  "id": "l39-recommend",
+  "en": "recommend",
+  "ckb": "پێشنیارکرن",
+  "changed": false,
+  "reason": "current is the correct infinitive; dictionary entry پەسەند دكەت is a conjugated verb form, unusable."
+ },
+ {
+  "id": "l39-together",
+  "en": "together",
+  "ckb": "پێکڤە",
+  "changed": false,
+  "reason": "پێکڤە is the natural everyday word; keep."
+ },
+ {
+  "id": "l39-free",
+  "en": "free",
+  "ckb": "بەربەست",
+  "changed": false,
+  "reason": "بەربەست is the everyday Bahdini word for free/available (free time); ئازاد means free as in liberty."
+ },
+ {
+  "id": "l39-plan",
+  "en": "plan",
+  "ckb": "پلان",
+  "changed": true,
+  "reason": "پلان is the everyday Duhok/Zakho pronunciation and spelling; پیلان is more literary."
+ },
+ {
+  "id": "l39-invite",
+  "en": "invite",
+  "ckb": "داوەتکرن",
+  "changed": false,
+  "reason": "داوەتکرن is the common infinitive; dictionary ڤەدخوینت is a conjugated form, not an infinitive."
+ },
+ {
+  "id": "l39-usually",
+  "en": "usually",
+  "ckb": "ب گشتی",
+  "changed": false,
+  "reason": "both ب گشتی and ب پرانی are used; keep current to avoid churn."
+ },
+ {
+  "id": "l40-passport",
+  "en": "passport",
+  "ckb": "پاسپۆرت",
+  "changed": false,
+  "reason": "پاسپۆرت is the standard everyday word; keep."
+ },
+ {
+  "id": "l40-gate",
+  "en": "gate",
+  "ckb": "دەرگەھە",
+  "changed": true,
+  "reason": "orthography fix: ھ instead of ه in دەرگەھە; dictionary entry دەرگەھی سەرەکی means 'main gate', too specific."
+ },
+ {
+  "id": "l40-flight",
+  "en": "flight",
+  "ckb": "گەشت",
+  "changed": true,
+  "reason": "فرین is the verb 'to fly'; a flight (plane trip) in everyday Bahdini is گەشت."
+ },
+ {
+  "id": "l40-taxi",
+  "en": "taxi",
+  "ckb": "تاکسی",
+  "changed": false,
+  "reason": "تاکسی is the everyday word; keep."
+ },
+ {
+  "id": "l40-reservation",
+  "en": "reservation",
+  "ckb": "حەجز",
+  "changed": false,
+  "reason": "حەجز (کرن) is the common everyday word in Duhok for a reservation; keep."
+ },
+ {
+  "id": "l40-room",
+  "en": "room",
+  "ckb": "ژوور",
+  "changed": false,
+  "reason": "ژوور is the correct Bahdini form; dictionary ژور is a variant spelling."
+ },
+ {
+  "id": "l40-bill",
+  "en": "bill",
+  "ckb": "حیساب",
+  "changed": false,
+  "reason": "حیساب is the everyday restaurant-bill word; پسۆلە means receipt/slip."
+ },
+ {
+  "id": "l40-turn-left",
+  "en": "turn left",
+  "ckb": "بزڤرێ چەپێ",
+  "changed": false,
+  "reason": "current is the natural direction phrase; dictionary دەستێ چەپێ means 'the left hand/side', not a command."
+ },
+ {
+  "id": "l40-go-straight",
+  "en": "go straight",
+  "ckb": "ڕاست بچە",
+  "changed": false,
+  "reason": "both ڕاست بچە and ڕاست ھەڕە are fine imperatives; keep current."
+ },
+ {
+  "id": "l40-manager",
+  "en": "manager",
+  "ckb": "بریکار",
+  "changed": true,
+  "reason": "بریکار is the authentic everyday Bahdini word for manager/boss; ڕێڤەبەر is formal."
+ },
+ {
+  "id": "l40-tomorrow",
+  "en": "tomorrow",
+  "ckb": "سبەی",
+  "changed": false,
+  "reason": "سبەی is the correct everyday Bahdini word; dictionary variants سوباھی/سوبه‌ are not standard."
+ },
+ {
+  "id": "l1-good-evening",
+  "en": "Good evening",
+  "ckb": "ئێڤارباش",
+  "changed": false,
+  "reason": "correct everyday greeting; keep."
+ },
+ {
+  "id": "l1-thank-you",
+  "en": "Thank you",
+  "ckb": "سوپاس",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l2-your",
+  "en": "Your",
+  "ckb": "یێ تە",
+  "changed": true,
+  "reason": "single gloss per format rules; masculine default یێ تە (feminine is یا تە)."
+ },
+ {
+  "id": "l7-tv",
+  "en": "TV",
+  "ckb": "تەلەفزیۆن",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l10-hundred",
+  "en": "hundred",
+  "ckb": "سەد",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l12-have-breakfast",
+  "en": "have breakfast",
+  "ckb": "ژار خوارن (ئەز ژارێ دخوم)",
+  "changed": false,
+  "reason": "ژار خوارن is the authentic Bahdini phrase for having breakfast; keep."
+ },
+ {
+  "id": "l12-have-lunch",
+  "en": "have lunch",
+  "ckb": "نانێ نیڤڕۆ خوارن",
+  "changed": false,
+  "reason": "correct natural phrase; keep."
+ },
+ {
+  "id": "l12-have-dinner",
+  "en": "have dinner",
+  "ckb": "نانێ ئێڤارێ خوارن",
+  "changed": true,
+  "reason": "orthography fix: ئێڤار with ڤ, not ئێوار."
+ },
+ {
+  "id": "l16-rainy",
+  "en": "Rainy",
+  "ckb": "بارانی",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l18-what-is-this",
+  "en": "What is this?",
+  "ckb": "ئەڤ چیە؟",
+  "changed": false,
+  "reason": "correct everyday phrase; keep."
+ },
+ {
+  "id": "l18-where-is",
+  "en": "Where is...?",
+  "ckb": "... ل کویە؟",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l18-how-many",
+  "en": "How many?",
+  "ckb": "چەند؟",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l18-what-is-your-name",
+  "en": "What is your name?",
+  "ckb": "ناڤێ تە چیە؟",
+  "changed": false,
+  "reason": "correct everyday phrase; keep."
+ },
+ {
+  "id": "l19-can-i-help-you",
+  "en": "Can I help you?",
+  "ckb": "ئەز دشێم ھاریکاریا تە بکەم؟",
+  "changed": true,
+  "reason": "orthography fix: ھاریکاریا with ھ."
+ },
+ {
+  "id": "l19-here-you-are",
+  "en": "Here you are.",
+  "ckb": "ئەڤە بۆ تە",
+  "changed": false,
+  "reason": "natural everyday phrase; keep."
+ },
+ {
+  "id": "l19-thank-you-very-much",
+  "en": "Thank you very much.",
+  "ckb": "زۆر سوپاس",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l21-sport",
+  "en": "sport",
+  "ckb": "وەرزش",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l24-in-front-of",
+  "en": "in front of",
+  "ckb": "ل بەردەم",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l25-glasses",
+  "en": "glasses",
+  "ckb": "عەینەک",
+  "changed": true,
+  "reason": "بەرگێرن looks like a verb form (بەرگرتن); عەینەک is the everyday Bahdini word for eyeglasses."
+ },
+ {
+  "id": "l26-eating",
+  "en": "eating",
+  "ckb": "خوارن (نوکە ئەز دخوم)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l26-running",
+  "en": "running",
+  "ckb": "ڕیکن (نوکە ئەز دڕیکم)",
+  "changed": false,
+  "reason": "ڕیکن is the Bahdini verb for running; keep."
+ },
+ {
+  "id": "l26-working",
+  "en": "working",
+  "ckb": "کارکرن (نوکە ئەز کار دکەم)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l26-talking",
+  "en": "talking",
+  "ckb": "ئاخفتن (نوکە ئەز دئاخڤم)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l26-driving",
+  "en": "driving",
+  "ckb": "ترۆمبێل دان (نوکە ئەز ترۆمبێلێ ددەم)",
+  "changed": true,
+  "reason": "دان alone means 'to give'; include the object ترۆمبێل so the gloss means driving."
+ },
+ {
+  "id": "l26-cooking",
+  "en": "cooking",
+  "ckb": "پژان (نوکە ئەز دپژم)",
+  "changed": false,
+  "reason": "پژان is the Bahdini verb used for cooking food; keep."
+ },
+ {
+  "id": "l27-brush-my-teeth",
+  "en": "brush my teeth",
+  "ckb": "ددەنێن خو پاککرن",
+  "changed": false,
+  "reason": "natural Bahdini phrasing; keep."
+ },
+ {
+  "id": "l27-have-breakfast",
+  "en": "have breakfast",
+  "ckb": "ژار خوارن",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l27-leave-home",
+  "en": "leave home",
+  "ckb": "ژ مال دەرکەڤن",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l27-arrive-at-work",
+  "en": "arrive at work",
+  "ckb": "گەهشتنە کار",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l27-have-lunch",
+  "en": "have lunch",
+  "ckb": "نانێ نیڤڕۆ خوارن",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l27-finish-work",
+  "en": "finish work",
+  "ckb": "کار تمامکرن",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l27-have-dinner",
+  "en": "have dinner",
+  "ckb": "نانێ ئێڤارێ خوارن",
+  "changed": true,
+  "reason": "orthography fix: ئێڤار with ڤ, not ئێوار."
+ },
+ {
+  "id": "l27-go-to-bed",
+  "en": "go to bed",
+  "ckb": "چوونە خەڤێ",
+  "changed": true,
+  "reason": "single gloss per format rules; چوونە خەڤێ is the natural everyday phrase."
+ },
+ {
+  "id": "l28-had",
+  "en": "had",
+  "ckb": "ھەبوون (من ھەبوو)",
+  "changed": true,
+  "reason": "orthography fix: ھەبوون / ھەبوو with ھ."
+ },
+ {
+  "id": "l28-ate",
+  "en": "ate",
+  "ckb": "خوارن (من خوار)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l28-drank",
+  "en": "drank",
+  "ckb": "ڤەخوارن (من ڤەخوار)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l28-bought",
+  "en": "bought",
+  "ckb": "کرین (من کری)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l28-worked",
+  "en": "worked",
+  "ckb": "کارکرن (من کار کر)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l28-played",
+  "en": "played",
+  "ckb": "لێستن (من لێست)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l28-watched",
+  "en": "watched",
+  "ckb": "تەماشەکرن (من تەماشە کر)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l28-visited",
+  "en": "visited",
+  "ckb": "سەرەدانکرن (من سەرەدان کر)",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l29-did-you",
+  "en": "did you...?",
+  "ckb": "تو ... کری؟",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l29-what-did-you-do",
+  "en": "what did you do?",
+  "ckb": "تو چ کر؟",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l29-where-did-you-go",
+  "en": "where did you go?",
+  "ckb": "تو کو چوو؟",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l29-when-did-you-come",
+  "en": "when did you come?",
+  "ckb": "تو کیچان هات؟",
+  "changed": true,
+  "reason": "Bahdini word for 'when' is کیچان (kîçan), not کیشان."
+ },
+ {
+  "id": "l29-who-did-you-see",
+  "en": "who did you see?",
+  "ckb": "تو کێ دیت؟",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l29-yes-i-did",
+  "en": "Yes, I did.",
+  "ckb": "بەلێ، من کر.",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l29-how-was-it",
+  "en": "how was it?",
+  "ckb": "چەوا بوو؟",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l29-fun",
+  "en": "fun",
+  "ckb": "خۆش",
+  "changed": true,
+  "reason": "single gloss; خۆش ('it was fun' = خۆش بوو) is the natural everyday word; یارمەتیبەخش means 'helpful', not fun."
+ },
+ {
+  "id": "l30-tonight",
+  "en": "tonight",
+  "ckb": "ئەڤشەڤ",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l32-menu",
+  "en": "menu",
+  "ckb": "مینیو",
+  "changed": false,
+  "reason": "everyday loanword used in Duhok restaurants; keep."
+ },
+ {
+  "id": "l33-traffic-light",
+  "en": "traffic light",
+  "ckb": "چرایا ترفیکێ",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l34-boarding-pass",
+  "en": "boarding pass",
+  "ckb": "کارتا سواربوونێ",
+  "changed": false,
+  "reason": "correct natural phrase; keep."
+ },
+ {
+  "id": "l34-baggage",
+  "en": "baggage",
+  "ckb": "جانتاو بار",
+  "changed": false,
+  "reason": "natural everyday phrase for luggage; keep."
+ },
+ {
+  "id": "l34-suitcase",
+  "en": "suitcase",
+  "ckb": "جانتا",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l35-single-room",
+  "en": "single room",
+  "ckb": "ژوورا ئێک کەسی",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l35-double-room",
+  "en": "double room",
+  "ckb": "ژوورا دوو کەسان",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l35-check-in",
+  "en": "check-in",
+  "ckb": "چێک ئین",
+  "changed": false,
+  "reason": "standard loanword as used at hotels; keep."
+ },
+ {
+  "id": "l35-check-out",
+  "en": "check-out",
+  "ckb": "چێک ئاوت",
+  "changed": false,
+  "reason": "standard loanword as used at hotels; keep."
+ },
+ {
+  "id": "l36-email",
+  "en": "email",
+  "ckb": "ئیمەیڵ",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l37-sick",
+  "en": "sick",
+  "ckb": "نەخۆش",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l38-smaller",
+  "en": "smaller",
+  "ckb": "بچویکتر",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l38-cheaper",
+  "en": "cheaper",
+  "ckb": "هەرزانتر",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l38-more-expensive",
+  "en": "more expensive",
+  "ckb": "گرانتر",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l38-faster",
+  "en": "faster",
+  "ckb": "خێراتر",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l39-tonight",
+  "en": "tonight",
+  "ckb": "ئەڤشەڤ",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l39-sounds-good",
+  "en": "Sounds good!",
+  "ckb": "باشە، زۆر باشە!",
+  "changed": false,
+  "reason": "natural conversational reply; keep."
+ },
+ {
+  "id": "l40-menu",
+  "en": "menu",
+  "ckb": "لیستا خوارنێ",
+  "changed": false,
+  "reason": "correct natural Bahdini phrase; keep."
+ },
+ {
+  "id": "l40-sick",
+  "en": "sick",
+  "ckb": "نەخۆش",
+  "changed": false,
+  "reason": "correct; keep."
+ },
+ {
+  "id": "l40-cheaper",
+  "en": "cheaper",
+  "ckb": "هەرزانتر",
+  "changed": false,
+  "reason": "correct; keep."
+ }
+]

@@ -1,0 +1,566 @@
+[
+ {
+  "id": "l38-fast",
+  "en": "fast",
+  "current": "خێرا",
+  "dictionary": "سەریع"
+ },
+ {
+  "id": "l38-slow",
+  "en": "slow",
+  "current": "حەوا",
+  "dictionary": "ھێدی"
+ },
+ {
+  "id": "l38-easy",
+  "en": "easy",
+  "current": "ئاسان",
+  "dictionary": "ساناھى"
+ },
+ {
+  "id": "l38-difficult",
+  "en": "difficult",
+  "current": "ئەستەم",
+  "dictionary": "زەحمەت"
+ },
+ {
+  "id": "l39-hungry",
+  "en": "hungry",
+  "current": "بەرسی",
+  "dictionary": "برسى"
+ },
+ {
+  "id": "l39-thirsty",
+  "en": "thirsty",
+  "current": "تهنی",
+  "dictionary": "تێهنی"
+ },
+ {
+  "id": "l39-delicious",
+  "en": "delicious",
+  "current": "تامەز",
+  "dictionary": "شرینە"
+ },
+ {
+  "id": "l39-recommend",
+  "en": "recommend",
+  "current": "پێشنیارکرن",
+  "dictionary": "پەسەند دكەت"
+ },
+ {
+  "id": "l39-together",
+  "en": "together",
+  "current": "پێکڤە",
+  "dictionary": "پێکڤه‌ ، ب هه‌ڤ را"
+ },
+ {
+  "id": "l39-free",
+  "en": "free",
+  "current": "بەربەست",
+  "dictionary": "ئازاد"
+ },
+ {
+  "id": "l39-plan",
+  "en": "plan",
+  "current": "پیلان",
+  "dictionary": "پلان"
+ },
+ {
+  "id": "l39-invite",
+  "en": "invite",
+  "current": "داوەتکرن",
+  "dictionary": "ڤەدخوینت"
+ },
+ {
+  "id": "l39-usually",
+  "en": "usually",
+  "current": "ب گشتی",
+  "dictionary": "ب پرانی"
+ },
+ {
+  "id": "l40-passport",
+  "en": "passport",
+  "current": "پاسپۆرت",
+  "dictionary": "پاساپۆرت ، جەواز"
+ },
+ {
+  "id": "l40-gate",
+  "en": "gate",
+  "current": "دەرگەهە",
+  "dictionary": "دەرگەھى سەرەكى"
+ },
+ {
+  "id": "l40-flight",
+  "en": "flight",
+  "current": "فرین",
+  "dictionary": "گەشت"
+ },
+ {
+  "id": "l40-taxi",
+  "en": "taxi",
+  "current": "تاکسی",
+  "dictionary": "تەكسى"
+ },
+ {
+  "id": "l40-reservation",
+  "en": "reservation",
+  "current": "حەجز",
+  "dictionary": "ڤەگریتی"
+ },
+ {
+  "id": "l40-room",
+  "en": "room",
+  "current": "ژوور",
+  "dictionary": "ژور"
+ },
+ {
+  "id": "l40-bill",
+  "en": "bill",
+  "current": "حیساب",
+  "dictionary": "پسۆله‌"
+ },
+ {
+  "id": "l40-turn-left",
+  "en": "turn left",
+  "current": "بزڤرێ چەپێ",
+  "dictionary": "دەستێ چەپێ"
+ },
+ {
+  "id": "l40-go-straight",
+  "en": "go straight",
+  "current": "ڕاست بچە",
+  "dictionary": "ڕاست ھەڕە"
+ },
+ {
+  "id": "l40-manager",
+  "en": "manager",
+  "current": "ڕێڤەبەر",
+  "dictionary": "بریکار"
+ },
+ {
+  "id": "l40-tomorrow",
+  "en": "tomorrow",
+  "current": "سبەی",
+  "dictionary": "سوباھی ، سوبه‌"
+ },
+ {
+  "id": "l1-good-evening",
+  "en": "Good evening",
+  "ckb": "ئێڤارباش",
+  "dictionary": null
+ },
+ {
+  "id": "l1-thank-you",
+  "en": "Thank you",
+  "ckb": "سوپاس",
+  "dictionary": null
+ },
+ {
+  "id": "l2-your",
+  "en": "Your",
+  "ckb": "یێ تە / یا تە",
+  "dictionary": null
+ },
+ {
+  "id": "l7-tv",
+  "en": "TV",
+  "ckb": "تەلەفزیۆن",
+  "dictionary": null
+ },
+ {
+  "id": "l10-hundred",
+  "en": "hundred",
+  "ckb": "سەد",
+  "dictionary": null
+ },
+ {
+  "id": "l12-have-breakfast",
+  "en": "have breakfast",
+  "ckb": "ژار خوارن (ئەز ژارێ دخوم)",
+  "dictionary": null
+ },
+ {
+  "id": "l12-have-lunch",
+  "en": "have lunch",
+  "ckb": "نانێ نیڤڕۆ خوارن",
+  "dictionary": null
+ },
+ {
+  "id": "l12-have-dinner",
+  "en": "have dinner",
+  "ckb": "نانێ ئێوارێ خوارن",
+  "dictionary": null
+ },
+ {
+  "id": "l16-rainy",
+  "en": "Rainy",
+  "ckb": "بارانی",
+  "dictionary": null
+ },
+ {
+  "id": "l18-what-is-this",
+  "en": "What is this?",
+  "ckb": "ئەڤ چیە؟",
+  "dictionary": null
+ },
+ {
+  "id": "l18-where-is",
+  "en": "Where is...?",
+  "ckb": "... ل کویە؟",
+  "dictionary": null
+ },
+ {
+  "id": "l18-how-many",
+  "en": "How many?",
+  "ckb": "چەند؟",
+  "dictionary": null
+ },
+ {
+  "id": "l18-what-is-your-name",
+  "en": "What is your name?",
+  "ckb": "ناڤێ تە چیە؟",
+  "dictionary": null
+ },
+ {
+  "id": "l19-can-i-help-you",
+  "en": "Can I help you?",
+  "ckb": "ئەز دشێم هاریکاریا تە بکەم؟",
+  "dictionary": null
+ },
+ {
+  "id": "l19-here-you-are",
+  "en": "Here you are.",
+  "ckb": "ئەڤە بۆ تە",
+  "dictionary": null
+ },
+ {
+  "id": "l19-thank-you-very-much",
+  "en": "Thank you very much.",
+  "ckb": "زۆر سوپاس",
+  "dictionary": null
+ },
+ {
+  "id": "l21-sport",
+  "en": "sport",
+  "ckb": "وەرزش",
+  "dictionary": null
+ },
+ {
+  "id": "l24-in-front-of",
+  "en": "in front of",
+  "ckb": "ل بەردەم",
+  "dictionary": null
+ },
+ {
+  "id": "l25-glasses",
+  "en": "glasses",
+  "ckb": "بەرگێرن",
+  "dictionary": null
+ },
+ {
+  "id": "l26-eating",
+  "en": "eating",
+  "ckb": "خوارن (نوکە ئەز دخوم)",
+  "dictionary": null
+ },
+ {
+  "id": "l26-running",
+  "en": "running",
+  "ckb": "ڕیکن (نوکە ئەز دڕیکم)",
+  "dictionary": null
+ },
+ {
+  "id": "l26-working",
+  "en": "working",
+  "ckb": "کارکرن (نوکە ئەز کار دکەم)",
+  "dictionary": null
+ },
+ {
+  "id": "l26-talking",
+  "en": "talking",
+  "ckb": "ئاخفتن (نوکە ئەز دئاخڤم)",
+  "dictionary": null
+ },
+ {
+  "id": "l26-driving",
+  "en": "driving",
+  "ckb": "دان (نوکە ئەز ترۆمبێلێ ددەم)",
+  "dictionary": null
+ },
+ {
+  "id": "l26-cooking",
+  "en": "cooking",
+  "ckb": "پژان (نوکە ئەز دپژم)",
+  "dictionary": null
+ },
+ {
+  "id": "l27-brush-my-teeth",
+  "en": "brush my teeth",
+  "ckb": "ددەنێن خو پاککرن",
+  "dictionary": null
+ },
+ {
+  "id": "l27-have-breakfast",
+  "en": "have breakfast",
+  "ckb": "ژار خوارن",
+  "dictionary": null
+ },
+ {
+  "id": "l27-leave-home",
+  "en": "leave home",
+  "ckb": "ژ مال دەرکەڤن",
+  "dictionary": null
+ },
+ {
+  "id": "l27-arrive-at-work",
+  "en": "arrive at work",
+  "ckb": "گەهشتنە کار",
+  "dictionary": null
+ },
+ {
+  "id": "l27-have-lunch",
+  "en": "have lunch",
+  "ckb": "نانێ نیڤڕۆ خوارن",
+  "dictionary": null
+ },
+ {
+  "id": "l27-finish-work",
+  "en": "finish work",
+  "ckb": "کار تمامکرن",
+  "dictionary": null
+ },
+ {
+  "id": "l27-have-dinner",
+  "en": "have dinner",
+  "ckb": "نانێ ئێوارێ خوارن",
+  "dictionary": null
+ },
+ {
+  "id": "l27-go-to-bed",
+  "en": "go to bed",
+  "ckb": "چوونە خەڤێ / ڕاکەڤن",
+  "dictionary": null
+ },
+ {
+  "id": "l28-had",
+  "en": "had",
+  "ckb": "هەبوون (من هەبوو)",
+  "dictionary": null
+ },
+ {
+  "id": "l28-ate",
+  "en": "ate",
+  "ckb": "خوارن (من خوار)",
+  "dictionary": null
+ },
+ {
+  "id": "l28-drank",
+  "en": "drank",
+  "ckb": "ڤەخوارن (من ڤەخوار)",
+  "dictionary": null
+ },
+ {
+  "id": "l28-bought",
+  "en": "bought",
+  "ckb": "کرین (من کری)",
+  "dictionary": null
+ },
+ {
+  "id": "l28-worked",
+  "en": "worked",
+  "ckb": "کارکرن (من کار کر)",
+  "dictionary": null
+ },
+ {
+  "id": "l28-played",
+  "en": "played",
+  "ckb": "لێستن (من لێست)",
+  "dictionary": null
+ },
+ {
+  "id": "l28-watched",
+  "en": "watched",
+  "ckb": "تەماشەکرن (من تەماشە کر)",
+  "dictionary": null
+ },
+ {
+  "id": "l28-visited",
+  "en": "visited",
+  "ckb": "سەرەدانکرن (من سەرەدان کر)",
+  "dictionary": null
+ },
+ {
+  "id": "l29-did-you",
+  "en": "did you...?",
+  "ckb": "تو ... کری؟",
+  "dictionary": null
+ },
+ {
+  "id": "l29-what-did-you-do",
+  "en": "what did you do?",
+  "ckb": "تو چ کر؟",
+  "dictionary": null
+ },
+ {
+  "id": "l29-where-did-you-go",
+  "en": "where did you go?",
+  "ckb": "تو کو چوو؟",
+  "dictionary": null
+ },
+ {
+  "id": "l29-when-did-you-come",
+  "en": "when did you come?",
+  "ckb": "تو کیشان هات؟",
+  "dictionary": null
+ },
+ {
+  "id": "l29-who-did-you-see",
+  "en": "who did you see?",
+  "ckb": "تو کێ دیت؟",
+  "dictionary": null
+ },
+ {
+  "id": "l29-yes-i-did",
+  "en": "Yes, I did.",
+  "ckb": "بەلێ، من کر.",
+  "dictionary": null
+ },
+ {
+  "id": "l29-how-was-it",
+  "en": "how was it?",
+  "ckb": "چەوا بوو؟",
+  "dictionary": null
+ },
+ {
+  "id": "l29-fun",
+  "en": "fun",
+  "ckb": "ب خۆش / یارمەتیبەخش",
+  "dictionary": null
+ },
+ {
+  "id": "l30-tonight",
+  "en": "tonight",
+  "ckb": "ئەڤشەڤ",
+  "dictionary": null
+ },
+ {
+  "id": "l32-menu",
+  "en": "menu",
+  "ckb": "مینیو",
+  "dictionary": null
+ },
+ {
+  "id": "l33-traffic-light",
+  "en": "traffic light",
+  "ckb": "چرایا ترفیکێ",
+  "dictionary": null
+ },
+ {
+  "id": "l34-boarding-pass",
+  "en": "boarding pass",
+  "ckb": "کارتا سواربوونێ",
+  "dictionary": null
+ },
+ {
+  "id": "l34-baggage",
+  "en": "baggage",
+  "ckb": "جانتاو بار",
+  "dictionary": null
+ },
+ {
+  "id": "l34-suitcase",
+  "en": "suitcase",
+  "ckb": "جانتا",
+  "dictionary": null
+ },
+ {
+  "id": "l35-single-room",
+  "en": "single room",
+  "ckb": "ژوورا ئێک کەسی",
+  "dictionary": null
+ },
+ {
+  "id": "l35-double-room",
+  "en": "double room",
+  "ckb": "ژوورا دوو کەسان",
+  "dictionary": null
+ },
+ {
+  "id": "l35-check-in",
+  "en": "check-in",
+  "ckb": "چێک ئین",
+  "dictionary": null
+ },
+ {
+  "id": "l35-check-out",
+  "en": "check-out",
+  "ckb": "چێک ئاوت",
+  "dictionary": null
+ },
+ {
+  "id": "l36-email",
+  "en": "email",
+  "ckb": "ئیمەیڵ",
+  "dictionary": null
+ },
+ {
+  "id": "l37-sick",
+  "en": "sick",
+  "ckb": "نەخۆش",
+  "dictionary": null
+ },
+ {
+  "id": "l38-smaller",
+  "en": "smaller",
+  "ckb": "بچویکتر",
+  "dictionary": null
+ },
+ {
+  "id": "l38-cheaper",
+  "en": "cheaper",
+  "ckb": "هەرزانتر",
+  "dictionary": null
+ },
+ {
+  "id": "l38-more-expensive",
+  "en": "more expensive",
+  "ckb": "گرانتر",
+  "dictionary": null
+ },
+ {
+  "id": "l38-faster",
+  "en": "faster",
+  "ckb": "خێراتر",
+  "dictionary": null
+ },
+ {
+  "id": "l39-tonight",
+  "en": "tonight",
+  "ckb": "ئەڤشەڤ",
+  "dictionary": null
+ },
+ {
+  "id": "l39-sounds-good",
+  "en": "Sounds good!",
+  "ckb": "باشە، زۆر باشە!",
+  "dictionary": null
+ },
+ {
+  "id": "l40-menu",
+  "en": "menu",
+  "ckb": "لیستا خوارنێ",
+  "dictionary": null
+ },
+ {
+  "id": "l40-sick",
+  "en": "sick",
+  "ckb": "نەخۆش",
+  "dictionary": null
+ },
+ {
+  "id": "l40-cheaper",
+  "en": "cheaper",
+  "ckb": "هەرزانتر",
+  "dictionary": null
+ }
+]

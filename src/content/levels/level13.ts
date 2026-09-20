@@ -77,7 +77,7 @@ export const level13: Level = {
     {
       id: 'l13-restaurant',
       en: 'Restaurant',
-      ckb: 'خواردنگەه',
+      ckb: 'خوارنگەه',
       pos: 'noun',
       emoji: '🍽️',
       phonetic: '/ˈrɛstrɒnt/',

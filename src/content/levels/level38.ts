@@ -51,7 +51,7 @@ export const level38: Level = {
     {
       id: 'l38-slow',
       en: 'slow',
-      ckb: 'حەوا',
+      ckb: 'ھێدی',
       pos: 'adjective',
       emoji: '🐢',
       phonetic: '/sloʊ/',

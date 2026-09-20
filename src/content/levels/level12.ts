@@ -12,7 +12,7 @@ export const level12: Level = {
     {
       id: 'l12-wake-up',
       en: 'wake up',
-      ckb: 'هێش بوون',
+      ckb: 'هشیار بوون (ئەز هشیار دبم)',
       pos: 'verb',
       emoji: '⏰',
       phonetic: '/weɪk ʌp/',
@@ -25,7 +25,7 @@ export const level12: Level = {
     {
       id: 'l12-get-up',
       en: 'get up',
-      ckb: 'سەرەکە هەستان',
+      ckb: 'سەر پێ هەستان (ئەز سەر پێ دھێسم)',
       pos: 'verb',
       emoji: '🛏️',
       phonetic: '/ɡɛt ʌp/',
@@ -168,7 +168,7 @@ export const level12: Level = {
     {
       id: 'l12-have-dinner',
       en: 'have dinner',
-      ckb: 'نانێ ئێوارێ خوارن',
+      ckb: 'نانێ ئێڤارێ خوارن',
       pos: 'phrase',
       emoji: '🍲',
       phonetic: '/hæv ˈdɪnə/',

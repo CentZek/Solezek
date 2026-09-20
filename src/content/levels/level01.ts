@@ -38,7 +38,7 @@ export const level01: Level = {
     {
       id: 'l1-good-morning',
       en: 'Good morning',
-      ckb: 'بەیانیا خێر',
+      ckb: 'بەیانیت بخێر',
       pos: 'phrase',
       emoji: '🌅',
       phonetic: '/ɡʊd ˈmɔːnɪŋ/',

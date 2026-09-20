@@ -1,0 +1,674 @@
+[
+ {
+  "id": "l14-taxi",
+  "en": "Taxi",
+  "ckb": "تەکسی",
+  "changed": false,
+  "reason": "current is the everyday Bahdini word; dictionary has bad orthography (ك, ى)"
+ },
+ {
+  "id": "l14-train",
+  "en": "Train",
+  "ckb": "شەمەندەفەر",
+  "changed": false,
+  "reason": "dictionary entry is the verb 'to exercise'; شەمەندەفەر is the noun used in Badînan"
+ },
+ {
+  "id": "l14-plane",
+  "en": "Plane",
+  "ckb": "فڕۆکە",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l14-airport",
+  "en": "Airport",
+  "ckb": "فڕۆکەخانە",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l14-road",
+  "en": "Road",
+  "ckb": "ڕێکا",
+  "changed": true,
+  "reason": "ڕێ means way/path; road as a physical road is ڕێکا (dictionary's ڕێک with fixed orthography)"
+ },
+ {
+  "id": "l14-ticket",
+  "en": "Ticket",
+  "ckb": "بلیت",
+  "changed": false,
+  "reason": "بلیت is the everyday word in Duhok/Zakho; بیتاقە is literary"
+ },
+ {
+  "id": "l14-driver",
+  "en": "Driver",
+  "ckb": "شۆفێر",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l15-shirt",
+  "en": "Shirt",
+  "ckb": "کراس",
+  "changed": false,
+  "reason": "کراس is the everyday Badînan word; dictionary كوریت is odd and badly spelled"
+ },
+ {
+  "id": "l15-pants",
+  "en": "Pants",
+  "ckb": "پانتۆل",
+  "changed": false,
+  "reason": "پانتۆل is everyday in Duhok; dictionary form is awkward"
+ },
+ {
+  "id": "l15-shoes",
+  "en": "Shoes",
+  "ckb": "سۆلمە",
+  "changed": false,
+  "reason": "سۆلمە is the authentic everyday Badînan word for shoes; پێلاڤ is literary Kurmanji"
+ },
+ {
+  "id": "l15-socks",
+  "en": "Socks",
+  "ckb": "جوراب",
+  "changed": false,
+  "reason": "جوراب is common and understood everywhere; keep current"
+ },
+ {
+  "id": "l15-jacket",
+  "en": "Jacket",
+  "ckb": "چاکەت",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l15-hat",
+  "en": "Hat",
+  "ckb": "کەلو",
+  "changed": false,
+  "reason": "کەلو is the everyday Badînan word for hat/cap; شەوقە is a traditional turban"
+ },
+ {
+  "id": "l15-dress",
+  "en": "Dress",
+  "ckb": "فستان",
+  "changed": false,
+  "reason": "فستان is the everyday word for a dress; جلوبەرگ means clothes in general"
+ },
+ {
+  "id": "l15-bag",
+  "en": "Bag",
+  "ckb": "چەنتە",
+  "changed": false,
+  "reason": "both forms used; keep current"
+ },
+ {
+  "id": "l15-gloves",
+  "en": "Gloves",
+  "ckb": "دەستکێش",
+  "changed": false,
+  "reason": "current is the standard everyday word"
+ },
+ {
+  "id": "l15-watch",
+  "en": "Watch",
+  "ckb": "دەمساعەت",
+  "changed": false,
+  "reason": "noun needed; دەمساعەت is the everyday Badînan word for wristwatch; dictionary is the verb 'to watch'"
+ },
+ {
+  "id": "l16-warm",
+  "en": "Warm",
+  "ckb": "گەرم",
+  "changed": true,
+  "reason": "هین means hot; warm is گەرم (dictionary's verb phrase reduced to the adjective)"
+ },
+ {
+  "id": "l16-cool",
+  "en": "Cool",
+  "ckb": "خنک",
+  "changed": true,
+  "reason": "هینین means hot/sweaty — wrong meaning; cool (weather) is خنک in Badînan"
+ },
+ {
+  "id": "l16-sunny",
+  "en": "Sunny",
+  "ckb": "هەتاوی",
+  "changed": false,
+  "reason": "current is the correct adjective; dictionary gives unrelated nouns (shade, sunny spot)"
+ },
+ {
+  "id": "l16-cloudy",
+  "en": "Cloudy",
+  "ckb": "هەوری",
+  "changed": false,
+  "reason": "current is the adjective; dictionary is just the noun 'cloud'"
+ },
+ {
+  "id": "l16-windy",
+  "en": "Windy",
+  "ckb": "بایی",
+  "changed": false,
+  "reason": "current is the adjective; dictionary is just the noun 'wind'"
+ },
+ {
+  "id": "l16-snow",
+  "en": "Snow",
+  "ckb": "بەفر",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l17-run",
+  "en": "run",
+  "ckb": "بەزین",
+  "changed": true,
+  "reason": "بەزین is the authentic everyday Badînan verb for running; ڕیکن means to flow/pour"
+ },
+ {
+  "id": "l17-walk",
+  "en": "walk",
+  "ckb": "پیاسەکرن",
+  "changed": false,
+  "reason": "پیاسە کرن is the everyday Badînan verb for walking; dictionary entry is garbled"
+ },
+ {
+  "id": "l17-eat",
+  "en": "eat",
+  "ckb": "خوارن",
+  "changed": false,
+  "reason": "current is the standard infinitive"
+ },
+ {
+  "id": "l17-sleep",
+  "en": "sleep",
+  "ckb": "نووستن",
+  "changed": false,
+  "reason": "current is the infinitive; dictionary is the noun خەو"
+ },
+ {
+  "id": "l17-read",
+  "en": "read",
+  "ckb": "خویندن",
+  "changed": false,
+  "reason": "current is the everyday infinitive for reading"
+ },
+ {
+  "id": "l17-write",
+  "en": "write",
+  "ckb": "نڤیسین",
+  "changed": false,
+  "reason": "current correct; نڤێساندن means to dictate"
+ },
+ {
+  "id": "l17-listen",
+  "en": "listen",
+  "ckb": "گوهداریکرن",
+  "changed": false,
+  "reason": "same verb as dictionary, keep current joined form"
+ },
+ {
+  "id": "l17-open",
+  "en": "open",
+  "ckb": "ڤەکرن",
+  "changed": false,
+  "reason": "current is the infinitive; dictionary is a conjugated form"
+ },
+ {
+  "id": "l17-close",
+  "en": "close",
+  "ckb": "گرتن",
+  "changed": false,
+  "reason": "گرتن is the everyday Badînan verb for closing (e.g. a door)"
+ },
+ {
+  "id": "l17-sit",
+  "en": "sit",
+  "ckb": "رۆنیشتن",
+  "changed": false,
+  "reason": "current is the standard Badînan infinitive"
+ },
+ {
+  "id": "l17-stand",
+  "en": "stand",
+  "ckb": "وەستان",
+  "changed": true,
+  "reason": "single concise infinitive required; وەستان covers 'stand up/stop' in everyday usage"
+ },
+ {
+  "id": "l17-look",
+  "en": "look",
+  "ckb": "سەحکرن",
+  "changed": false,
+  "reason": "سەح کرن is authentic everyday Badînan for 'look'; dictionary is an imperative form"
+ },
+ {
+  "id": "l18-where",
+  "en": "where",
+  "ckb": "ل کو",
+  "changed": false,
+  "reason": "ل کو is the everyday Badînan question word"
+ },
+ {
+  "id": "l18-who",
+  "en": "who",
+  "ckb": "کێ",
+  "changed": false,
+  "reason": "current correct"
+ },
+ {
+  "id": "l18-when",
+  "en": "when",
+  "ckb": "کەی",
+  "changed": false,
+  "reason": "current is the everyday form"
+ },
+ {
+  "id": "l18-why",
+  "en": "why",
+  "ckb": "بۆچی",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l18-how-are-you",
+  "en": "How are you?",
+  "ckb": "چەوانی؟",
+  "changed": true,
+  "reason": "چەوانی؟ is THE authentic everyday Badînan greeting"
+ },
+ {
+  "id": "l18-how-much",
+  "en": "How much?",
+  "ckb": "ب چەند؟",
+  "changed": false,
+  "reason": "ب چەند؟ is the everyday phrase for asking price; keep current"
+ },
+ {
+  "id": "l19-meet",
+  "en": "meet",
+  "ckb": "ھەڤدیتن",
+  "changed": true,
+  "reason": "single gloss required; ھەڤدیتن is 'to meet (each other)' — دیتن alone means 'to see'"
+ },
+ {
+  "id": "l19-welcome",
+  "en": "welcome",
+  "ckb": "ب خێر هاتن",
+  "changed": false,
+  "reason": "current is the verb/infinitive form; dictionary is the imperative greeting"
+ },
+ {
+  "id": "l19-help",
+  "en": "help",
+  "ckb": "هاریکاریکرن",
+  "changed": false,
+  "reason": "current is the verb; dictionary is the noun"
+ },
+ {
+  "id": "l19-order",
+  "en": "order",
+  "ckb": "داواکرن",
+  "changed": false,
+  "reason": "داوا کرن is the everyday verb for ordering (food etc.); داخاز کرن is not standard"
+ },
+ {
+  "id": "l19-far",
+  "en": "far",
+  "ckb": "دور",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l19-excuse-me",
+  "en": "excuse me",
+  "ckb": "ببورە",
+  "changed": false,
+  "reason": "ببورە is the natural everyday phrase; بێزەهمەت is dated/Ottoman"
+ },
+ {
+  "id": "l19-of-course",
+  "en": "of course",
+  "ckb": "بێگومان",
+  "changed": false,
+  "reason": "both used; keep current"
+ },
+ {
+  "id": "l19-nice-to-meet-you",
+  "en": "Nice to meet you.",
+  "ckb": "دلخۆش مە ب دیتنا تە",
+  "changed": false,
+  "reason": "current is a natural Badînan phrasing; keep current"
+ },
+ {
+  "id": "l20-hello",
+  "en": "hello",
+  "ckb": "سلاو",
+  "changed": false,
+  "reason": "سلاو is the plain greeting 'hello'; چەوانی means 'how are you'"
+ },
+ {
+  "id": "l20-friend",
+  "en": "friend",
+  "ckb": "هەڤال",
+  "changed": false,
+  "reason": "هەڤال is the authentic everyday Badînan word"
+ },
+ {
+  "id": "l20-house",
+  "en": "house",
+  "ckb": "مال",
+  "changed": false,
+  "reason": "مال is the everyday Badînan word for house/home; خانی also means room"
+ },
+ {
+  "id": "l20-want",
+  "en": "want",
+  "ckb": "ڤیان",
+  "changed": false,
+  "reason": "current is the infinitive; dictionary is a conjugated form (دڤێت = wants)"
+ },
+ {
+  "id": "l20-taxi",
+  "en": "taxi",
+  "ckb": "تەکسی",
+  "changed": true,
+  "reason": "unify spelling with l14-taxi; تەکسی matches Badînan pronunciation"
+ },
+ {
+  "id": "l20-shirt",
+  "en": "shirt",
+  "ckb": "کراس",
+  "changed": false,
+  "reason": "same as l15-shirt; کراس is everyday Badînan"
+ },
+ {
+  "id": "l20-sunny",
+  "en": "sunny",
+  "ckb": "ھەتاوی",
+  "changed": true,
+  "reason": "single adjective form, consistent with l16-sunny"
+ },
+ {
+  "id": "l21-like",
+  "en": "like",
+  "ckb": "حەزکرن",
+  "changed": false,
+  "reason": "current correct; dictionary entry is 'wants', not 'like'"
+ },
+ {
+  "id": "l21-love",
+  "en": "love",
+  "ckb": "گەلەک حەزکرن",
+  "changed": false,
+  "reason": "natural beginner-friendly way to say 'love' as a verb; ئەشق is only the noun"
+ },
+ {
+  "id": "l21-want",
+  "en": "want",
+  "ckb": "ڤیان",
+  "changed": true,
+  "reason": "fix typo ڤێان → ڤیان; infinitive, consistent with l20-want"
+ },
+ {
+  "id": "l21-need",
+  "en": "need",
+  "ckb": "پێدڤی بوون",
+  "changed": false,
+  "reason": "current is the everyday way to express 'need'; dictionary is the noun"
+ },
+ {
+  "id": "l21-prefer",
+  "en": "prefer",
+  "ckb": "باشتر دیتن",
+  "changed": false,
+  "reason": "باشتر دیتن ('like better') is the natural everyday way; dictionary is a conjugated form"
+ },
+ {
+  "id": "l21-hate",
+  "en": "hate",
+  "ckb": "ھیچ حەزنەکرن",
+  "changed": true,
+  "reason": "fix typo هیڤ → ھیچ; 'to not like at all' is the natural beginner rendering of hate"
+ },
+ {
+  "id": "l21-music",
+  "en": "music",
+  "ckb": "مۆزیک",
+  "changed": false,
+  "reason": "مۆزیک is the everyday word; ئاواز means melody/voice"
+ },
+ {
+  "id": "l21-movie",
+  "en": "movie",
+  "ckb": "فیلم",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l21-game",
+  "en": "game",
+  "ckb": "یاری",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l22-can",
+  "en": "can",
+  "ckb": "شێتن",
+  "changed": true,
+  "reason": "correct spelling of the Badînan modal 'to be able'; dictionary entry is unrelated"
+ },
+ {
+  "id": "l22-swim",
+  "en": "swim",
+  "ckb": "مەلەڤانی کرن",
+  "changed": false,
+  "reason": "current is the infinitive; dictionary is a conjugated form"
+ },
+ {
+  "id": "l22-run",
+  "en": "run",
+  "ckb": "بەزین",
+  "changed": true,
+  "reason": "بەزین is the authentic everyday Badînan verb; consistent with l17-run"
+ },
+ {
+  "id": "l22-drive",
+  "en": "drive",
+  "ckb": "ترومبێل خەراندن",
+  "changed": false,
+  "reason": "خەراندن is authentic everyday Badînan for driving a car; dictionary is a conjugated form"
+ },
+ {
+  "id": "l22-read",
+  "en": "read",
+  "ckb": "خویندن",
+  "changed": false,
+  "reason": "current correct, consistent with l17-read"
+ },
+ {
+  "id": "l22-write",
+  "en": "write",
+  "ckb": "نڤیسین",
+  "changed": false,
+  "reason": "current correct, consistent with l17-write"
+ },
+ {
+  "id": "l22-cook",
+  "en": "cook",
+  "ckb": "خواردن چێکرن",
+  "changed": false,
+  "reason": "current is the natural everyday way to say 'cook'; dictionary gives the noun 'chef'"
+ },
+ {
+  "id": "l22-help",
+  "en": "help",
+  "ckb": "ھاریکاریکرن",
+  "changed": true,
+  "reason": "current ئارامی کرن means 'to calm down' — wrong meaning; help = ھاریکاری کرن, consistent with l19-help"
+ },
+ {
+  "id": "l22-open",
+  "en": "open",
+  "ckb": "ڤەکرن",
+  "changed": false,
+  "reason": "current correct, consistent with l17-open"
+ },
+ {
+  "id": "l22-close",
+  "en": "close",
+  "ckb": "گرتن",
+  "changed": false,
+  "reason": "current correct, consistent with l17-close"
+ },
+ {
+  "id": "l22-use",
+  "en": "use",
+  "ckb": "بکارئینان",
+  "changed": false,
+  "reason": "بکارئینان is the standard everyday verb for 'use'"
+ },
+ {
+  "id": "l22-understand",
+  "en": "understand",
+  "ckb": "تێگەیشتن",
+  "changed": false,
+  "reason": "current is the everyday infinitive"
+ },
+ {
+  "id": "l23-there",
+  "en": "there",
+  "ckb": "ل ویر",
+  "changed": false,
+  "reason": "ل ویر is the everyday Badînan word for 'there'"
+ },
+ {
+  "id": "l23-room",
+  "en": "room",
+  "ckb": "ژوور",
+  "changed": false,
+  "reason": "current is the Badînan pronunciation/spelling"
+ },
+ {
+  "id": "l23-house",
+  "en": "house",
+  "ckb": "مال",
+  "changed": false,
+  "reason": "consistent with l20-house; مال is everyday Badînan"
+ },
+ {
+  "id": "l23-shop",
+  "en": "shop",
+  "ckb": "دوکان",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l23-street",
+  "en": "street",
+  "ckb": "جاددە",
+  "changed": false,
+  "reason": "جاددە is the everyday word in Duhok/Zakho"
+ },
+ {
+  "id": "l23-car",
+  "en": "car",
+  "ckb": "ترومبێل",
+  "changed": false,
+  "reason": "ترومبێل is the everyday Badînan word; single gloss kept"
+ },
+ {
+  "id": "l23-people",
+  "en": "people",
+  "ckb": "خەلک",
+  "changed": false,
+  "reason": "خەلک means people; ئینسان means human being/person"
+ },
+ {
+  "id": "l23-chair",
+  "en": "chair",
+  "ckb": "کورسی",
+  "changed": false,
+  "reason": "current correct; dictionary has bad orthography"
+ },
+ {
+  "id": "l23-window",
+  "en": "window",
+  "ckb": "پەنجەرە",
+  "changed": false,
+  "reason": "current correct"
+ },
+ {
+  "id": "l23-door",
+  "en": "door",
+  "ckb": "دەرگەه",
+  "changed": false,
+  "reason": "دەرگەه is the everyday Badînan word for door"
+ },
+ {
+  "id": "l23-building",
+  "en": "building",
+  "ckb": "باڵەخانە",
+  "changed": false,
+  "reason": "باڵەخانە is the everyday word in Duhok; ئاڤاھی is more formal"
+ },
+ {
+  "id": "l24-in",
+  "en": "in",
+  "ckb": "د ... دا",
+  "changed": false,
+  "reason": "current is the correct postposition structure"
+ },
+ {
+  "id": "l24-on",
+  "en": "on",
+  "ckb": "ل سەر",
+  "changed": false,
+  "reason": "current correct"
+ },
+ {
+  "id": "l24-under",
+  "en": "under",
+  "ckb": "ژێر",
+  "changed": false,
+  "reason": "current correct and concise"
+ },
+ {
+  "id": "l24-next-to",
+  "en": "next to",
+  "ckb": "ل رەخ",
+  "changed": true,
+  "reason": "ل نێزک means 'near' (already used for l24-near); next to = ل رەخ in Badînan"
+ },
+ {
+  "id": "l24-behind",
+  "en": "behind",
+  "ckb": "ل پشت",
+  "changed": false,
+  "reason": "current is the natural everyday form"
+ },
+ {
+  "id": "l24-between",
+  "en": "between",
+  "ckb": "د ناڤبەرا ... دا",
+  "changed": true,
+  "reason": "correct form is ناڤبەرا (current misses the ە); postposition structure kept"
+ },
+ {
+  "id": "l24-near",
+  "en": "near",
+  "ckb": "نێزک",
+  "changed": false,
+  "reason": "current correct"
+ },
+ {
+  "id": "l24-far",
+  "en": "far",
+  "ckb": "دور",
+  "changed": true,
+  "reason": "unify spelling with l19-far (دور, not دۆر)"
+ }
+]

@@ -103,7 +103,7 @@ export const level31: Level = {
     {
       id: 'l31-change',
       en: 'change',
-      ckb: 'پاشماوە',
+      ckb: 'باقی',
       pos: 'noun',
       emoji: '🪙',
       phonetic: '/tʃeɪndʒ/',
@@ -116,7 +116,7 @@ export const level31: Level = {
     {
       id: 'l31-buy',
       en: 'buy',
-      ckb: 'کڕین (ئەز دکڕم)',
+      ckb: 'کڕین',
       pos: 'verb',
       emoji: '🛒',
       phonetic: '/baɪ/',
@@ -129,7 +129,7 @@ export const level31: Level = {
     {
       id: 'l31-sell',
       en: 'sell',
-      ckb: 'فرۆتن (ئەز دفرۆشم)',
+      ckb: 'فرۆتن',
       pos: 'verb',
       emoji: '🏪',
       phonetic: '/sɛl/',
@@ -142,7 +142,7 @@ export const level31: Level = {
     {
       id: 'l31-try',
       en: 'try',
-      ckb: 'پێڤاندن (ئەز پێڤ دبەم)',
+      ckb: 'پێڤاندن',
       pos: 'verb',
       emoji: '🪞',
       phonetic: '/traɪ/',

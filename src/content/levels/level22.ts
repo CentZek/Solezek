@@ -12,7 +12,7 @@ export const level22: Level = {
     {
       id: 'l22-can',
       en: 'can',
-      ckb: 'شیتن',
+      ckb: 'شێتن',
       pos: 'verb',
       emoji: '💪',
       phonetic: '/kæn/',
@@ -38,7 +38,7 @@ export const level22: Level = {
     {
       id: 'l22-run',
       en: 'run',
-      ckb: 'ڕەڤان',
+      ckb: 'بەزین',
       pos: 'verb',
       emoji: '🏃',
       phonetic: '/rʌn/',
@@ -116,7 +116,7 @@ export const level22: Level = {
     {
       id: 'l22-help',
       en: 'help',
-      ckb: 'ئارامی کرن',
+      ckb: 'ھاریکاریکرن',
       pos: 'verb',
       emoji: '🤝',
       phonetic: '/help/',

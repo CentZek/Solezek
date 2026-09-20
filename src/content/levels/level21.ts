@@ -38,7 +38,7 @@ export const level21: Level = {
     {
       id: 'l21-want',
       en: 'want',
-      ckb: 'ڤێان',
+      ckb: 'ڤیان',
       pos: 'verb',
       emoji: '🙋',
       phonetic: '/wɒnt/',
@@ -77,7 +77,7 @@ export const level21: Level = {
     {
       id: 'l21-hate',
       en: 'hate',
-      ckb: 'هیڤ حەزنەکرن',
+      ckb: 'ھیچ حەزنەکرن',
       pos: 'verb',
       emoji: '😖',
       phonetic: '/heɪt/',

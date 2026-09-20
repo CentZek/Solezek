@@ -90,7 +90,7 @@ export const level30: Level = {
     {
       id: 'l30-buy',
       en: 'buy',
-      ckb: 'کرین',
+      ckb: 'کڕین',
       pos: 'verb',
       emoji: '🛍️',
       phonetic: '/baɪ/',
@@ -103,7 +103,7 @@ export const level30: Level = {
     {
       id: 'l30-meet',
       en: 'meet',
-      ckb: 'هەڤدیتن / دیتن',
+      ckb: 'هەڤدیتن',
       pos: 'verb',
       emoji: '🤝',
       phonetic: '/miːt/',

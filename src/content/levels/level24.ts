@@ -51,7 +51,7 @@ export const level24: Level = {
     {
       id: 'l24-next-to',
       en: 'next to',
-      ckb: 'ل نێزک',
+      ckb: 'ل رەخ',
       pos: 'other',
       emoji: '↔️',
       phonetic: '/ˈnekst tə/',
@@ -90,7 +90,7 @@ export const level24: Level = {
     {
       id: 'l24-between',
       en: 'between',
-      ckb: 'د ناڤبرا ... دا',
+      ckb: 'د ناڤبەرا ... دا',
       pos: 'other',
       emoji: '🔀',
       phonetic: '/bɪˈtwiːn/',
@@ -116,7 +116,7 @@ export const level24: Level = {
     {
       id: 'l24-far',
       en: 'far',
-      ckb: 'دۆر',
+      ckb: 'دور',
       pos: 'other',
       emoji: '🛣️',
       phonetic: '/fɑː(r)/',
@@ -129,7 +129,7 @@ export const level24: Level = {
     {
       id: 'l24-inside',
       en: 'inside',
-      ckb: 'ژ ناڤڤە',
+      ckb: 'ژ ناڤە',
       pos: 'other',
       emoji: '📦',
       phonetic: '/ˌɪnˈsaɪd/',

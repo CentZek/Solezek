@@ -38,7 +38,7 @@ export const level35: Level = {
     {
       id: 'l35-reservation',
       en: 'reservation',
-      ckb: 'حیجز',
+      ckb: 'حەجز',
       pos: 'noun',
       emoji: '📅',
       phonetic: '/ˌrɛzərˈveɪʃən/',

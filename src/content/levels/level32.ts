@@ -25,7 +25,7 @@ export const level32: Level = {
     {
       id: 'l32-order',
       en: 'order',
-      ckb: 'داخازی',
+      ckb: 'داخازی کرن',
       pos: 'noun',
       emoji: '📝',
       phonetic: '/ˈɔːrdər/',

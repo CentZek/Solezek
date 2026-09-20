@@ -155,7 +155,7 @@ export const level25: Level = {
     {
       id: 'l25-glasses',
       en: 'glasses',
-      ckb: 'بەرگێرن',
+      ckb: 'عەینەک',
       pos: 'noun',
       emoji: '👓',
       phonetic: '/ˈɡlɑːsɪz/',

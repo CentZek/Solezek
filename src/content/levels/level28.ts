@@ -38,7 +38,7 @@ export const level28: Level = {
     {
       id: 'l28-last-week',
       en: 'last week',
-      ckb: 'هەفتیا رابووری',
+      ckb: 'هەفتیا ڕابووری',
       pos: 'other',
       emoji: '🗓️',
       phonetic: '/lɑːst wiːk/',
@@ -51,7 +51,7 @@ export const level28: Level = {
     {
       id: 'l28-went',
       en: 'went',
-      ckb: 'چوون (ئەز چووم)',
+      ckb: 'چوو',
       pos: 'verb',
       emoji: '🚶',
       phonetic: '/went/',
@@ -64,7 +64,7 @@ export const level28: Level = {
     {
       id: 'l28-had',
       en: 'had',
-      ckb: 'هەبوون (من هەبوو)',
+      ckb: 'ھەبوون (من ھەبوو)',
       pos: 'verb',
       emoji: '🤲',
       phonetic: '/hæd/',
@@ -103,7 +103,7 @@ export const level28: Level = {
     {
       id: 'l28-saw',
       en: 'saw',
-      ckb: 'دیتن (من دیت)',
+      ckb: 'دیت',
       pos: 'verb',
       emoji: '👀',
       phonetic: '/sɔː/',

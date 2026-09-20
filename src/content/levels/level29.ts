@@ -51,7 +51,7 @@ export const level29: Level = {
     {
       id: 'l29-when-did-you-come',
       en: 'when did you come?',
-      ckb: 'تو کیشان هات؟',
+      ckb: 'تو کیچان هات؟',
       pos: 'question',
       emoji: '⏰',
       phonetic: '/wen dɪd juː kʌm/',
@@ -129,7 +129,7 @@ export const level29: Level = {
     {
       id: 'l29-tired',
       en: 'tired',
-      ckb: 'وەسقی',
+      ckb: 'ماندوو',
       pos: 'adjective',
       emoji: '😪',
       phonetic: '/ˈtaɪəd/',
@@ -142,7 +142,7 @@ export const level29: Level = {
     {
       id: 'l29-fun',
       en: 'fun',
-      ckb: 'ب خۆش / یارمەتیبەخش',
+      ckb: 'خۆش',
       pos: 'adjective',
       emoji: '🎉',
       phonetic: '/fʌn/',

@@ -38,7 +38,7 @@ export const level37: Level = {
     {
       id: 'l37-back',
       en: 'back',
-      ckb: 'پشتی',
+      ckb: 'پشت',
       pos: 'noun',
       emoji: '🧍',
       phonetic: '/bæk/',
@@ -129,7 +129,7 @@ export const level37: Level = {
     {
       id: 'l37-fever',
       en: 'fever',
-      ckb: 'تاب',
+      ckb: 'تا',
       pos: 'noun',
       emoji: '🌡️',
       phonetic: '/ˈfiːvər/',

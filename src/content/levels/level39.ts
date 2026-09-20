@@ -12,7 +12,7 @@ export const level39: Level = {
     {
       id: 'l39-hungry',
       en: 'hungry',
-      ckb: 'بەرسی',
+      ckb: 'برسی',
       pos: 'adjective',
       emoji: '🍽️',
       phonetic: '/ˈhʌŋɡri/',
@@ -25,7 +25,7 @@ export const level39: Level = {
     {
       id: 'l39-thirsty',
       en: 'thirsty',
-      ckb: 'تهنی',
+      ckb: 'تێھنی',
       pos: 'adjective',
       emoji: '🥤',
       phonetic: '/ˈθɜːrsti/',
@@ -103,7 +103,7 @@ export const level39: Level = {
     {
       id: 'l39-plan',
       en: 'plan',
-      ckb: 'پیلان',
+      ckb: 'پلان',
       pos: 'noun',
       emoji: '🗓️',
       phonetic: '/plæn/',

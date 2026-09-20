@@ -25,7 +25,7 @@ export const level40: Level = {
     {
       id: 'l40-gate',
       en: 'gate',
-      ckb: 'دەرگەهە',
+      ckb: 'دەرگەھە',
       pos: 'noun',
       emoji: '🚪',
       phonetic: '/ɡeɪt/',
@@ -38,7 +38,7 @@ export const level40: Level = {
     {
       id: 'l40-flight',
       en: 'flight',
-      ckb: 'فرین',
+      ckb: 'گەشت',
       pos: 'noun',
       emoji: '✈️',
       phonetic: '/flaɪt/',
@@ -142,7 +142,7 @@ export const level40: Level = {
     {
       id: 'l40-manager',
       en: 'manager',
-      ckb: 'ڕێڤەبەر',
+      ckb: 'بریکار',
       pos: 'noun',
       emoji: '👔',
       phonetic: '/ˈmænɪdʒər/',

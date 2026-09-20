@@ -12,7 +12,7 @@ export const level17: Level = {
     {
       id: 'l17-run',
       en: 'run',
-      ckb: 'ڕیکن',
+      ckb: 'بەزین',
       pos: 'verb',
       emoji: '🏃',
       phonetic: '/rʌn/',
@@ -168,7 +168,7 @@ export const level17: Level = {
     {
       id: 'l17-stand',
       en: 'stand',
-      ckb: 'وەستان / ب سەرپێ بوون',
+      ckb: 'وەستان',
       pos: 'verb',
       emoji: '🧍',
       phonetic: '/stænd/',

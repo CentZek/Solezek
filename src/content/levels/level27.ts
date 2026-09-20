@@ -25,7 +25,7 @@ export const level27: Level = {
     {
       id: 'l27-get-dressed',
       en: 'get dressed',
-      ckb: 'جل ل خۆ کرن',
+      ckb: 'جل ل بەر خۆ کرن',
       pos: 'phrase',
       emoji: '👕',
       phonetic: '/ɡet drest/',
@@ -51,7 +51,7 @@ export const level27: Level = {
     {
       id: 'l27-take-a-shower',
       en: 'take a shower',
-      ckb: 'حەمامێ کرن / خۆشوون',
+      ckb: 'حەمامێ کرن',
       pos: 'phrase',
       emoji: '🚿',
       phonetic: '/teɪk ə ˈʃaʊər/',
@@ -142,7 +142,7 @@ export const level27: Level = {
     {
       id: 'l27-have-dinner',
       en: 'have dinner',
-      ckb: 'نانێ ئێوارێ خوارن',
+      ckb: 'نانێ ئێڤارێ خوارن',
       pos: 'phrase',
       emoji: '🍲',
       phonetic: '/hæv ˈdɪnər/',
@@ -155,7 +155,7 @@ export const level27: Level = {
     {
       id: 'l27-go-to-bed',
       en: 'go to bed',
-      ckb: 'چوونە خەڤێ / ڕاکەڤن',
+      ckb: 'چوونە خەڤێ',
       pos: 'phrase',
       emoji: '🛏️',
       phonetic: '/ɡəʊ tə bed/',
