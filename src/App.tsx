@@ -12,6 +12,7 @@ import { Review } from './screens/Review';
 import { DailyChallenge } from './screens/DailyChallenge';
 import { Achievements } from './screens/Achievements';
 import { Profile } from './screens/Profile';
+import { AdminDashboard } from './screens/AdminDashboard';
 
 const tabs = [
   { to: '/', icon: '🏠', label: t.nav.home },
@@ -47,6 +48,7 @@ function BottomNav() {
 
 export default function App() {
   const onboarded = useProgress((s) => s.onboarded);
+  const [adminRoute, setAdminRoute] = useState(() => window.location.hash.startsWith('#/admin'));
   // undefined = still checking, null = signed out, string = user id
   const [sessionUser, setSessionUser] = useState<string | null | undefined>(supabaseConfigured ? undefined : null);
   // While a password reset is pending, keep the auth gate up even though the
@@ -54,6 +56,12 @@ export default function App() {
   const [mustSetPassword, setMustSetPassword] = useState(
     () => sessionStorage.getItem('bahdini-must-set-pw') === '1',
   );
+
+  useEffect(() => {
+    const onHashChange = () => setAdminRoute(window.location.hash.startsWith('#/admin'));
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
 
   useEffect(() => {
     const onAuthUpdated = () => setMustSetPassword(sessionStorage.getItem('bahdini-must-set-pw') === '1');
@@ -75,6 +83,8 @@ export default function App() {
     });
     return () => sub?.unsubscribe();
   }, []);
+
+  if (adminRoute) return <AdminDashboard />;
 
   // While checking for an existing session, render nothing (avoid a flash).
   if (sessionUser === undefined) {

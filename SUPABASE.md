@@ -64,6 +64,26 @@ supabase functions deploy delete-account
 RLS protects the data). `npm run dev`, open the **Profile** tab, sign in with your
 phone number, and your progress starts syncing.
 
+## 4. Admin dashboard
+
+The admin dashboard is available at `https://www.solezek.com/#/admin`. It uses
+separate admin credentials and short-lived signed sessions; it is not a normal
+Supabase user account. The service-role key stays inside the edge function.
+
+Set strong admin secrets and deploy the function:
+
+```bash
+supabase secrets set ADMIN_USERNAME=<admin-username>
+supabase secrets set ADMIN_PASSWORD=<strong-admin-password>
+supabase secrets set ADMIN_SESSION_SECRET=<long-random-secret>
+supabase functions deploy admin-dashboard --no-verify-jwt
+```
+
+The dashboard lists usernames, phone numbers, and learning progress, and creates
+single-use invite codes. Supabase hashes user passwords, so existing passwords
+cannot be displayed. Admin sessions last eight hours and are stored only for the
+current browser tab.
+
 ## How sync works
 
 - **Offline-first**: the app fully works without sign-in; progress lives in
