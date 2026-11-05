@@ -134,7 +134,7 @@ export const level07: Level = {
       emoji: '🛏️',
       phonetic: '/bed/',
       exampleEn: 'The bed is big.',
-      exampleCkb: 'جێگا مەزنە.',
+      exampleCkb: 'جێگای نڤستنێ مەزنە.',
       category: 'furniture',
       difficulty: 1,
       bahdiniReviewed: false,

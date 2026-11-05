@@ -43,7 +43,7 @@ export const level13: Level = {
       emoji: '💼',
       phonetic: '/wɜːrk/',
       exampleEn: 'My father goes to work.',
-      exampleCkb: 'بابێ من دچیت کار.',
+      exampleCkb: 'باڤێ من دچیت کار.',
       category: 'places',
       difficulty: 1,
       bahdiniReviewed: false,
@@ -82,7 +82,7 @@ export const level13: Level = {
       emoji: '🍽️',
       phonetic: '/ˈrɛstrɒnt/',
       exampleEn: 'We eat dinner at the restaurant.',
-      exampleCkb: 'ئەم خوارنا ئێڤی ل خواردنگەهێ دخوین.',
+      exampleCkb: 'ئەم نانێ ئێڤارێ ل خوارنگەهێ دخۆین.',
       category: 'places',
       difficulty: 3,
       bahdiniReviewed: false,
@@ -198,12 +198,12 @@ export const level13: Level = {
     {
       characterId: 'dara',
       en: 'Thank you very much!',
-      ckb: 'زۆر سپاس!',
+      ckb: 'زۆر سوپاس!',
     },
     {
       characterId: 'rojin',
       en: 'You are welcome!',
-      ckb: 'شایانی نینە!',
+      ckb: 'ب دەم و چاڤێ!',
     },
   ],
 };

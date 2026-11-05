@@ -176,15 +176,15 @@ export const level34: Level = {
     { en: 'My suitcase is heavy.', ckb: 'جانتایا من یا گرانە.' },
   ],
   conversation: [
-    { characterId: 'shirin', en: 'Hello. Your passport and ticket, please.', ckb: 'سلاو. هیڤیدارم، پاسپۆرت و بلیتا تە.' },
+    { characterId: 'shirin', en: 'Hello. Your passport and ticket, please.', ckb: 'سلاڤ. هیڤیدارم، پاسپۆرت و بلیتا تە.' },
     { characterId: 'dara', en: 'Here is my passport and my ticket.', ckb: 'بگرە، پاسپۆرتا من و بلیتا من.' },
-    { characterId: 'shirin', en: 'Thank you. Do you have a suitcase?', ckb: 'سپاس. جانتایا تە هەیە؟' },
+    { characterId: 'shirin', en: 'Thank you. Do you have a suitcase?', ckb: 'سوپاس. جانتایا تە هەیە؟' },
     { characterId: 'dara', en: 'Yes, one suitcase.', ckb: 'بەلێ، جانتایەک.' },
     { characterId: 'shirin', en: 'OK. Here is your boarding pass. Your flight is at nine o’clock.', ckb: 'باشە. بگرە کارتا سواربوونا تە. گەشتا تە ل دەمژمێر نۆیێیە.' },
     { characterId: 'dara', en: 'Where is security?', ckb: 'ئاسایش ل کوویە؟' },
     { characterId: 'shirin', en: 'Go straight, then turn left.', ckb: 'ڕاستی بچە، پاشی بزڤرە چەپێ.' },
     { characterId: 'dara', en: 'And where is Gate 5?', ckb: 'و گەیتا پێنجێ ل کوویە؟' },
     { characterId: 'shirin', en: 'It is after security, next to the café.', ckb: 'ل پاش ئاسایشێیە، ل تەنیشت کافێیێ.' },
-    { characterId: 'dara', en: 'Thank you very much!', ckb: 'زۆر سپاس!' },
+    { characterId: 'dara', en: 'Thank you very much!', ckb: 'زۆر سوپاس!' },
   ],
 };

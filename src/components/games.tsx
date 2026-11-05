@@ -111,9 +111,9 @@ function Feedback({ correct, question, onNext, last }: { correct: boolean; quest
 function correctAnswerText(q: Question): string {
   switch (q.kind) {
     case 'en-to-ckb':
-    case 'picture-to-en':
     case 'listen-picture':
       return q.vocab.ckb;
+    case 'picture-to-en':
     case 'ckb-to-en':
     case 'listen-en':
     case 'type-en':
@@ -215,7 +215,17 @@ function QuestionView({
     case 'picture-to-en':
       return (
         <ChoiceQuestion
-          prompt={<div className="text-center text-7xl">{question.vocab.emoji}</div>}
+          prompt={
+            <div className="text-center">
+              <div className="text-7xl">{question.vocab.emoji}</div>
+              {question.sentence && (
+                <p dir="ltr" className="mx-auto mt-4 max-w-sm font-display text-xl font-bold">
+                  {question.sentence}
+                </p>
+              )}
+              <CkbHelp text={question.vocab.exampleCkb} support={support} className="mt-3 text-sm text-ink/60" />
+            </div>
+          }
           hint={<HintBar vocab={question.vocab} />}
           options={question.options.map((o) => ({ key: o.id, label: o.en, rtl: false }))}
           answerKey={question.vocab.id}

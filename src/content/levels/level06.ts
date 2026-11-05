@@ -82,7 +82,7 @@ export const level06: Level = {
       emoji: '👴',
       phonetic: '/oʊld/',
       exampleEn: 'My grandfather is old.',
-      exampleCkb: 'بابیرێ من پیرە.',
+      exampleCkb: 'باپیرێ من پیرە.',
       category: 'description',
       difficulty: 2,
       bahdiniReviewed: false,
@@ -178,7 +178,7 @@ export const level06: Level = {
     {
       characterId: 'dara',
       en: 'This is my grandfather.',
-      ckb: 'ئەڤە بابیرێ منە.',
+      ckb: 'ئەڤە باپیرێ منە.',
     },
     { characterId: 'rojin', en: 'He is old.', ckb: 'ئەو پیرە.' },
     {

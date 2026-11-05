@@ -7,7 +7,7 @@ import { getCharacter } from '../content/characters';
 export type Question =
   | { kind: 'en-to-ckb'; vocab: VocabItem; options: VocabItem[] }
   | { kind: 'ckb-to-en'; vocab: VocabItem; options: VocabItem[] }
-  | { kind: 'picture-to-en'; vocab: VocabItem; options: VocabItem[] }
+  | { kind: 'picture-to-en'; vocab: VocabItem; options: VocabItem[]; sentence: string }
   | { kind: 'listen-en'; vocab: VocabItem; options: VocabItem[] }
   | { kind: 'listen-picture'; vocab: VocabItem; options: VocabItem[] }
   | { kind: 'type-en'; vocab: VocabItem }
@@ -69,6 +69,12 @@ function blankSentence(exampleEn: string, word: string): string | null {
   return exampleEn.replace(re, '___');
 }
 
+function pictureToEn(vocab: VocabItem, options: VocabItem[]): Question {
+  const sentence = blankSentence(vocab.exampleEn, vocab.en);
+  if (!sentence) return { kind: 'ckb-to-en', vocab, options };
+  return { kind: 'picture-to-en', vocab, options, sentence };
+}
+
 function buildable(v: VocabItem): boolean {
   const words = v.exampleEn.replace(/[.!?]$/, '').split(' ');
   return words.length >= 3 && words.length <= 7;
@@ -113,7 +119,7 @@ export function generateRound1(level: Level, seed = 1): Question[] {
     const v = next();
     const pick = (level.id + qs.length) % 4;
     if (pick === 0) qs.push({ kind: 'en-to-ckb', vocab: v, options: optionSet(level.vocab, v, rand) });
-    else if (pick === 1) qs.push({ kind: 'picture-to-en', vocab: v, options: optionSet(level.vocab, v, rand) });
+    else if (pick === 1) qs.push(pictureToEn(v, optionSet(level.vocab, v, rand)));
     else if (pick === 2) qs.push({ kind: 'listen-picture', vocab: v, options: optionSet(level.vocab, v, rand) });
     else {
       const pairs = [v, ...distractors(level.vocab, v, 3, rand)];
@@ -171,8 +177,8 @@ export function generateRound2(level: Level, seed = 2): Question[] {
 }
 
 // Exam: mixed missions with fresh combinations, incl. cross-level distractors.
-// Every 5th level (25, 30, 35, 40) is a cumulative challenge: questions from
-// previous levels are tested as first-class items, not just distractors.
+// Every fifth level reviews its five-level block. The final level also includes
+// questions from the whole course as first-class items, not just distractors.
 export function generateExam(level: Level, allLevels: Level[], seed = 3): Question[] {
   const rand = mulberry32(level.id * 3000 + seed * 7 + 1);
   const previousVocab = allLevels.filter((l) => l.id < level.id).flatMap((l) => l.vocab);
@@ -183,7 +189,7 @@ export function generateExam(level: Level, allLevels: Level[], seed = 3): Questi
   let target = Math.min(12, Math.max(10, testVocab.length));
 
   if (isMilestone) {
-    const windowStart = level.id >= 40 ? 1 : level.id - 4;
+    const windowStart = level.id === allLevels.length ? 1 : level.id - 4;
     const reviewVocab = allLevels
       .filter((l) => l.id >= windowStart && l.id < level.id)
       .flatMap((l) => l.vocab);
@@ -220,7 +226,7 @@ export function generateExam(level: Level, allLevels: Level[], seed = 3): Questi
         const wrong = distractors(testVocab, v, 2, rand, pool).map((d) => d.en);
         qs.push({ kind: 'missing', vocab: v, sentence, options: shuffle([v.en, ...wrong], rand), answer: v.en });
       } else {
-        qs.push({ kind: 'picture-to-en', vocab: v, options: optionSet(testVocab, v, rand, pool) });
+        qs.push(pictureToEn(v, optionSet(testVocab, v, rand, pool)));
       }
     } else if (pick === 'e' && buildable(v)) {
       const words = v.exampleEn.replace(/[.!?]$/, '').split(' ');
@@ -228,7 +234,7 @@ export function generateExam(level: Level, allLevels: Level[], seed = 3): Questi
     } else if (convIdx < convQs.length) {
       qs.push(convQs[convIdx++]);
     } else {
-      qs.push({ kind: 'picture-to-en', vocab: v, options: optionSet(testVocab, v, rand, pool) });
+      qs.push(pictureToEn(v, optionSet(testVocab, v, rand, pool)));
     }
   }
   return qs;

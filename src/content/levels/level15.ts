@@ -6,7 +6,7 @@ export const level15: Level = {
   titleCkb: 'جلوبەرگ',
   icon: '👕',
   objectiveEn: 'Learn clothes words and describe them with colors and possessives.',
-  objectiveCkb: 'ناڤێن جلوبەرگان فێر ببە و ب رەنگان و پەیڤێن خویانیێ وەسفا وان بکە.',
+  objectiveCkb: 'ناڤێن جلوبەرگان فێر ببە و ب ڕەنگان و پەیڤێن خویانیێ وەسفا وان بکە.',
   cefr: 'A1',
   vocab: [
     {
@@ -82,7 +82,7 @@ export const level15: Level = {
       emoji: '🎩',
       phonetic: '/hæt/',
       exampleEn: 'She has a red hat.',
-      exampleCkb: 'وێ کەلوەکا سور هەیە.',
+      exampleCkb: 'وێ کەلوەکا سۆر هەیە.',
       category: 'clothes',
       difficulty: 1,
       bahdiniReviewed: false,
@@ -145,7 +145,7 @@ export const level15: Level = {
     { en: 'Your shoes are black.', ckb: 'سۆلمەیێن تە یێن ڕەشن.' },
     { en: 'His jacket is new.', ckb: 'چاکەتێ وی یێ نوییە.' },
     { en: 'Her dress is beautiful.', ckb: 'فستانا ڤێ یا جوانە.' },
-    { en: 'A red shirt.', ckb: 'کراسەکا سور.' },
+    { en: 'A red shirt.', ckb: 'کراسەکا سۆر.' },
     { en: 'Black shoes.', ckb: 'سۆلمەیێن ڕەش.' },
   ],
   conversation: [
@@ -157,12 +157,12 @@ export const level15: Level = {
     {
       characterId: 'shirin',
       en: 'Thank you! My shirt is blue.',
-      ckb: 'سپاس! کراسا من یا شینە.',
+      ckb: 'سوپاس! کراسا من یا شینە.',
     },
     {
       characterId: 'rojin',
       en: 'I have a red shirt.',
-      ckb: 'من کراسەکا سور هەیە.',
+      ckb: 'من کراسەکا سۆر هەیە.',
     },
     {
       characterId: 'shirin',

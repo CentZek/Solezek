@@ -1,0 +1,41 @@
+import type { Level } from '../../types/content';
+
+export const level60: Level = {
+  id: 60,
+  titleEn: 'Final A2 Challenge',
+  titleCkb: 'تاقیکرنا دوماهیێ یا A2',
+  icon: '🏆',
+  objectiveEn: 'Use practical A2 English across travel, work, health, shopping, and daily life.',
+  objectiveCkb: 'ئینگلیزیا A2 ل گەشت، کار، ساخلەمی، کڕین و ژیانا ڕۆژانە بکاربینە.',
+  cefr: 'A2',
+  vocab: [
+    { id: 'l60-appointment', en: 'appointment', ckb: 'دیدار', pos: 'noun', emoji: '📅', phonetic: '/əˈpɔɪntmənt/', exampleEn: 'I have an appointment tomorrow.', exampleCkb: 'دیدارەکا من سەبەی هەیە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-reservation', en: 'reservation', ckb: 'حەجز', pos: 'noun', emoji: '📋', phonetic: '/ˌrezəˈveɪʃən/', exampleEn: 'Confirm your reservation.', exampleCkb: 'حەجزا خو پشتڕاست بکە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-receipt', en: 'receipt', ckb: 'پسولە', pos: 'noun', emoji: '🧾', phonetic: '/rɪˈsiːt/', exampleEn: 'Keep your receipt.', exampleCkb: 'پسولەیا خو بپارێزە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-medicine', en: 'medicine', ckb: 'دەرمان', pos: 'noun', emoji: '💊', phonetic: '/ˈmedsən/', exampleEn: 'Take your medicine after food.', exampleCkb: 'دەرمانێ خو پاش خوارنێ وەربگرە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-schedule', en: 'schedule', ckb: 'بەرنامە', pos: 'noun', emoji: '🗓️', phonetic: '/ˈʃedjuːl/', exampleEn: 'Check your schedule.', exampleCkb: 'بەرنامەیا خو پشکنین بکە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-hobby', en: 'hobby', ckb: 'حۆبی', pos: 'noun', emoji: '🎨', phonetic: '/ˈhɒbi/', exampleEn: 'What is your favorite hobby?', exampleCkb: 'حۆبیا تە یا حەزکری چیە؟', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-exercise', en: 'exercise', ckb: 'وەرزش', pos: 'noun', emoji: '🏋️', phonetic: '/ˈeksəsaɪz/', exampleEn: 'Exercise keeps you healthy.', exampleCkb: 'وەرزش تە ساخلەم دپارێزیت.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-homework', en: 'homework', ckb: 'کارێ مالێ', pos: 'noun', emoji: '📝', phonetic: '/ˈhəʊmwɜːk/', exampleEn: 'Finish your homework.', exampleCkb: 'کارێ خو یێ مالێ تمام بکە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-message', en: 'message', ckb: 'نامە', pos: 'noun', emoji: '💬', phonetic: '/ˈmesɪdʒ/', exampleEn: 'Send me a message later.', exampleCkb: 'پاشی نامەیەک بۆ من فرێبکە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-neighbor', en: 'neighbor', ckb: 'جیران', pos: 'noun', emoji: '🏘️', phonetic: '/ˈneɪbə/', exampleEn: 'Our neighbor helped us.', exampleCkb: 'جیرانێ مە ھاریکاریا مە کر.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-problem', en: 'problem', ckb: 'کێشە', pos: 'noun', emoji: '🧩', phonetic: '/ˈprɒbləm/', exampleEn: 'I understand the problem.', exampleCkb: 'ئەز تێگەهشتمە کێشەیێ.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l60-trip', en: 'trip', ckb: 'گەشت', pos: 'noun', emoji: '🧭', phonetic: '/trɪp/', exampleEn: 'We enjoyed our trip.', exampleCkb: 'گەشتا مە ل مە خۆش بوو.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+  ],
+  grammarPatterns: [
+    { en: 'I have an appointment tomorrow.', ckb: 'دیدارەکا من سەبەی هەیە.' },
+    { en: 'Confirm your reservation.', ckb: 'حەجزا خو پشتڕاست بکە.' },
+    { en: 'Take your medicine after food.', ckb: 'دەرمانێ خو پاش خوارنێ وەربگرە.' },
+    { en: 'Send me a message later.', ckb: 'پاشی نامەیەک بۆ من فرێبکە.' },
+    { en: 'Could you help me?', ckb: 'تو دشێی ھاریکاریا من بکەی؟' },
+    { en: 'We enjoyed our trip.', ckb: 'گەشتا مە ل مە خۆش بوو.' },
+  ],
+  conversation: [
+    { characterId: 'shirin', en: 'Are you ready for your trip tomorrow?', ckb: 'تو بۆ گەشتا سەبەی ئامادە یی؟' },
+    { characterId: 'dara', en: 'Almost. I confirmed my reservation and checked the schedule.', ckb: 'نێزیک. من حەجزا خو پشتڕاست کر و بەرنامەیا خو پشکنین کر.' },
+    { characterId: 'shirin', en: 'Do you have your tickets and medicine?', ckb: 'بلیت و دەرمانێن تە هەنە؟' },
+    { characterId: 'dara', en: 'Yes. I also kept the hotel receipt and sent you a message.', ckb: 'بەلێ. من پسولەیا ئۆتێلێ ژی پاراست و نامەیەک بۆ تە فرێکر.' },
+    { characterId: 'shirin', en: 'Great. Could you call me when you arrive?', ckb: 'زۆر باش. دەمێ تو گەهیشتی، تو دشێی تەلەفۆنا من بکەی؟' },
+    { characterId: 'dara', en: 'Of course. If there is a problem, I will ask my neighbor for help too.', ckb: 'بێگومان. ئەگەر کێشەیەک هەبوو، ئەز دێ ژ جیرانێ خو ژی ھاریکاری بخوازم.' },
+  ],
+};

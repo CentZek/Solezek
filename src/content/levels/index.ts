@@ -39,6 +39,26 @@ import { level37 } from './level37';
 import { level38 } from './level38';
 import { level39 } from './level39';
 import { level40 } from './level40';
+import { level41 } from './level41';
+import { level42 } from './level42';
+import { level43 } from './level43';
+import { level44 } from './level44';
+import { level45 } from './level45';
+import { level46 } from './level46';
+import { level47 } from './level47';
+import { level48 } from './level48';
+import { level49 } from './level49';
+import { level50 } from './level50';
+import { level51 } from './level51';
+import { level52 } from './level52';
+import { level53 } from './level53';
+import { level54 } from './level54';
+import { level55 } from './level55';
+import { level56 } from './level56';
+import { level57 } from './level57';
+import { level58 } from './level58';
+import { level59 } from './level59';
+import { level60 } from './level60';
 
 // The course is data-driven: add future levels (A2: 41–80, B1: 81–120, ...)
 // to this array and the whole app (map, progression, exams) picks them up.
@@ -83,6 +103,26 @@ export const levels: Level[] = [
   level38,
   level39,
   level40,
+  level41,
+  level42,
+  level43,
+  level44,
+  level45,
+  level46,
+  level47,
+  level48,
+  level49,
+  level50,
+  level51,
+  level52,
+  level53,
+  level54,
+  level55,
+  level56,
+  level57,
+  level58,
+  level59,
+  level60,
 ];
 
 export function getLevel(id: number): Level | undefined {

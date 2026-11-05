@@ -31,13 +31,13 @@ export interface AchievementDef {
 
 export const achievements: AchievementDef[] = [
   { id: 'first-lesson', icon: '🏆', titleEn: 'First Lesson', titleCkb: 'وێلا وانەیێ', descCkb: 'وێلا وانەیێ تمامکە' },
-  { id: 'ten-correct', icon: '🎯', titleEn: '10 Correct Answers', titleCkb: '١٠ بەرسڤێن راست', descCkb: '١٠ بەرسڤێن راست بدە' },
-  { id: 'streak-7', icon: '🔥', titleEn: '7 Day Streak', titleCkb: 'حەفتەیەک پێ یەکتر', descCkb: 'حەفت ڕۆژان پێ یەکتر فێر بوو' },
+  { id: 'ten-correct', icon: '🎯', titleEn: '10 Correct Answers', titleCkb: '١٠ بەرسڤێن ڕاست', descCkb: '١٠ بەرسڤێن ڕاست بدە' },
+  { id: 'streak-7', icon: '🔥', titleEn: '7 Day Streak', titleCkb: '٧ ڕۆژ پێ یەکتر', descCkb: 'حەفت ڕۆژان پێ یەکتر فێر بوو' },
   { id: 'words-100', icon: '📚', titleEn: '100 Words Learned', titleCkb: '١٠٠ پەیڤ', descCkb: '١٠٠ پەیڤان فێر بوو' },
   { id: 'first-speaking', icon: '🗣️', titleEn: 'First Speaking', titleCkb: 'وێلا ئاخفتنێ', descCkb: 'وێلا جارا ڕاهێنانا ئاخفتنێ بکە' },
   { id: 'perfect-level', icon: '🌟', titleEn: 'Perfect Level', titleCkb: 'ئاستا بێخەم', descCkb: 'ئاستەیەکێ ب خالا ١٠٠٪ تمامکە' },
   { id: 'five-levels', icon: '🌿', titleEn: '5 Levels Complete', titleCkb: '٥ ئاستێن تمامکری', descCkb: '٥ ئاستان تمامکە' },
-  { id: 'course-done', icon: '🌳', titleEn: 'Course Complete', titleCkb: 'خول تمام بوو', descCkb: 'هەمی ٢٠ ئاستان تمامکە' },
+  { id: 'course-done', icon: '🌳', titleEn: 'Course Complete', titleCkb: 'خول تمام بوو', descCkb: 'هەمی ٦٠ ئاستان تمامکە' },
 ];
 
 interface ProgressState {

@@ -147,7 +147,7 @@ export const level18: Level = {
       emoji: '🔢',
       phonetic: '/haʊ ˈmeni/',
       exampleEn: 'How many apples do you have?',
-      exampleCkb: 'چەند سیڤێن تە هەنە؟',
+      exampleCkb: 'چەند سێڤێن تە هەنە؟',
       category: 'questions',
       difficulty: 3,
       bahdiniReviewed: false,
@@ -176,7 +176,7 @@ export const level18: Level = {
     { en: 'How much is it?', ckb: 'ئەڤ ب چەندە؟' },
   ],
   conversation: [
-    { characterId: 'dara', en: 'Hello! What is your name?', ckb: 'سلاو! ناڤێ تە چیە؟' },
+    { characterId: 'dara', en: 'Hello! What is your name?', ckb: 'سلاڤ! ناڤێ تە چیە؟' },
     { characterId: 'shirin', en: 'My name is Shirin.', ckb: 'ناڤێ من شیرینە.' },
     { characterId: 'dara', en: 'How are you, Shirin?', ckb: 'تو چەوا یی، شیرین؟' },
     { characterId: 'shirin', en: 'I am good, thank you.', ckb: 'ئەز باش مە، سوپاس.' },
@@ -185,6 +185,6 @@ export const level18: Level = {
     { characterId: 'shirin', en: 'What is this?', ckb: 'ئەڤ چیە؟' },
     { characterId: 'dara', en: 'It is a book.', ckb: 'ئەڤ پەرتووکەکە.' },
     { characterId: 'shirin', en: 'Who is he?', ckb: 'ئەو کێیە؟' },
-    { characterId: 'dara', en: 'He is Azad, my friend.', ckb: 'ئەو ئازادە، هەڤالێ منە.' },
+    { characterId: 'dara', en: 'He is Azad, my friend.', ckb: 'ئەو ئازادە، هەڤاڵێ منە.' },
   ],
 };

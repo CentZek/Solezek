@@ -17,7 +17,7 @@ export const level17: Level = {
       emoji: '🏃',
       phonetic: '/rʌn/',
       exampleEn: 'I am running.',
-      exampleCkb: 'ئەز دڕیکم.',
+      exampleCkb: 'ئەز دبەزم.',
       category: 'actions',
       difficulty: 1,
       bahdiniReviewed: false,
@@ -155,7 +155,7 @@ export const level17: Level = {
     {
       id: 'l17-sit',
       en: 'sit',
-      ckb: 'رۆنیشتن',
+      ckb: 'ڕۆنیشتن',
       pos: 'verb',
       emoji: '🪑',
       phonetic: '/sɪt/',
@@ -194,7 +194,7 @@ export const level17: Level = {
   ],
   grammarPatterns: [
     { en: 'I am walking.', ckb: 'ئەز پیاسە دکەم.' },
-    { en: 'He is running.', ckb: 'ئەو دڕیکی.' },
+    { en: 'He is running.', ckb: 'ئەو دبەزی.' },
     { en: 'She is eating.', ckb: 'ئەو دخۆ.' },
     { en: 'I am drinking water.', ckb: 'ئەز ئاڤێ دڤەخوم.' },
     { en: 'She is reading a book.', ckb: 'ئەو پەرتووکەکی دخوینە.' },
@@ -203,7 +203,7 @@ export const level17: Level = {
   conversation: [
     { characterId: 'dara', en: 'What are you doing, Rojin?', ckb: 'تو چ دکەی، ڕۆژین؟' },
     { characterId: 'rojin', en: 'I am reading a book.', ckb: 'ئەز پەرتووکەکی دخوینم.' },
-    { characterId: 'dara', en: 'Look! Azad is running.', ckb: 'بسەحە! ئازاد دڕیکی.' },
+    { characterId: 'dara', en: 'Look! Azad is running.', ckb: 'بسەحە! ئازاد دبەزی.' },
     { characterId: 'rojin', en: 'He is fast!', ckb: 'ئەو ب خێرایە!' },
     { characterId: 'rojin', en: 'Where is Shirin?', ckb: 'شیرین ل کویە؟' },
     { characterId: 'dara', en: 'She is sleeping.', ckb: 'ئەو دنووە.' },

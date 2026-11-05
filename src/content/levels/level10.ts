@@ -187,12 +187,12 @@ export const level10: Level = {
     { en: 'Do you have money?', ckb: 'پارە تە هەیە؟' },
   ],
   conversation: [
-    { characterId: 'dara', en: 'Hello. How much is this?', ckb: 'سلاو. بها ڤێ چەندە؟' },
+    { characterId: 'dara', en: 'Hello. How much is this?', ckb: 'سلاڤ. بها ڤێ چەندە؟' },
     { characterId: 'azad', en: 'It is ten dollars.', ckb: 'بها وی دەھ دۆلارە.' },
     { characterId: 'dara', en: 'That is expensive!', ckb: 'ئەوە گرانە!' },
     { characterId: 'azad', en: 'No, it is cheap. Look, this is five dollars.', ckb: 'نەخێر، هەرزانە. تەماشە بکە، بها ڤێ پێنج دۆلارە.' },
     { characterId: 'dara', en: 'OK. I want two.', ckb: 'باشە. ئەز دوو دڤێم.' },
     { characterId: 'azad', en: 'That is ten dollars.', ckb: 'دبیت دەھ دۆلار.' },
-    { characterId: 'dara', en: 'Here you are. Thank you!', ckb: 'بگرە. زۆر سپاس!' },
+    { characterId: 'dara', en: 'Here you are. Thank you!', ckb: 'بگرە. زۆر سوپاس!' },
   ],
 };

@@ -38,12 +38,12 @@ export const level08: Level = {
     {
       id: 'l8-book',
       en: 'Book',
-      ckb: 'پەرتووك',
+      ckb: 'پەرتووک',
       pos: 'noun',
       emoji: '📖',
       phonetic: '/bʊk/',
       exampleEn: 'The book is red.',
-      exampleCkb: 'پەرتووك سورە.',
+      exampleCkb: 'پەرتووک سۆرە.',
       category: 'objects',
       difficulty: 1,
       bahdiniReviewed: false,
@@ -69,7 +69,7 @@ export const level08: Level = {
       emoji: '🎒',
       phonetic: '/bæɡ/',
       exampleEn: 'My bag is black.',
-      exampleCkb: 'چەنتەیا من رەشە.',
+      exampleCkb: 'چەنتەیا من ڕەشە.',
       category: 'objects',
       difficulty: 1,
       bahdiniReviewed: false,
@@ -170,7 +170,7 @@ export const level08: Level = {
     { en: 'This is a phone.', ckb: 'ئەڤە موبایلەکە.' },
     { en: 'It is a book.', ckb: 'ئەو پەرتووکەکە.' },
     { en: 'Is this a pen?', ckb: 'ئەڤە پێنووسەکە؟' },
-    { en: 'Yes, it is.', ckb: 'بەڵێ، هەر وهایە.' },
+    { en: 'Yes, it is.', ckb: 'بەلێ، هەر وهایە.' },
     { en: 'No, it isn\'t.', ckb: 'نەخێر، ئەو نینە.' },
   ],
   conversation: [
@@ -186,13 +186,13 @@ export const level08: Level = {
     {
       characterId: 'azad',
       en: 'Yes, it is. It is my phone.',
-      ckb: 'بەڵێ، هەر وهایە. ئەو موبایلێ منە.',
+      ckb: 'بەلێ، هەر وهایە. ئەو موبایلێ منە.',
     },
     {
       characterId: 'shirin',
       en: 'And this? Is this a cup?',
       ckb: 'و ئەڤە؟ ئەڤە کوپەکە؟',
     },
-    { characterId: 'azad', en: 'Yes, it is!', ckb: 'بەڵێ، هەر وهایە!' },
+    { characterId: 'azad', en: 'Yes, it is!', ckb: 'بەلێ، هەر وهایە!' },
   ],
 };

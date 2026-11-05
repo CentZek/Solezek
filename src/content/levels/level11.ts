@@ -134,7 +134,7 @@ export const level11: Level = {
       emoji: '🌆',
       phonetic: '/ˈiːvnɪŋ/',
       exampleEn: 'Good evening.',
-      exampleCkb: 'ئێوارە باش.',
+      exampleCkb: 'ئێڤارباش.',
       category: 'time',
       difficulty: 2,
       bahdiniReviewed: false,

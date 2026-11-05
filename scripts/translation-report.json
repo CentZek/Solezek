@@ -96,6 +96,11 @@
       "ckb": "بیست"
     },
     {
+      "id": "l4-red",
+      "en": "Red",
+      "ckb": "سۆر"
+    },
+    {
       "id": "l4-blue",
       "en": "Blue",
       "ckb": "شین"
@@ -103,7 +108,7 @@
     {
       "id": "l4-black",
       "en": "Black",
-      "ckb": "رەش"
+      "ckb": "ڕەش"
     },
     {
       "id": "l4-white",
@@ -113,7 +118,12 @@
     {
       "id": "l5-mother",
       "en": "Mother",
-      "ckb": "دايك"
+      "ckb": "دایک"
+    },
+    {
+      "id": "l5-brother",
+      "en": "Brother",
+      "ckb": "برا"
     },
     {
       "id": "l5-sister",
@@ -158,7 +168,7 @@
     {
       "id": "l8-book",
       "en": "Book",
-      "ckb": "پەرتووك"
+      "ckb": "پەرتووک"
     },
     {
       "id": "l8-pen",
@@ -271,6 +281,11 @@
       "ckb": "سپێدە"
     },
     {
+      "id": "l11-evening",
+      "en": "evening",
+      "ckb": "ئێڤار"
+    },
+    {
       "id": "l11-night",
       "en": "night",
       "ckb": "شەڤ"
@@ -289,6 +304,11 @@
       "id": "l13-shop",
       "en": "Shop",
       "ckb": "دکان"
+    },
+    {
+      "id": "l13-restaurant",
+      "en": "Restaurant",
+      "ckb": "خوارنگەه"
     },
     {
       "id": "l13-bank",
@@ -331,6 +351,11 @@
       "ckb": "باران"
     },
     {
+      "id": "l17-run",
+      "en": "run",
+      "ckb": "بەزین"
+    },
+    {
       "id": "l17-drink",
       "en": "drink",
       "ckb": "ڤەخوارن"
@@ -351,9 +376,9 @@
       "ckb": "چەوا"
     },
     {
-      "id": "l19-near",
-      "en": "near",
-      "ckb": "نێزیک"
+      "id": "l18-how-are-you",
+      "en": "How are you?",
+      "ckb": "چەوانی؟"
     },
     {
       "id": "l20-five",
@@ -401,9 +426,19 @@
       "ckb": "جه"
     },
     {
+      "id": "l22-run",
+      "en": "run",
+      "ckb": "بەزین"
+    },
+    {
       "id": "l22-speak",
       "en": "speak",
       "ckb": "ئاخفتن"
+    },
+    {
+      "id": "l23-street",
+      "en": "street",
+      "ckb": "جادە"
     },
     {
       "id": "l23-table",
@@ -436,9 +471,29 @@
       "ckb": "پێلاڤ"
     },
     {
+      "id": "l26-writing",
+      "en": "writing",
+      "ckb": "نڤیسین"
+    },
+    {
+      "id": "l26-watching",
+      "en": "watching",
+      "ckb": "تەماشەکرن"
+    },
+    {
+      "id": "l28-went",
+      "en": "went",
+      "ckb": "چوو"
+    },
+    {
       "id": "l30-next-week",
       "en": "next week",
       "ckb": "هەفتیا بهێت"
+    },
+    {
+      "id": "l30-plan",
+      "en": "plan",
+      "ckb": "پلان"
     },
     {
       "id": "l30-study",
@@ -463,7 +518,7 @@
     {
       "id": "l32-coffee",
       "en": "coffee",
-      "ckb": "قەھوە"
+      "ckb": "قەهوە"
     },
     {
       "id": "l32-chicken",
@@ -496,11 +551,6 @@
       "ckb": "جادە"
     },
     {
-      "id": "l33-far",
-      "en": "far",
-      "ckb": "دوور"
-    },
-    {
       "id": "l34-flight",
       "en": "flight",
       "ckb": "گەشت"
@@ -526,14 +576,29 @@
       "ckb": "سەر"
     },
     {
+      "id": "l37-back",
+      "en": "back",
+      "ckb": "پشت"
+    },
+    {
       "id": "l37-hand",
       "en": "hand",
       "ckb": "دەست"
     },
     {
+      "id": "l37-fever",
+      "en": "fever",
+      "ckb": "تا"
+    },
+    {
       "id": "l38-expensive",
       "en": "expensive",
       "ckb": "گران"
+    },
+    {
+      "id": "l38-slow",
+      "en": "slow",
+      "ckb": "ھێدی"
     },
     {
       "id": "l38-better",
@@ -544,6 +609,26 @@
       "id": "l38-bigger",
       "en": "bigger",
       "ckb": "مەزنتر"
+    },
+    {
+      "id": "l39-thirsty",
+      "en": "thirsty",
+      "ckb": "تێھنی"
+    },
+    {
+      "id": "l39-plan",
+      "en": "plan",
+      "ckb": "پلان"
+    },
+    {
+      "id": "l40-flight",
+      "en": "flight",
+      "ckb": "گەشت"
+    },
+    {
+      "id": "l40-manager",
+      "en": "manager",
+      "ckb": "بریکار"
     }
   ],
   "mismatch": [
@@ -562,7 +647,7 @@
     {
       "id": "l1-good-morning",
       "en": "Good morning",
-      "current": "بەیانیا خێر",
+      "current": "بەیانیت بخێر",
       "dictionary": "سپێدە باش"
     },
     {
@@ -668,12 +753,6 @@
       "dictionary": "ھژدە"
     },
     {
-      "id": "l4-red",
-      "en": "Red",
-      "current": "سور",
-      "dictionary": "سۆر"
-    },
-    {
       "id": "l4-green",
       "en": "Green",
       "current": "کێسک",
@@ -714,12 +793,6 @@
       "en": "Father",
       "current": "باڤ",
       "dictionary": "باب"
-    },
-    {
-      "id": "l5-brother",
-      "en": "Brother",
-      "current": "برای",
-      "dictionary": "برا"
     },
     {
       "id": "l5-daughter",
@@ -802,7 +875,7 @@
     {
       "id": "l6-slow",
       "en": "Slow",
-      "current": "ب حەوانێ",
+      "current": "حەوان",
       "dictionary": "ھێدی"
     },
     {
@@ -850,7 +923,7 @@
     {
       "id": "l7-bed",
       "en": "Bed",
-      "current": "جێگا",
+      "current": "جێگای نڤستنێ",
       "dictionary": "جى نفستن"
     },
     {
@@ -904,7 +977,7 @@
     {
       "id": "l9-banana",
       "en": "banana",
-      "current": "موس",
+      "current": "مۆز",
       "dictionary": "موز"
     },
     {
@@ -998,12 +1071,6 @@
       "dictionary": "پاشنیڤرۆ"
     },
     {
-      "id": "l11-evening",
-      "en": "evening",
-      "current": "ئێوارە",
-      "dictionary": "ئێڤار"
-    },
-    {
       "id": "l11-tomorrow",
       "en": "tomorrow",
       "current": "سەبەی",
@@ -1018,13 +1085,13 @@
     {
       "id": "l12-wake-up",
       "en": "wake up",
-      "current": "هێش بوون",
+      "current": "هشیار بوون (ئەز هشیار دبم)",
       "dictionary": "هشیار کرن ، هشیار بین"
     },
     {
       "id": "l12-get-up",
       "en": "get up",
-      "current": "سەرەکە هەستان",
+      "current": "سەر پێ هەستان (ئەز سەر پێ دھێسم)",
       "dictionary": "رابین ، رابە"
     },
     {
@@ -1094,12 +1161,6 @@
       "dictionary": "فروكەخانە"
     },
     {
-      "id": "l13-restaurant",
-      "en": "Restaurant",
-      "current": "خواردنگەه",
-      "dictionary": "خوارنگەھ"
-    },
-    {
       "id": "l13-hospital",
       "en": "Hospital",
       "current": "نەخۆشخانە",
@@ -1150,7 +1211,7 @@
     {
       "id": "l14-road",
       "en": "Road",
-      "current": "ڕێ",
+      "current": "ڕێکا",
       "dictionary": "رێك"
     },
     {
@@ -1228,13 +1289,13 @@
     {
       "id": "l16-warm",
       "en": "Warm",
-      "current": "هین",
+      "current": "گەرم",
       "dictionary": "گەرم دبیت"
     },
     {
       "id": "l16-cool",
       "en": "Cool",
-      "current": "هینین",
+      "current": "خنک",
       "dictionary": "تەزی"
     },
     {
@@ -1260,12 +1321,6 @@
       "en": "Snow",
       "current": "بەفر",
       "dictionary": "به‌رف"
-    },
-    {
-      "id": "l17-run",
-      "en": "run",
-      "current": "ڕیکن",
-      "dictionary": "بەزین"
     },
     {
       "id": "l17-walk",
@@ -1318,13 +1373,13 @@
     {
       "id": "l17-sit",
       "en": "sit",
-      "current": "رۆنیشتن",
+      "current": "ڕۆنیشتن",
       "dictionary": "رینشتن"
     },
     {
       "id": "l17-stand",
       "en": "stand",
-      "current": "وەستان / ب سەرپێ بوون",
+      "current": "وەستان",
       "dictionary": "ڕاوه‌ستین"
     },
     {
@@ -1358,12 +1413,6 @@
       "dictionary": "بوچى"
     },
     {
-      "id": "l18-how-are-you",
-      "en": "How are you?",
-      "current": "تو چەوا یی؟",
-      "dictionary": "چەوانی؟"
-    },
-    {
       "id": "l18-how-much",
       "en": "How much?",
       "current": "ب چەند؟",
@@ -1372,7 +1421,7 @@
     {
       "id": "l19-meet",
       "en": "meet",
-      "current": "دیتن / هەڤدیتن",
+      "current": "ھەڤدیتن",
       "dictionary": "دیتن ، ببینە"
     },
     {
@@ -1384,7 +1433,7 @@
     {
       "id": "l19-help",
       "en": "help",
-      "current": "هاریکاریکرن",
+      "current": "ھاریکاریکرن",
       "dictionary": "هاریكاری"
     },
     {
@@ -1392,6 +1441,12 @@
       "en": "order",
       "current": "داواکرن",
       "dictionary": "داخاز کرن"
+    },
+    {
+      "id": "l19-near",
+      "en": "near",
+      "current": "نێزک",
+      "dictionary": "نێزیك"
     },
     {
       "id": "l19-far",
@@ -1414,19 +1469,19 @@
     {
       "id": "l19-nice-to-meet-you",
       "en": "Nice to meet you.",
-      "current": "دلخۆش مە ب دیتنا تە",
+      "current": "دڵخۆش مە ب دیتنا تە",
       "dictionary": "پێخۆشحالم ب نیاسینا تە"
     },
     {
       "id": "l20-hello",
       "en": "hello",
-      "current": "سلاو",
+      "current": "سلاڤ",
       "dictionary": "چەوانی"
     },
     {
       "id": "l20-friend",
       "en": "friend",
-      "current": "هەڤال",
+      "current": "هەڤاڵ",
       "dictionary": "دۆست"
     },
     {
@@ -1444,7 +1499,7 @@
     {
       "id": "l20-taxi",
       "en": "taxi",
-      "current": "تاکسی",
+      "current": "تەکسی",
       "dictionary": "تەكسى"
     },
     {
@@ -1456,7 +1511,7 @@
     {
       "id": "l20-sunny",
       "en": "sunny",
-      "current": "ب هەتاو",
+      "current": "ھەتاوی",
       "dictionary": "سایى، تاڤک"
     },
     {
@@ -1474,7 +1529,7 @@
     {
       "id": "l21-want",
       "en": "want",
-      "current": "ڤێان",
+      "current": "ڤیان",
       "dictionary": "دڤێت"
     },
     {
@@ -1492,7 +1547,7 @@
     {
       "id": "l21-hate",
       "en": "hate",
-      "current": "هیڤ حەزنەکرن",
+      "current": "ھیچ حەزنەکرن",
       "dictionary": "که‌رب ژێ ڤه‌بوون"
     },
     {
@@ -1516,7 +1571,7 @@
     {
       "id": "l22-can",
       "en": "can",
-      "current": "شیتن",
+      "current": "شێتن",
       "dictionary": "قۆدیك"
     },
     {
@@ -1524,12 +1579,6 @@
       "en": "swim",
       "current": "مەلەڤانی کرن",
       "dictionary": "مەلەڤانیا دكەت"
-    },
-    {
-      "id": "l22-run",
-      "en": "run",
-      "current": "ڕەڤان",
-      "dictionary": "بەزین"
     },
     {
       "id": "l22-drive",
@@ -1558,7 +1607,7 @@
     {
       "id": "l22-help",
       "en": "help",
-      "current": "ئارامی کرن",
+      "current": "ھاریکاریکرن",
       "dictionary": "هاریكاری"
     },
     {
@@ -1608,12 +1657,6 @@
       "en": "shop",
       "current": "دوکان",
       "dictionary": "دكان"
-    },
-    {
-      "id": "l23-street",
-      "en": "street",
-      "current": "جاددە",
-      "dictionary": "جادە"
     },
     {
       "id": "l23-car",
@@ -1672,7 +1715,7 @@
     {
       "id": "l24-next-to",
       "en": "next to",
-      "current": "ل نێزک",
+      "current": "ل ڕەخ",
       "dictionary": "ب رەخ ~ ڤە ، ل رەخێ"
     },
     {
@@ -1684,7 +1727,7 @@
     {
       "id": "l24-between",
       "en": "between",
-      "current": "د ناڤبرا ... دا",
+      "current": "د ناڤبەرا ... دا",
       "dictionary": "ناڤبەرا"
     },
     {
@@ -1696,13 +1739,13 @@
     {
       "id": "l24-far",
       "en": "far",
-      "current": "دۆر",
+      "current": "دور",
       "dictionary": "دوور"
     },
     {
       "id": "l24-inside",
       "en": "inside",
-      "current": "ژ ناڤڤە",
+      "current": "ژ ناڤە",
       "dictionary": "تێ ڤه‌"
     },
     {
@@ -1762,55 +1805,43 @@
     {
       "id": "l26-drinking",
       "en": "drinking",
-      "current": "ڤەخوارن (نوکە ئەز دڤەخوم)",
+      "current": "ڤەخوارن",
       "dictionary": "ڤەخارن"
     },
     {
       "id": "l26-walking",
       "en": "walking",
-      "current": "پیاسەکرن (نوکە ئەز پیاسە دکەم)",
+      "current": "پیاسەکرن",
       "dictionary": "برێفەچوون"
     },
     {
       "id": "l26-sleeping",
       "en": "sleeping",
-      "current": "نووستن (نوکە ئەز دنووم)",
+      "current": "نووستن",
       "dictionary": "خەو"
     },
     {
       "id": "l26-reading",
       "en": "reading",
-      "current": "خویندن (نوکە ئەز دخوینم)",
+      "current": "خویندن",
       "dictionary": "خاندن"
-    },
-    {
-      "id": "l26-writing",
-      "en": "writing",
-      "current": "نڤیسین (نوکە ئەز دنڤیسم)",
-      "dictionary": "نڤیسین"
-    },
-    {
-      "id": "l26-watching",
-      "en": "watching",
-      "current": "تەماشەکرن (نوکە ئەز تەماشە دکەم)",
-      "dictionary": "ته‌ماشه‌کرن"
     },
     {
       "id": "l27-wake-up",
       "en": "wake up",
-      "current": "هێش بوون",
+      "current": "هشیار بوون",
       "dictionary": "هشیار کرن ، هشیار بین"
     },
     {
       "id": "l27-get-dressed",
       "en": "get dressed",
-      "current": "جل ل خۆ کرن",
+      "current": "جل ل بەر خۆ کرن",
       "dictionary": "کرن بەر خۆ"
     },
     {
       "id": "l27-take-a-shower",
       "en": "take a shower",
-      "current": "حەمامێ کرن / خۆشوون",
+      "current": "حەمامێ کرن",
       "dictionary": "سەرێ خۆ ب شۆ"
     },
     {
@@ -1834,19 +1865,13 @@
     {
       "id": "l28-last-week",
       "en": "last week",
-      "current": "هەفتیا رابووری",
+      "current": "هەفتیا ڕابووری",
       "dictionary": "حەفتیا چووی"
-    },
-    {
-      "id": "l28-went",
-      "en": "went",
-      "current": "چوون (ئەز چووم)",
-      "dictionary": "چوو"
     },
     {
       "id": "l28-saw",
       "en": "saw",
-      "current": "دیتن (من دیت)",
+      "current": "دیت",
       "dictionary": "دار بڕ"
     },
     {
@@ -1858,20 +1883,14 @@
     {
       "id": "l29-tired",
       "en": "tired",
-      "current": "وەسقی",
+      "current": "ماندوو",
       "dictionary": "تەعبى"
     },
     {
       "id": "l30-tomorrow",
       "en": "tomorrow",
-      "current": "سبەی",
+      "current": "سەبەی",
       "dictionary": "سوباھی ، سوبه‌"
-    },
-    {
-      "id": "l30-plan",
-      "en": "plan",
-      "current": "پیلان",
-      "dictionary": "پلان"
     },
     {
       "id": "l30-visit",
@@ -1888,13 +1907,13 @@
     {
       "id": "l30-buy",
       "en": "buy",
-      "current": "کرین",
+      "current": "کڕین",
       "dictionary": "کڕین، دكریت"
     },
     {
       "id": "l30-meet",
       "en": "meet",
-      "current": "هەڤدیتن / دیتن",
+      "current": "هەڤدیتن",
       "dictionary": "دیتن ، ببینە"
     },
     {
@@ -1918,7 +1937,7 @@
     {
       "id": "l31-small",
       "en": "small",
-      "current": "بچوک",
+      "current": "بچووک",
       "dictionary": "بچیك"
     },
     {
@@ -1948,25 +1967,25 @@
     {
       "id": "l31-change",
       "en": "change",
-      "current": "پاشماوە",
+      "current": "باقی",
       "dictionary": "بەدل کرن"
     },
     {
       "id": "l31-buy",
       "en": "buy",
-      "current": "کڕین (ئەز دکڕم)",
+      "current": "کڕین",
       "dictionary": "کڕین، دكریت"
     },
     {
       "id": "l31-sell",
       "en": "sell",
-      "current": "فرۆتن (ئەز دفرۆشم)",
+      "current": "فرۆتن",
       "dictionary": "دفروشت"
     },
     {
       "id": "l31-try",
       "en": "try",
-      "current": "پێڤاندن (ئەز پێڤ دبەم)",
+      "current": "پێڤاندن",
       "dictionary": "بزاڤ کرن"
     },
     {
@@ -1978,7 +1997,7 @@
     {
       "id": "l32-order",
       "en": "order",
-      "current": "داخازی",
+      "current": "داخازی کرن",
       "dictionary": "داخاز کرن"
     },
     {
@@ -2008,7 +2027,7 @@
     {
       "id": "l32-lunch",
       "en": "lunch",
-      "current": "نانی نیڤرۆ",
+      "current": "نانێ نیڤڕۆ",
       "dictionary": "فراڤین"
     },
     {
@@ -2026,7 +2045,7 @@
     {
       "id": "l33-turn",
       "en": "turn",
-      "current": "زڤرین (ئەز دزڤرم)",
+      "current": "زڤرین",
       "dictionary": "چه‌رخین، چه‌رخاندن"
     },
     {
@@ -2040,6 +2059,12 @@
       "en": "near",
       "current": "نێزک",
       "dictionary": "نێزیك"
+    },
+    {
+      "id": "l33-far",
+      "en": "far",
+      "current": "دور",
+      "dictionary": "دوور"
     },
     {
       "id": "l33-next-to",
@@ -2116,7 +2141,7 @@
     {
       "id": "l35-reservation",
       "en": "reservation",
-      "current": "حیجز",
+      "current": "حەجز",
       "dictionary": "ڤەگریتی"
     },
     {
@@ -2194,7 +2219,7 @@
     {
       "id": "l36-busy",
       "en": "busy",
-      "current": "مەشغوول",
+      "current": "مژوول",
       "dictionary": "ب شول"
     },
     {
@@ -2214,12 +2239,6 @@
       "en": "stomach",
       "current": "زک",
       "dictionary": "مایدە"
-    },
-    {
-      "id": "l37-back",
-      "en": "back",
-      "current": "پشتی",
-      "dictionary": "پشت"
     },
     {
       "id": "l37-foot",
@@ -2244,12 +2263,6 @@
       "en": "cold",
       "current": "سەرما",
       "dictionary": "ساڕ"
-    },
-    {
-      "id": "l37-fever",
-      "en": "fever",
-      "current": "تاب",
-      "dictionary": "تا"
     },
     {
       "id": "l37-doctor",
@@ -2282,12 +2295,6 @@
       "dictionary": "سەریع"
     },
     {
-      "id": "l38-slow",
-      "en": "slow",
-      "current": "حەوا",
-      "dictionary": "ھێدی"
-    },
-    {
       "id": "l38-easy",
       "en": "easy",
       "current": "ئاسان",
@@ -2302,14 +2309,8 @@
     {
       "id": "l39-hungry",
       "en": "hungry",
-      "current": "بەرسی",
+      "current": "برسی",
       "dictionary": "برسى"
-    },
-    {
-      "id": "l39-thirsty",
-      "en": "thirsty",
-      "current": "تهنی",
-      "dictionary": "تێهنی"
     },
     {
       "id": "l39-delicious",
@@ -2336,12 +2337,6 @@
       "dictionary": "ئازاد"
     },
     {
-      "id": "l39-plan",
-      "en": "plan",
-      "current": "پیلان",
-      "dictionary": "پلان"
-    },
-    {
       "id": "l39-invite",
       "en": "invite",
       "current": "داوەتکرن",
@@ -2362,19 +2357,13 @@
     {
       "id": "l40-gate",
       "en": "gate",
-      "current": "دەرگەهە",
+      "current": "دەرگەھە",
       "dictionary": "دەرگەھى سەرەكى"
-    },
-    {
-      "id": "l40-flight",
-      "en": "flight",
-      "current": "فرین",
-      "dictionary": "گەشت"
     },
     {
       "id": "l40-taxi",
       "en": "taxi",
-      "current": "تاکسی",
+      "current": "تەکسی",
       "dictionary": "تەكسى"
     },
     {
@@ -2408,15 +2397,9 @@
       "dictionary": "ڕاست ھەڕە"
     },
     {
-      "id": "l40-manager",
-      "en": "manager",
-      "current": "ڕێڤەبەر",
-      "dictionary": "بریکار"
-    },
-    {
       "id": "l40-tomorrow",
       "en": "tomorrow",
-      "current": "سبەی",
+      "current": "سەبەی",
       "dictionary": "سوباھی ، سوبه‌"
     }
   ],
@@ -2434,7 +2417,7 @@
     {
       "id": "l2-your",
       "en": "Your",
-      "ckb": "یێ تە / یا تە"
+      "ckb": "یێ تە"
     },
     {
       "id": "l7-tv",
@@ -2459,7 +2442,7 @@
     {
       "id": "l12-have-dinner",
       "en": "have dinner",
-      "ckb": "نانێ ئێوارێ خوارن"
+      "ckb": "نانێ ئێڤارێ خوارن"
     },
     {
       "id": "l16-rainy",
@@ -2489,7 +2472,7 @@
     {
       "id": "l19-can-i-help-you",
       "en": "Can I help you?",
-      "ckb": "ئەز دشێم هاریکاریا تە بکەم؟"
+      "ckb": "ئەز دشێم ھاریکاریا تە بکەم؟"
     },
     {
       "id": "l19-here-you-are",
@@ -2514,7 +2497,7 @@
     {
       "id": "l25-glasses",
       "en": "glasses",
-      "ckb": "بەرگێرن"
+      "ckb": "عەینەک"
     },
     {
       "id": "l26-eating",
@@ -2524,7 +2507,7 @@
     {
       "id": "l26-running",
       "en": "running",
-      "ckb": "ڕیکن (نوکە ئەز دڕیکم)"
+      "ckb": "بەزین (نوکە ئەز دبەزم)"
     },
     {
       "id": "l26-working",
@@ -2539,7 +2522,7 @@
     {
       "id": "l26-driving",
       "en": "driving",
-      "ckb": "دان (نوکە ئەز ترۆمبێلێ ددەم)"
+      "ckb": "ترۆمبێل خەراندن (نوکە ئەز ترۆمبێلێ دخۆم)"
     },
     {
       "id": "l26-cooking",
@@ -2579,17 +2562,17 @@
     {
       "id": "l27-have-dinner",
       "en": "have dinner",
-      "ckb": "نانێ ئێوارێ خوارن"
+      "ckb": "نانێ ئێڤارێ خوارن"
     },
     {
       "id": "l27-go-to-bed",
       "en": "go to bed",
-      "ckb": "چوونە خەڤێ / ڕاکەڤن"
+      "ckb": "چوونە خەڤێ"
     },
     {
       "id": "l28-had",
       "en": "had",
-      "ckb": "هەبوون (من هەبوو)"
+      "ckb": "ھەبوون (من ھەبوو)"
     },
     {
       "id": "l28-ate",
@@ -2604,7 +2587,7 @@
     {
       "id": "l28-bought",
       "en": "bought",
-      "ckb": "کرین (من کری)"
+      "ckb": "کڕین (من کڕی)"
     },
     {
       "id": "l28-worked",
@@ -2644,7 +2627,7 @@
     {
       "id": "l29-when-did-you-come",
       "en": "when did you come?",
-      "ckb": "تو کیشان هات؟"
+      "ckb": "تو کیچان هات؟"
     },
     {
       "id": "l29-who-did-you-see",
@@ -2664,7 +2647,7 @@
     {
       "id": "l29-fun",
       "en": "fun",
-      "ckb": "ب خۆش / یارمەتیبەخش"
+      "ckb": "خۆش"
     },
     {
       "id": "l30-tonight",
@@ -2729,7 +2712,7 @@
     {
       "id": "l38-smaller",
       "en": "smaller",
-      "ckb": "بچویکتر"
+      "ckb": "بچووکتر"
     },
     {
       "id": "l38-cheaper",

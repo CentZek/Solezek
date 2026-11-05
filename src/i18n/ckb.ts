@@ -29,10 +29,10 @@ export const t = {
   },
 
   // Home
-  greeting: (name: string) => `سلاو، ${name}! 👋`,
+  greeting: (name: string) => `سلاڤ، ${name}! 👋`,
   continueLesson: 'بەردەوام بوون ◀',
   startLesson: 'وانە دەستپێبکە ◀',
-  currentLevel: 'ئاستا هەڤە',
+  currentLevel: 'ئاستا نوکە',
   dailyGoal: 'ئامانجا ڕۆژانە',
   minutesUnit: 'خولەک',
   goalDone: 'ئامانجا ڕۆژێ یا تمامە! 🎉',
@@ -78,35 +78,35 @@ export const t = {
 
   // Feedback
   praise: ['باشە!', 'زۆر باش!', 'بێخەم!', 'ئافەرین!'] as const,
-  encouragement: ['هەول بدە ژنوو!', 'تو دشێی!', 'کێماسی نینە، هەول بدە!'] as const,
-  wrongTitle: 'هەول بدە ژبوو',
-  correctAnswerIs: 'بەرسڤا راست:',
+  encouragement: ['هەول بدە ژ نوو!', 'تو دشێی!', 'کێماسی نینە، هەول بدە!'] as const,
+  wrongTitle: 'هەول بدە ژ نوو',
+  correctAnswerIs: 'بەرسڤا ڕاست:',
   plusXp: (n: number) => `+${n} XP`,
   perfectRound: 'ڕاهێنانا بێخەم! 🌟',
 
   // Level complete
   levelComplete: 'ئاست تمام بوو! 🎉',
   examPassed: 'تو تاقیکرنێ دەربازکری! ✅',
-  examFailedTitle: 'هیڤیدارین هەول بدی ژنوو!',
-  examFailedBody: 'توانا تە هەیە. پەیڤێن جêr ژێر دووبارە بکە و هەول بدە.',
+  examFailedTitle: 'هیڤیدارین هەول بدی ژ نوو!',
+  examFailedBody: 'توانا تە هەیە. پەیڤێن ل ژێر دووبارە بکە و هەول بدە.',
   newWordsLearned: (n: number) => `${n} پەیڤێن نوی`,
   xpEarned: (n: number) => `${n} خال (XP) بۆ تە هات`,
   whatYouLearned: 'تو چ فێر بووی',
   weakWords: 'پەیڤێن ب کێماسی:',
-  practiceAgain: 'هەول بدە ژنوو 🔄',
+  practiceAgain: 'هەول بدە ژ نوو 🔄',
   continueArrow: 'بەردەوام بوون ◀',
   backToMap: 'زڤرین بۆ نەخشێ',
 
   // Review
   reviewTitle: 'دووبارەکرن',
-  reviewIntro: 'پەیڤێن کە ئەم وانەیێن وان فێر بووین، ل ڤێرێ دووبارە بکە.',
+  reviewIntro: 'پەیڤێن کو ئەم د وانەیان دا فێر بووین، ل ڤێرێ دووبارە بکە.',
   startReview: 'دووبارەکرن دەستپێبکە ◀',
-  noDueWords: 'نوکە هیڤ پەیڤ بۆ دووبارەکرنێ نینە. زۆر باش! 🌿',
+  noDueWords: 'نوکە ھیچ پەیڤ بۆ دووبارەکرنێ نینە. زۆر باش! 🌿',
   reviewDone: 'دووبارەکرن تمام بوو! 🎉',  buckets: {
     new: '🆕 نوی',
     learning: '🟡 د فێربوونێ دا',
     strong: '🟢 ب هێز',
-    mastered: '🔵 ژ ناڤبراو',
+    mastered: '🔵 ب تەمومی فێربووی',
   },
 
   // Achievements
@@ -120,7 +120,7 @@ export const t = {
   statStreak: 'ڕۆژێن پێ یەکتر',
   statWords: 'پەیڤێن فێربووی',
   statLevels: 'ئاستێن تمامکری',
-  statAccuracy: 'ڕێژا راستیێ',
+  statAccuracy: 'ڕێژا ڕاستیێ',
   openSettings: 'ڕێکخستن ⚙️',
 
   // Settings
@@ -137,10 +137,10 @@ export const t = {
   // Course map
   mapTitle: 'ڕێکا خولێ',
   locked: 'گرتی',
-  mastered: 'ژ ناڤبراو 🏆',
+  mastered: 'ب تەمومی فێربووی 🏆',
 
   // Bahdini support reduction (levels 21+)
-  needHelp: '💡 پێتڤییە ب یارمەتیێ؟',
+  needHelp: '💡 پێدڤییا تە ب یارمەتیێ هەیە؟',
   needHelpEn: '💡 Need help?',
   hint: 'ئاماژە',
   hintFirstLetter: 'پیتا ئێکێ',
@@ -156,12 +156,12 @@ export const t = {
   challengeReward: '+50 XP · +10 زێڕین',
 
   // Course complete (final level)
-  courseCompleteTitle: '🎉 ئینگلیزیا بنچینەیی تمام بوو!',
-  courseCompleteBody: 'تو هەمی ئاستێن خولا بنچینەیی تمامکر. نوکە تو دشێی ب ڕۆژانە ئینگلیزی بکاربینیی!',
-  nextCourse: 'خولا دوویێ: ئینگلیزیا A2',
+  courseCompleteTitle: '🎉 ئینگلیزیا A2 تمام بوو!',
+  courseCompleteBody: 'تو هەمی ٦٠ ئاستێن خولا A2 تمامکر. نوکە تو دشێی ب ڕۆژانە ئینگلیزی بکاربینیی!',
+  nextCourse: 'خولا بهێت: ئینگلیزیا B1',
   nextCourseBody: 'ئامادە یی بۆ سەرکێشیا نوی؟ 🚀',
   statDaysStudied: 'ڕۆژێن فێربوونێ',
-  statSentences: 'بەرسڤێن راست',
+  statSentences: 'بەرسڤێن ڕاست',
 
   // Misc
   loading: 'چەڤەرێ بە...',
@@ -196,12 +196,12 @@ export const t = {
   forgotBody: 'ژمارا تەلەفۆنا خو بینیڤیسە — کۆدەک بۆ تە دفرێین دا کو پەیڤا نهێنی یا نوی دانی.',
   resetPasswordButton: 'پەیڤا نهێنی یا نوی دانە',
   passwordResetDone: 'پەیڤا نهێنی یا نوی هاتە دانان! ✅',
-  resendCode: 'کۆدێ فرێبکە ژنوو',
-  resendIn: (s: number) => `کۆدێ فرێبکە ژنوو (${s})`,
+  resendCode: 'کۆدێ ژ نوو فرێبکە',
+  resendIn: (s: number) => `کۆدێ ژ نوو فرێبکە (${s})`,
   codeNotReceived: 'کۆد وەرنەگرت؟',
-  nameTaken: 'ئاریشەک هەیە، هەول بدە ژنوو',
+  nameTaken: 'ئاریشەک هەیە، هەول بدە ژ نوو',
   accountExists: 'ئەڤ ژمارەیێ بەری نوکە هەسابەکی هەیە. چوونا ژوور بکە — ئەگەر پەیڤا نهێنی ژ بیر کریە، «پەیڤا نهێنی ژ بیر کریە؟» بکاربینە.',
-  willSendTo: (p: string) => `کۆد دێ فرێکرن بۆ: ${p}`,
+  willSendTo: (p: string) => `کۆد دێ هێتە فرێکرن بۆ: ${p}`,
   inviteCodeLabel: 'کۆدا بەخشینێ',
   inviteCodePlaceholder: 'XXXX-XXXX',
   inviteInvalid: 'کۆدا بەخشینێ یا خەتایە یان بەری نوکە هاتییە بکارئینان.',

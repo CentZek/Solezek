@@ -6,7 +6,7 @@ export const level32: Level = {
   titleCkb: 'ئینگلیزیا ڕێستۆرانتێ',
   icon: '🍽️',
   objectiveEn: 'Order food and drink in a restaurant and ask for the bill.',
-  objectiveCkb: 'ل ڕێستۆرانتێ نان و وەخوارنێ داخاز بکە و حیسابێ بخوازە.',
+  objectiveCkb: 'ل ڕێستۆرانتێ نان و ڤەخوارنێ داخاز بکە و حیسابێ بخوازە.',
   cefr: 'A2',
   vocab: [
     {
@@ -77,12 +77,12 @@ export const level32: Level = {
     {
       id: 'l32-coffee',
       en: 'coffee',
-      ckb: 'قەھوە',
+      ckb: 'قەهوە',
       pos: 'noun',
       emoji: '☕',
       phonetic: '/ˈkɔːfi/',
       exampleEn: "I'd like a coffee, please.",
-      exampleCkb: 'هیڤیدارم، ئەز قەھوەیەکێ دڤێم.',
+      exampleCkb: 'هیڤیدارم، ئەز قەهوەیەکێ دڤێم.',
       category: 'food',
       difficulty: 1,
       bahdiniReviewed: false,
@@ -181,7 +181,7 @@ export const level32: Level = {
     {
       id: 'l32-lunch',
       en: 'lunch',
-      ckb: 'نانی نیڤرۆ',
+      ckb: 'نانێ نیڤڕۆ',
       pos: 'noun',
       emoji: '🥗',
       phonetic: '/lʌntʃ/',
@@ -201,15 +201,15 @@ export const level32: Level = {
     { en: 'The bill, please.', ckb: 'هیڤیدارم، حیسابە.' },
   ],
   conversation: [
-    { characterId: 'shirin', en: 'Hello! A table for two?', ckb: 'سلاو! مێزەک بۆ دوو کەسان؟' },
+    { characterId: 'shirin', en: 'Hello! A table for two?', ckb: 'سلاڤ! مێزەک بۆ دوو کەسان؟' },
     { characterId: 'dara', en: 'Yes, please. Can I have the menu?', ckb: 'بەلێ، هیڤیدارم. دشێم مینیو وەربگرم؟' },
     { characterId: 'shirin', en: 'Here you are. What would you like?', ckb: 'بگرە. تو چ دڤێی؟' },
     { characterId: 'dara', en: 'What do you recommend?', ckb: 'تو چ پێشنیار دکەی؟' },
     { characterId: 'shirin', en: 'The chicken and rice is very good.', ckb: 'مریشک و برنج زۆر یا خۆشە.' },
     { characterId: 'dara', en: "OK. I'd like chicken and rice, please.", ckb: 'باشە. هیڤیدارم، ئەز مریشک و برنج دڤێم.' },
-    { characterId: 'shirin', en: 'And to drink?', ckb: 'و بۆ وەخوارنێ چی؟' },
-    { characterId: 'dara', en: 'A tea and a coffee, please.', ckb: 'چایەک و قەھوەیەک، هیڤیدارم.' },
+    { characterId: 'shirin', en: 'And to drink?', ckb: 'و بۆ ڤەخوارنێ چی؟' },
+    { characterId: 'dara', en: 'A tea and a coffee, please.', ckb: 'چایەک و قەهوەیەک، هیڤیدارم.' },
     { characterId: 'dara', en: 'It was delicious! The bill, please.', ckb: 'زۆر خۆش بوو! هیڤیدارم، حیسابە.' },
-    { characterId: 'shirin', en: 'It is thirty dollars. Thank you, goodbye!', ckb: 'سی دۆلار دبیت. زۆر سپاس، خواهاتێ لگەڵ!' },
+    { characterId: 'shirin', en: 'It is thirty dollars. Thank you, goodbye!', ckb: 'سی دۆلار دبیت. زۆر سوپاس، ب خاترێ تە!' },
   ],
 };

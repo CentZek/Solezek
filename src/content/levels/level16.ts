@@ -43,7 +43,7 @@ export const level16: Level = {
       emoji: '🌤️',
       phonetic: '/wɔːrm/',
       exampleEn: 'The tea is warm.',
-      exampleCkb: 'چای یێ هینە.',
+      exampleCkb: 'چای یێ گەرمە.',
       category: 'weather',
       difficulty: 2,
       bahdiniReviewed: false,
@@ -56,7 +56,7 @@ export const level16: Level = {
       emoji: '🍃',
       phonetic: '/kuːl/',
       exampleEn: 'The evening is cool.',
-      exampleCkb: 'ئێڤار یا هینینە.',
+      exampleCkb: 'ئێڤار یا خنکە.',
       category: 'weather',
       difficulty: 2,
       bahdiniReviewed: false,
@@ -162,7 +162,7 @@ export const level16: Level = {
     {
       characterId: 'dara',
       en: 'Yesterday it was cold and rainy.',
-      ckb: 'دوسل هەوا یا سار و بارانی بوو.',
+      ckb: 'دوهی هەوا یا سار و بارانی بوو.',
     },
     {
       characterId: 'azad',
@@ -172,12 +172,12 @@ export const level16: Level = {
     {
       characterId: 'dara',
       en: 'Tomorrow it will be cloudy.',
-      ckb: 'سێبەهی هەوا دێ هەوری بیت.',
+      ckb: 'سەبەی هەوا دێ هەوری بیت.',
     },
     {
       characterId: 'azad',
       en: 'I like cool weather.',
-      ckb: 'من حەز ل هەوایا هینین دکەم.',
+      ckb: 'من حەز ل هەوایا خنک دکەم.',
     },
   ],
 };
