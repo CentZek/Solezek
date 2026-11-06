@@ -3,6 +3,17 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          const match = id.match(/levels\/level(\d+)\.ts$/);
+          if (!match) return undefined;
+          return Number(match[1]) <= 40 ? 'levels-foundation' : 'levels-a2';
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     VitePWA({

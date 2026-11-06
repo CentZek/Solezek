@@ -3,6 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { t } from '../i18n/ckb';
 import { getLevel, levels } from '../content/levels';
 import { generateExam, generateRound1, generateRound2, supportModeForLevel, type SupportMode } from '../engine/questions';
+import { materializeRevisionLevel, revisionRecommendations } from '../engine/revision';
 import { CkbHelp, QuizRunner, type QuizResult } from '../components/games';
 import { VocabCard } from '../components/VocabCard';
 import { Screen, Stars } from '../components/ui';
@@ -19,9 +20,18 @@ const COINS_EXAM_PASS = 20;
 
 export function Lesson() {
   const { id } = useParams();
+  return <LessonSession key={id} />;
+}
+
+function LessonSession() {
+  const { id } = useParams();
   const navigate = useNavigate();
-  const level = getLevel(Number(id));
+  const baseLevel = getLevel(Number(id));
   const s = useProgress();
+  const level = useMemo(
+    () => (baseLevel ? materializeRevisionLevel(baseLevel, levels, s.vocabMastery) : baseLevel),
+    [baseLevel?.id],
+  );
 
   const [phase, setPhase] = useState<Phase>('intro');
   const [cardIndex, setCardIndex] = useState(0);
@@ -172,6 +182,8 @@ function LevelIntro({ level, onStart }: { level: NonNullable<ReturnType<typeof g
           <p>{level.objectiveCkb}</p>
         </div>
 
+        {level.revision && <p className="text-sm font-bold text-ink/60">{t.adaptiveNote}</p>}
+
         <button className="btn-primary w-full text-xl" onClick={onStart}>
           {t.startLesson}
         </button>
@@ -308,8 +320,10 @@ function ExamResult({
     if (!r.correct) r.vocabIds.forEach((id) => weakIds.add(id));
   }
   const weakVocab = level.vocab.filter((v) => weakIds.has(v.id));
+  const revisitIds = level.revision ? revisionRecommendations(level, levels, s.vocabMastery) : [];
+  const readyToContinue = !level.revision || (score >= 85 && revisitIds.length === 0);
 
-  if (passed && isFinalLevel) return <CourseComplete />;
+  if (passed && isFinalLevel && readyToContinue) return <CourseComplete />;
 
   return (
     <Screen>
@@ -345,6 +359,22 @@ function ExamResult({
               {weakVocab.length === 0 && <span className="text-sm">—</span>}
             </div>
             <p className="mt-3 text-sm text-ink/70">{t.examFailedBody}</p>
+          </div>
+        )}
+
+        {level.revision && (
+          <div className={`w-full rounded-2xl p-4 text-start ${readyToContinue ? 'bg-brand-50' : 'bg-accent-light'}`}>
+            <p className="font-black">{readyToContinue ? t.revisionReady : t.revisitTitle}</p>
+            <p className="mt-1 text-sm text-ink/70">{readyToContinue ? t.revisionReadyBody : t.revisitBody}</p>
+            {!readyToContinue && revisitIds.length > 0 && (
+              <div className="mt-3 flex flex-wrap gap-2">
+                {revisitIds.map((lessonId) => (
+                  <Link key={lessonId} to={`/lesson/${lessonId}`} className="rounded-xl bg-white px-3 py-2 text-sm font-black text-brand-700">
+                    {t.reviewLesson(lessonId)}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
         )}
 

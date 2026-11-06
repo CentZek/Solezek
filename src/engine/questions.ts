@@ -55,8 +55,17 @@ export function mulberry32(seed: number): () => number {
 }
 
 function distractors(vocab: VocabItem[], item: VocabItem, n: number, rand: () => number, pool?: VocabItem[]): VocabItem[] {
-  const source = (pool ?? vocab).filter((v) => v.id !== item.id);
-  return shuffle(source, rand).slice(0, n);
+  const source = (pool ?? vocab).filter((v) => v.id !== item.id && v.en !== item.en && v.ckb !== item.ckb);
+  const sameType = shuffle(source.filter((v) => v.category === item.category && v.pos === item.pos), rand);
+  const sameCategory = shuffle(source.filter((v) => v.category === item.category && v.pos !== item.pos), rand);
+  const others = shuffle(source.filter((v) => v.category !== item.category), rand);
+  const selected = [...sameType, ...sameCategory, ...others].filter(
+    (v, index, all) =>
+      all.findIndex((o) => o.id === v.id) === index &&
+      all.findIndex((o) => o.en === v.en) === index &&
+      all.findIndex((o) => o.ckb === v.ckb) === index,
+  );
+  return selected.slice(0, n);
 }
 
 function optionSet(vocab: VocabItem[], item: VocabItem, rand: () => number, pool?: VocabItem[]): VocabItem[] {
@@ -88,7 +97,7 @@ function conversationQuestions(level: Level, count: number, rand: () => number):
     .map((line, i) => ({ line, i }))
     .filter(({ i }) => i > 0);
   for (const { line, i } of shuffle(candidates, rand).slice(0, count)) {
-    const wrongPool = conv.filter((l) => l.en !== line.en).map((l) => l.en);
+    const wrongPool = [...new Set(conv.filter((l) => l.en !== line.en).map((l) => l.en))];
     const options = shuffle([line.en, ...shuffle(wrongPool, rand).slice(0, 2)], rand);
     qs.push({
       kind: 'conversation',
@@ -244,8 +253,16 @@ export function generateExam(level: Level, allLevels: Level[], seed = 3): Questi
 export function generateReview(items: VocabItem[], seed = Date.now()): Question[] {
   const rand = mulberry32(seed % 2147483647);
   return shuffle(items, rand).slice(0, 10).map((v, idx) => {
-    const others = items.filter((o) => o.id !== v.id);
+    const others = items
+      .filter((o) => o.id !== v.id && o.en !== v.en && o.ckb !== v.ckb)
+      .filter(
+        (o, index, all) =>
+          all.findIndex((x) => x.id === o.id) === index &&
+          all.findIndex((x) => x.en === o.en) === index &&
+          all.findIndex((x) => x.ckb === o.ckb) === index,
+      );
     const options = shuffle([v, ...shuffle(others, rand).slice(0, 2)], rand);
+    if (options.length < 3) return { kind: 'type-en', vocab: v } as Question;
     const pick = idx % 4;
     if (pick === 0) return { kind: 'en-to-ckb', vocab: v, options } as Question;
     if (pick === 1) return { kind: 'ckb-to-en', vocab: v, options } as Question;

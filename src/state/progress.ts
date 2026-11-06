@@ -37,7 +37,7 @@ export const achievements: AchievementDef[] = [
   { id: 'first-speaking', icon: '🗣️', titleEn: 'First Speaking', titleCkb: 'وێلا ئاخفتنێ', descCkb: 'وێلا جارا ڕاهێنانا ئاخفتنێ بکە' },
   { id: 'perfect-level', icon: '🌟', titleEn: 'Perfect Level', titleCkb: 'ئاستا بێخەم', descCkb: 'ئاستەیەکێ ب خالا ١٠٠٪ تمامکە' },
   { id: 'five-levels', icon: '🌿', titleEn: '5 Levels Complete', titleCkb: '٥ ئاستێن تمامکری', descCkb: '٥ ئاستان تمامکە' },
-  { id: 'course-done', icon: '🌳', titleEn: 'Course Complete', titleCkb: 'خول تمام بوو', descCkb: 'هەمی ٦٠ ئاستان تمامکە' },
+  { id: 'course-done', icon: '🌳', titleEn: 'Course Complete', titleCkb: 'خول تمام بوو', descCkb: 'هەمی ١٠٠ ئاستان تمامکە' },
 ];
 
 interface ProgressState {
@@ -167,7 +167,7 @@ export const useProgress = create<ProgressState>()(
             correct: prev.correct + (correct ? 1 : 0),
             wrong: prev.wrong + (correct ? 0 : 1),
             lastSeen: t,
-            levelId,
+            levelId: prev.levelId || levelId,
           };
         }
         const next = {

@@ -59,10 +59,31 @@ import { level57 } from './level57';
 import { level58 } from './level58';
 import { level59 } from './level59';
 import { level60 } from './level60';
+import { level61 } from './level61';
+import { level62 } from './level62';
+import { level63 } from './level63';
+import { level64 } from './level64';
+import { level65 } from './level65';
+import { level66 } from './level66';
+import { level67 } from './level67';
+import { level68 } from './level68';
+import { level69 } from './level69';
+import { level70 } from './level70';
+import { level71 } from './level71';
+import { level72 } from './level72';
+import { level73 } from './level73';
+import { level74 } from './level74';
+import { level75 } from './level75';
+import { level76 } from './level76';
+import { level77 } from './level77';
+import { level78 } from './level78';
+import { level79 } from './level79';
+import { level80 } from './level80';
+import { createRevisionLevels } from '../../engine/revision';
 
-// The course is data-driven: add future levels (A2: 41–80, B1: 81–120, ...)
+// The course is data-driven: add future levels (A2: 41–80, review: 81–100, B1: 101–140, ...)
 // to this array and the whole app (map, progression, exams) picks them up.
-export const levels: Level[] = [
+export const coreLevels: Level[] = [
   level01,
   level02,
   level03,
@@ -123,7 +144,29 @@ export const levels: Level[] = [
   level58,
   level59,
   level60,
+  level61,
+  level62,
+  level63,
+  level64,
+  level65,
+  level66,
+  level67,
+  level68,
+  level69,
+  level70,
+  level71,
+  level72,
+  level73,
+  level74,
+  level75,
+  level76,
+  level77,
+  level78,
+  level79,
+  level80,
 ];
+
+export const levels: Level[] = [...coreLevels, ...createRevisionLevels(coreLevels)];
 
 export function getLevel(id: number): Level | undefined {
   return levels.find((l) => l.id === id);

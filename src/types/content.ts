@@ -33,6 +33,14 @@ export interface ConversationLine {
   ckb: string;
 }
 
+export type RevisionMode = 'diagnostic' | 'targeted' | 'production' | 'checkpoint' | 'mastery';
+
+export interface RevisionInfo {
+  sourceStart: number;
+  sourceEnd: number;
+  mode: RevisionMode;
+}
+
 export interface Level {
   id: number;
   titleEn: string;
@@ -44,4 +52,5 @@ export interface Level {
   vocab: VocabItem[]; // 10–14 items
   grammarPatterns?: GrammarPattern[];
   conversation?: ConversationLine[];
+  revision?: RevisionInfo;
 }

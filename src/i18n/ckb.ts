@@ -109,6 +109,14 @@ export const t = {
     mastered: '🔵 ب تەمومی فێربووی',
   },
 
+  // Adaptive revision
+  adaptiveNote: 'ئەڤ وانە ب شێوەیەکی تایبەت بۆ تە هاتییە هەلبژارتن، ل سەر بنچینەیا بەرسڤێن تە.',
+  revisionReady: 'تۆ ب هێز یی بۆ بەردەوامبوونێ!',
+  revisionReadyBody: 'پشکنین و پەیڤێن ڤێ بەشێ باش نە. تو دشێی ب متمانە بەردەوام ببی.',
+  revisitTitle: 'وانەیێن بۆ دووبارەکرنێ',
+  revisitBody: 'بۆ بەهێزکرنا وان بشێن هێشتا پێدڤی ب کارێ هەیە، ڤان وانەیان پێش بەردەوامبوونێ دووبارە بکە.',
+  reviewLesson: (levelId: number) => `وانەیا ${levelId} دووبارە بکە`,
+
   // Achievements
   achievementsTitle: 'خەڵات',
   achievementLocked: 'هێشتا نەهاتی وەرگرتن',
@@ -157,7 +165,7 @@ export const t = {
 
   // Course complete (final level)
   courseCompleteTitle: '🎉 ئینگلیزیا A2 تمام بوو!',
-  courseCompleteBody: 'تو هەمی ٦٠ ئاستێن خولا A2 تمامکر. نوکە تو دشێی ب ڕۆژانە ئینگلیزی بکاربینیی!',
+  courseCompleteBody: 'تو هەمی ١٠٠ ئاستێن خولا A2 و دووبارەکرنێ تمامکر. نوکە تو دشێی ب متمانە ئینگلیزی بکاربینیی!',
   nextCourse: 'خولا بهێت: ئینگلیزیا B1',
   nextCourseBody: 'ئامادە یی بۆ سەرکێشیا نوی؟ 🚀',
   statDaysStudied: 'ڕۆژێن فێربوونێ',

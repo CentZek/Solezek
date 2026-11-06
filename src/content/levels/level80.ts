@@ -1,0 +1,41 @@
+import type { Level } from '../../types/content';
+
+export const level80: Level = {
+  id: 80,
+  titleEn: 'Final A2 Plus Challenge',
+  titleCkb: 'تاقیکرنا دوماهیێ یا A2 Plus',
+  icon: '🏆',
+  objectiveEn: 'Use the full course in practical conversations about plans, health, travel, work, and opinions.',
+  objectiveCkb: 'هەمی خولێ ل ئاخفتنێن پلان، تەندروستی، گەشت، کار و بۆچوونان بکاربینە.',
+  cefr: 'A2',
+  vocab: [
+    { id: 'l80-goal', en: 'goal', ckb: 'ئامانج', pos: 'noun', emoji: '🎯', phonetic: '/ɡəʊl/', exampleEn: 'What is your main goal?', exampleCkb: 'ئامانجا تە یا سەرەکی چیە؟', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-journey', en: 'journey', ckb: 'گەشت', pos: 'noun', emoji: '🧭', phonetic: '/ˈdʒɜːni/', exampleEn: 'Our journey starts tomorrow.', exampleCkb: 'گەشتا مە سەبەی دەستپێدکەت.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-experience', en: 'experience', ckb: 'ئەزموون', pos: 'noun', emoji: '🌟', phonetic: '/ɪkˈspɪəriəns/', exampleEn: 'It was a useful experience.', exampleCkb: 'ئەزموونەکا ب سوود بوو.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-healthy', en: 'healthy', ckb: 'تەندروست', pos: 'adjective', emoji: '💚', phonetic: '/ˈhelθi/', exampleEn: 'Choose a healthy lifestyle.', exampleCkb: 'شێوازەکا تەندروست یێ ژیانێ هەلبژێرە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-environment', en: 'environment', ckb: 'ژینگە', pos: 'noun', emoji: '🌍', phonetic: '/ɪnˈvaɪrənmənt/', exampleEn: 'We should protect the environment.', exampleCkb: 'باشترە ژینگەیێ بپارێزین.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-delivery', en: 'delivery', ckb: 'گەهاندن', pos: 'noun', emoji: '🚚', phonetic: '/dɪˈlɪvəri/', exampleEn: 'The delivery arrives today.', exampleCkb: 'گەهاندن ئەڤڕۆ دگەهێت.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-reservation', en: 'reservation', ckb: 'حەجز', pos: 'noun', emoji: '📋', phonetic: '/ˌrezəˈveɪʃən/', exampleEn: 'I confirmed my reservation.', exampleCkb: 'من حەجزا خو پشتڕاست کر.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-appointment', en: 'appointment', ckb: 'دیدار', pos: 'noun', emoji: '📅', phonetic: '/əˈpɔɪntmənt/', exampleEn: 'Do not miss your appointment.', exampleCkb: 'دیدارا خو ژ دەست مەدە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-confident', en: 'confident', ckb: 'ب متمانە', pos: 'adjective', emoji: '😎', phonetic: '/ˈkɒnfɪdənt/', exampleEn: 'I feel confident speaking English.', exampleCkb: 'ئەز ل ئاخفتنا ئینگلیزی ب متمانە حەس دکەم.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-solution', en: 'solution', ckb: 'چارەسەری', pos: 'noun', emoji: '💡', phonetic: '/səˈluːʃən/', exampleEn: 'We found a good solution.', exampleCkb: 'مە چارەسەریەکا باش دیت.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-celebration', en: 'celebration', ckb: 'ئاهەنگ', pos: 'noun', emoji: '🎉', phonetic: '/ˌselɪˈbreɪʃən/', exampleEn: 'The celebration was wonderful.', exampleCkb: 'ئاهەنگ گەلەک خۆش بوو.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+    { id: 'l80-future', en: 'future', ckb: 'پاشەرۆژ', pos: 'noun', emoji: '🔮', phonetic: '/ˈfjuːtʃə/', exampleEn: 'I am ready for the future.', exampleCkb: 'ئەز بۆ پاشەرۆژێ ئامادە مە.', category: 'review', difficulty: 1, bahdiniReviewed: false },
+  ],
+  grammarPatterns: [
+    { en: 'What is your main goal?', ckb: 'ئامانجا تە یا سەرەکی چیە؟' },
+    { en: 'We should protect the environment.', ckb: 'باشترە ژینگەیێ بپارێزین.' },
+    { en: 'I confirmed my reservation.', ckb: 'من حەجزا خو پشتڕاست کر.' },
+    { en: 'I feel confident speaking English.', ckb: 'ئەز ل ئاخفتنا ئینگلیزی ب متمانە حەس دکەم.' },
+    { en: 'We found a good solution.', ckb: 'مە چارەسەریەکا باش دیت.' },
+    { en: 'I am ready for the future.', ckb: 'ئەز بۆ پاشەرۆژێ ئامادە مە.' },
+  ],
+  conversation: [
+    { characterId: 'dara', en: 'What is your main goal for the future?', ckb: 'ئامانجا تە یا سەرەکی بۆ پاشەرۆژێ چیە؟' },
+    { characterId: 'shirin', en: 'I want to use English confidently at work and when I travel.', ckb: 'ئەز دڤێم ل کارێ و گەشتان ب متمانە ئینگلیزی بکاربینم.' },
+    { characterId: 'dara', en: 'That is a useful goal. How will you achieve it?', ckb: 'ئامانجەکا ب سوودە. تو دێ چەوان بگەهییە وی؟' },
+    { characterId: 'shirin', en: 'Daily practice, healthy habits, and learning from every experience.', ckb: 'ڕاهێنانا ڕۆژانە، عادەتێن تەندروست و فێربوون ژ هەر ئەزموونەکێ.' },
+    { characterId: 'dara', en: 'I agree. Have you planned anything to celebrate your progress?', ckb: 'ئەز ڕازی مە. تو تشتەک پلان کریە بۆ ئاهەنگا پێشکەفتنا خو؟' },
+    { characterId: 'shirin', en: 'Yes, a short journey with my family. I already confirmed the reservation.', ckb: 'بەلێ، گەشتەکا کورت دگەل خێزانا خو. من پێشتر حەجزا خو پشتڕاست کر.' },
+  ],
+};
